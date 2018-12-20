@@ -1,0 +1,17 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sourceRoot": "/home/user/projetos/decred/dcrweb2/src",
+	"sources": [
+		"themes/dcrweb-theme/assets/scss/critical/main.scss",
+		"themes/dcrweb-theme/assets/scss/critical/bottombar.scss",
+		"themes/dcrweb-theme/assets/scss/critical/topbar.scss"
+	],
+	"sourcesContent": [
+		"// this is all critical css, that should be loaded before rendering the rest of\n// the page. Keep it as small as possible.\n@import \"bottombar.scss\";\n@import \"topbar.scss\";\n",
+		".bottom-bar {\n    margin-top: 10em;\n    background-color: #091440;\n    padding: 4em 1em;\n    color: #eee;\n\n    a {\n        color: #eee;\n    }\n}",
+		".top-bar {\n    padding: 2em 1em;\n    background-color: #70cbff;\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,WAAW,AAAC,CACR,UAAU,CAAE,IAAI,CAChB,gBAAgB,CAAE,OAAO,CACzB,OAAO,CAAE,OAAO,CAChB,KAAK,CAAE,IAAI,CAKd,AATD,AAMI,WANO,CAMP,CAAC,AAAC,CACE,KAAK,CAAE,IAAI,CACd,ACRL,AAAA,QAAQ,AAAC,CACL,OAAO,CAAE,OAAO,CAChB,gBAAgB,CAAE,OAAO,CAC5B"
+}

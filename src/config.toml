@@ -1,4 +1,4 @@
-baseURL = "https://decred.org/"
+baseURL = "https://matheusd.github.io/dcrweb2"
 title = "Decred Website"
 DefaultContentLanguage = "en"
 copyright = "Decred Developers"

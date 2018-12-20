@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://matheusd.github.io/dcrweb2/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://matheusd.github.io/dcrweb2/pt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matheusd.github.io/dcrweb2/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matheusd.github.io/dcrweb2/contributors/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://matheusd.github.io/dcrweb2/pt/contributors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matheusd.github.io/dcrweb2/contributors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matheusd.github.io/dcrweb2/contributors/development/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://matheusd.github.io/dcrweb2/pt/contributors/development/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matheusd.github.io/dcrweb2/contributors/development/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matheusd.github.io/dcrweb2/contributors/marketing/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://matheusd.github.io/dcrweb2/pt/contributors/marketing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matheusd.github.io/dcrweb2/contributors/marketing/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matheusd.github.io/dcrweb2/exchanges/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://matheusd.github.io/dcrweb2/pt/exchanges/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matheusd.github.io/dcrweb2/exchanges/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matheusd.github.io/dcrweb2/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://matheusd.github.io/dcrweb2/pt/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matheusd.github.io/dcrweb2/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matheusd.github.io/dcrweb2/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://matheusd.github.io/dcrweb2/pt/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matheusd.github.io/dcrweb2/tags/"
+                />
+  </url>
+  
+</urlset>
