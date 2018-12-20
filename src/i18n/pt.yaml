@@ -1,0 +1,24 @@
+- id: contributor_area_development
+  translation: Desenvolvimento
+
+- id: contributor_area_marketing
+  translation: Marketing
+
+- id: contributors_title
+  translation: Contribuintes
+
+- id: contributors_description
+  translation: |
+    Hehehe :P
+    descrição aqui
+
+    hahaha
+
+- id: menu_contributors
+  translation: Contribuintes
+
+- id: title
+  translation: Decred - Moeda Autônoma Digital
+
+- id: topbar_translation_list
+  translation: Traduções

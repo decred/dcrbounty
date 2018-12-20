@@ -1,0 +1,8 @@
+{{ partial "head" . }}
+{{ $paginator := .Paginate (where .Pages "Params.hidden" "ne" true) }}
+{{ range sort .Paginator.Pages }}
+    <ul>
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    </ul>
+{{ end }}
+{{ partial "footer" . }}

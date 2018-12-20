@@ -1,0 +1,25 @@
+- id: contributor_area_development
+  translation: Development
+
+- id: contributor_area_marketing
+  translation: Marketing
+
+- id: contributors_title
+  translation: Contributors
+
+- id: contributors_description
+  translation: |
+    Decred uses an novel contractor model which allows for proven contributors
+    to be remunerated for their good work. This approach has helped forge a
+    strong global team of developers, designers, and strategists, as well as a
+    robust community. We welcome contributions from anyone who wishes to
+    demonstrate their effort and skill in pursuit of the project's mission.
+
+- id: menu_contributors
+  translation: contributors
+
+- id: title
+  translation: Decred - Autonomous Digital Currency
+
+- id: topbar_translation_list
+  translation: Translations

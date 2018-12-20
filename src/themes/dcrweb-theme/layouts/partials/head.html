@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" {{ with .Site.LanguageCode }} lang="{{ . }}" {{ end }}>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {{ if eq .IsHome false }}
+    <title>{{ .Title }} | {{ T "title" }}</title>
+    {{ else }}
+    <title>{{ T "title" }}</title>
+    {{ end }}
+
+    {{ if .Site.Params.rss }}
+    <link href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+    {{ end }}
+
+    {{ $options := (dict "targetPath" "style.css" "outputStyle" "compressed" "enableSourceMap" true) }}
+    {{ $style := resources.Get "scss/critical/main.scss" | resources.ToCSS $options | resources.Fingerprint  }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
+
+    {{ $criticalJs := resources.Get "js/critical.js" | resources.Minify | resources.Fingerprint  }}
+    <script src="{{ $criticalJs.Permalink }}"></script>
+
+</head>
+
+<div class="top-bar">
+    <h1><a href="{{ "" | absLangURL }}">Decred Website</a></h1>
+
+    <div class="translation-list">
+        <span>{{ T "topbar_translation_list"}}</span>
+        <ul>
+            {{ range .Translations }}
+            <li><a href="{{ .Permalink }}">{{ .Lang }}</a></li>
+            {{ end }}
+        </ul>
+    </div>
+</div>
+
+<body>

@@ -1,0 +1,4 @@
+// this is all critical css, that should be loaded before rendering the rest of
+// the page. Keep it as small as possible.
+@import "bottombar.scss";
+@import "topbar.scss";

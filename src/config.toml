@@ -1,0 +1,16 @@
+baseURL = "https://decred.org/"
+title = "Decred Website"
+DefaultContentLanguage = "en"
+copyright = "Decred Developers"
+theme = "dcrweb-theme"
+
+[languages]
+  [languages.en]
+    languageName = "english"
+    contentDir = "content/en"
+    weight = 10
+
+  [languages.pt]
+    languageName = "português"
+    contentDir = "content/pt"
+    weight = 30

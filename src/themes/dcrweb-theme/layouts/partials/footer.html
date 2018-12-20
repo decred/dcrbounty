@@ -1,0 +1,17 @@
+
+<div class="bottom-bar">
+    <a href="{{ "" | absLangURL }}">home</a>
+</div>
+
+{{ $options := (dict "targetPath" "optinal-style.css" "outputStyle" "compressed" "enableSourceMap" true) }}
+{{ $style := resources.Get "scss/optional/main.scss" | resources.ToCSS $options | resources.Fingerprint  }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+
+{{ $js01 := resources.Get "js/script01.js" }}
+{{ $js02 := resources.Get "js/script02.js" }}
+{{ $js := slice $js01 $js02 | resources.Concat "js/bundle.js" }}
+{{ $jsMinified := $js | resources.Minify | resources.Fingerprint  }}
+<script src="{{ $jsMinified.Permalink }}"></script>
+
+</body>
+</html>
