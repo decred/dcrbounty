@@ -14,8 +14,18 @@
 
     hahaha
 
+- id: exchanges_title
+  translation: Exchanges
+
+- id: exchanges_description
+  translation: |
+    As exchanges são responsáveis por... _bleh_
+
 - id: menu_contributors
   translation: Contribuintes
+
+- id: menu_exchanges
+  translation: exchanges
 
 - id: title
   translation: Decred - Moeda Autônoma Digital
