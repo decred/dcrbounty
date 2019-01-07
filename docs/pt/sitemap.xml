@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://fernandoabolafio.github.io/dcrbounty/pt/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fernandoabolafio.github.io/dcrbounty/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://fernandoabolafio.github.io/dcrbounty/pt/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://fernandoabolafio.github.io/dcrbounty/pt/contributors/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fernandoabolafio.github.io/dcrbounty/contributors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://fernandoabolafio.github.io/dcrbounty/pt/contributors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://fernandoabolafio.github.io/dcrbounty/pt/contributors/development/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fernandoabolafio.github.io/dcrbounty/contributors/development/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://fernandoabolafio.github.io/dcrbounty/pt/contributors/development/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://fernandoabolafio.github.io/dcrbounty/pt/contributors/marketing/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fernandoabolafio.github.io/dcrbounty/contributors/marketing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://fernandoabolafio.github.io/dcrbounty/pt/contributors/marketing/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://fernandoabolafio.github.io/dcrbounty/pt/exchanges/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fernandoabolafio.github.io/dcrbounty/exchanges/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://fernandoabolafio.github.io/dcrbounty/pt/exchanges/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://fernandoabolafio.github.io/dcrbounty/pt/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fernandoabolafio.github.io/dcrbounty/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://fernandoabolafio.github.io/dcrbounty/pt/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://fernandoabolafio.github.io/dcrbounty/pt/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fernandoabolafio.github.io/dcrbounty/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://fernandoabolafio.github.io/dcrbounty/pt/tags/"
+                />
+  </url>
+  
+</urlset>

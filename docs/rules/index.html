@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <title>Rules | Decred Bug Bounty</title>
+    
+
+    
+
+    
+    
+    <link rel="stylesheet" href="https://fernandoabolafio.github.io/dcrbounty/style.f1305549393b3fe0424cf0bbcd881bace7045c8dd7c862c4c6ae49c88000f5f2.css">
+
+    
+    <script src="https://fernandoabolafio.github.io/dcrbounty/js/critical.min.09933981228eefdedea0ce57a17f9f8c37b11926a4ecfb15317dbf98c59f98df.js"></script>
+
+</head>
+
+<div class="top-bar">
+    
+    
+    
+    <span><a href="https://fernandoabolafio.github.io/dcrbounty"><img src="https://fernandoabolafio.github.io/dcrbounty/img/lightlogo.svg" /></a></span>
+
+    <div class="menu">
+        <ul class="menu-primary-items">
+            
+            <li class="menu-item">
+                <a href="https://fernandoabolafio.github.io/dcrbounty/hall/">Hall of Fame</a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="https://fernandoabolafio.github.io/dcrbounty/rules/">Rules</a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="https://fernandoabolafio.github.io/dcrbounty/submit">Submit Vulnerability</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
+<body>
+
+<section>
+  <div class="container">
+    <div class="subtitle tags is-6 is-pulled-right">
+      
+    </div>
+    
+    <h1 class="title">Rules</h1>
+    <div class="content">
+      <p><strong>Introduction:</strong></p>
+
+<p>The decred community welcomes security researchers and bug bounty hunters to find security vulnerabilities in its website and projects. (more text to follow). All bug reports need to have a clear exploit or POC. All bugs must be reproducible in the latest production release or the master branch of the code. Bugs in old releases or feature branches are not in scope.</p>
+
+<p><strong>Projects in scope :</strong></p>
+
+<table>
+<thead>
+<tr>
+<th>Github repo</th>
+<th>URL</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><a href="https://github.com/decred/dcrweb">dcrweb</a></td>
+<td><a href="https://decred.org">https://decred.org</a></td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/decred/politeia">politeia</a> &amp; <a href="https://github.com/decred/politeiagui">politeiagui</a></td>
+<td><a href="https://proposals.decred.org">https://proposals.decred.org</a></td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/decred/dcrdocs">dcrdocs</a></td>
+<td><a href="https://docs.decred.org">https://docs.decred.org</a></td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/decred/dcrwebapi">dcrwebapi</a></td>
+<td><a href="https://api.decred.org">https://api.decred.org</a></td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/decred/testnetfaucet">testnetfaucet</a></td>
+<td><a href="https://faucet.decred.org">https://faucet.decred.org</a></td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/decred/dcr-netstats">dcr-netstats</a></td>
+<td><a href="https://stats.decred.org">https://stats.decred.org</a></td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/decred/dcrdata">dcrdata</a> <em>(latest stable release branch only)</em></td>
+<td><a href="https://explorer.dcrdata.org">https://explorer.dcrdata.org</a></td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/decred/dcrtime">dcrtime</a></td>
+<td><a href="https://time.decred.org">https://time.decred.org</a></td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/decred/dcrd">dcrd</a></td>
+<td></td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/decred/dcrwallet">dcrwallet</a></td>
+<td></td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/decred/decrediton">decrediton</a></td>
+<td></td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/decred/atomicswap">atomicswap</a></td>
+<td></td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/decred/dcrstakepool">dcrstakepool</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>The following are not in scope:</strong></p>
+
+<ul>
+<li>Chat and communication platforms including Slack, RocketChat, Matrix, Discord and the Decred forum.</li>
+<li>Testing or staging sites</li>
+<li>Mobile wallets (<a href="https://github.com/decred/dcrios">dcrios</a> and <a href="https://github.com/decred/dcrandroid">dcrandroid</a>)</li>
+<li>Projects still under development</li>
+<li>Deprecated projects including:
+
+<ul>
+<li><a href="https://github.com/decred/insight">insight</a> and <a href="https://github.com/decred/insight-api">insight-api</a></li>
+<li><a href="https://github.com/decred/bitcore-wallet-service">bitcore-wallet-service</a></li>
+<li><a href="https://github.com/decred/paymetheus">Paymetheus</a></li>
+<li><a href="https://github.com/decred/copay">Copay</a></li>
+</ul></li>
+</ul>
+
+<p><strong>The following vulnerabilities are generally out of scope:</strong></p>
+
+<pre><code>Missing security best practices that do not directly lead to a vulnerability
+
+Insecure settings in non-sensitive cookies
+
+Vulnerabilities (including XSS) that affect only legacy browser/plugins
+
+Non-technical attacks such as social engineering, phishing, or physical attacks against our members, users, or infrastructure
+
+Missing HTTP headers, unless a vulnerability can be demonstrated
+
+Bugs requiring exceedingly unlikely user interaction
+
+Outdated software / library versions 
+
+Clickjacking on pages with no sensitive actions.
+</code></pre>
+
+<p><strong>Rules:</strong></p>
+
+<pre><code>We prohibit DDOS or network bandwidth load testing.
+
+Unfortunately we are unable to pay for duplicate reports
+
+Public disclosure of the vulnerability without prior approval will make it ineligible for bounty.
+
+No social engineering.
+
+No spamming.
+
+All Current/Past (For up-to 6 months) decred developers are barred from taking part in this bug bounty program.
+
+Vulnerability reports made before the start of the program will not be eligible for a bounty.
+</code></pre>
+
+<p><strong>Reminders:</strong></p>
+
+<pre><code>Almost all of decred's projects can be run locally and reproduction instruction are available on github. We strongly recommend you to do this.
+
+Always check the &quot;issues&quot; in github of a project to avoid a duplicate report
+
+Use the testnet when possible.
+
+Decred project is not responsible for any loss of DCR due to bug testing. (ie: don't do dumb stuff and lose your DCR)
+</code></pre>
+
+      
+    </div>
+  </div>
+</section>
+
+<div class="bottom-bar">
+    <a href="https://fernandoabolafio.github.io/dcrbounty">home</a>
+</div>
+
+
+
+<link rel="stylesheet" href="https://fernandoabolafio.github.io/dcrbounty/optinal-style.c3e295171f5e0768047000b342f7ad126c1e30632714b97a6160dba597ae3261.css">
+
+
+
+
+
+<script src="https://fernandoabolafio.github.io/dcrbounty/js/bundle.min.f242c68f9b676aaeb464b5179e0d46013015f50e2f1e332dc5eeec61737f688c.js"></script>
+
+</body>
+</html>

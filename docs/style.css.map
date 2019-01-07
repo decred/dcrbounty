@@ -1,0 +1,19 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sourceRoot": "/Users/fernandoabolafio/Desktop/decred/dcrbounty/src",
+	"sources": [
+		"themes/dcrbounty-theme/assets/scss/critical/main.scss",
+		"themes/dcrbounty-theme/assets/scss/critical/bottombar.scss",
+		"themes/dcrbounty-theme/assets/scss/critical/topbar.scss",
+		"themes/dcrbounty-theme/assets/scss/critical/banner.scss"
+	],
+	"sourcesContent": [
+		"// this is all critical css, that should be loaded before rendering the rest of\n// the page. Keep it as small as possible.\n@import \"bottombar.scss\";\n@import \"topbar.scss\";\n@import \"banner.scss\";\n\nbody {\n    font-family: 'Source Sans Pro', sans-serif;\n}",
+		".bottom-bar {\n    width: 100%;\n    margin-top: 10em;\n    background-color: #091440;\n    padding: 20px 20px;\n    color: #eee;\n\n    a {\n        color: #eee;\n    }\n}",
+		".top-bar {\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    padding: 10px 20px;\n    border-bottom: 1px solid #d6d6dd;\n\n    .menu {\n        \n\n        .menu-primary-items {\n           \n            list-style-type: none;\n\n            .menu-item {\n                display: inline;\n                margin-right: 10px;\n                text-transform: uppercase;\n            }\n        }\n    }\n}",
+		".banner {\n    width: 100%;\n    text-align: center;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    & > p {\n        max-width: 60%;\n    }\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,WAAW,AAAC,CACR,KAAK,CAAE,IAAI,CACX,UAAU,CAAE,IAAI,CAChB,gBAAgB,CAAE,OAAO,CACzB,OAAO,CAAE,SAAS,CAClB,KAAK,CAAE,IAAI,CAKd,AAVD,AAOI,WAPO,CAOP,CAAC,AAAC,CACE,KAAK,CAAE,IAAI,CACd,ACTL,AAAA,QAAQ,AAAC,CACL,OAAO,CAAE,IAAI,CACb,WAAW,CAAE,MAAM,CACnB,eAAe,CAAE,aAAa,CAC9B,OAAO,CAAE,SAAS,CAClB,aAAa,CAAE,iBAAiB,CAgBnC,AArBD,AAUQ,QAVA,CAOJ,KAAK,CAGD,mBAAmB,AAAC,CAEhB,eAAe,CAAE,IAAI,CAOxB,AAnBT,AAcY,QAdJ,CAOJ,KAAK,CAGD,mBAAmB,CAIf,UAAU,AAAC,CACP,OAAO,CAAE,MAAM,CACf,YAAY,CAAE,IAAI,CAClB,cAAc,CAAE,SAAS,CAC5B,AClBb,AAAA,OAAO,AAAC,CACJ,KAAK,CAAE,IAAI,CACX,UAAU,CAAE,MAAM,CAClB,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CACtB,WAAW,CAAE,MAAM,CACnB,eAAe,CAAE,MAAM,CAI1B,AAVD,AAOI,OAPG,CAOC,CAAC,AAAC,CACF,SAAS,CAAE,GAAG,CACjB,AHHL,AAAA,IAAI,AAAC,CACD,WAAW,CAAE,6BAA6B,CAC7C"
+}
