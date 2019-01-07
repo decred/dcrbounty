@@ -1,5 +1,6 @@
-baseURL = "https://fernandoabolafio.github.io/dcrbounty"
+baseURL = "https://fernandoabolafio.github.io/"
 title = "Decred Bug Bounty"
+BannerDescription = "The decred community welcomes security researchers and bug bounty hunters to find security vulnerabilities in its website and projects. (more text to follow). All bug reports need to have a clear exploit or POC. All bugs must be reproducible in the latest production release or the master branch of the code. Bugs in old releases or feature branches are not in scope."
 DefaultContentLanguage = "en"
 copyright = "Decred Developers"
 theme = "dcrbounty-theme"
@@ -18,6 +19,16 @@ theme = "dcrbounty-theme"
 
 # Nav links in the top bar
 [[menu.main]]
+name = "Hall of Fame"
+url = "hall/"
+weight = 1
+
+[[menu.main]]
 name = "Rules"
 url = "rules/"
+weight = 1
+
+[[menu.main]]
+name = "Submit Vulnerability"
+url = "/submit"
 weight = 1

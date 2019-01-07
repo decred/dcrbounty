@@ -1,4 +1,22 @@
 .top-bar {
-    padding: 2em 1em;
-    background-color: #70cbff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #d6d6dd;
+
+    .menu {
+        
+
+        .menu-primary-items {
+           
+            list-style-type: none;
+
+            .menu-item {
+                display: inline;
+                margin-right: 10px;
+                text-transform: uppercase;
+            }
+        }
+    }
 }

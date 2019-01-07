@@ -1,6 +1,5 @@
 ---
 title: "Rules"
-date: "2018-10-27T16:41:49-03:00"
 draft: false
 ---
 
