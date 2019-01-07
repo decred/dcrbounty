@@ -1,8 +1,9 @@
-baseURL = "https://matheusd.github.io/dcrweb2"
-title = "Decred Website"
+baseURL = "https://fernandoabolafio.github.io/dcrbounty"
+title = "Decred Bug Bounty"
 DefaultContentLanguage = "en"
 copyright = "Decred Developers"
-theme = "dcrweb-theme"
+theme = "dcrbounty-theme"
+
 
 [languages]
   [languages.en]
@@ -14,3 +15,9 @@ theme = "dcrweb-theme"
     languageName = "português"
     contentDir = "content/pt"
     weight = 30
+
+# Nav links in the top bar
+[[menu.main]]
+name = "Rules"
+url = "rules/"
+weight = 1

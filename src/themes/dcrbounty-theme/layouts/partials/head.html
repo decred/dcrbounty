@@ -24,16 +24,18 @@
 </head>
 
 <div class="top-bar">
-    <h1><a href="{{ "" | absLangURL }}">Decred Website</a></h1>
+    <span><a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a></span>
 
-    <div class="translation-list">
-        <span>{{ T "topbar_translation_list"}}</span>
-        <ul>
-            {{ range .Translations }}
-            <li><a href="{{ .Permalink }}">{{ .Lang }}</a></li>
+    <div class="menu">
+        <ul class="menu-primary-items">
+            {{ range .Site.Menus.main }}
+            <li class="menu-item">
+                <a href="{{ .URL }}">{{ .Name }}</a>
+            </li>
             {{ end }}
         </ul>
     </div>
+
 </div>
 
 <body>
