@@ -17,62 +17,6 @@
   </url>
   
   <url>
-    <loc>https://fernandoabolafio.github.io/dcrbounty/contributors/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://fernandoabolafio.github.io/dcrbounty/pt/contributors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://fernandoabolafio.github.io/dcrbounty/contributors/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://fernandoabolafio.github.io/dcrbounty/contributors/development/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://fernandoabolafio.github.io/dcrbounty/pt/contributors/development/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://fernandoabolafio.github.io/dcrbounty/contributors/development/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://fernandoabolafio.github.io/dcrbounty/contributors/marketing/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://fernandoabolafio.github.io/dcrbounty/pt/contributors/marketing/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://fernandoabolafio.github.io/dcrbounty/contributors/marketing/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://fernandoabolafio.github.io/dcrbounty/exchanges/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://fernandoabolafio.github.io/dcrbounty/pt/exchanges/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://fernandoabolafio.github.io/dcrbounty/exchanges/"
-                />
-  </url>
-  
-  <url>
     <loc>https://fernandoabolafio.github.io/dcrbounty/categories/</loc>
     <priority>0</priority>
     <xhtml:link
