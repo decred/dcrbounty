@@ -1,0 +1,14 @@
+<section>
+    <a name="news"></a>
+    <h2>News & Updates</h2>
+    {{ $items := .Site.Data.news}}
+    <ul>
+    {{ range $items }}
+        <pre></pre>
+        <li>
+            <span><b>{{ .title }} {{ .date }}</b></span>
+            <p>{{ .body }}</p>
+        </li>
+    {{ end }}
+    </ul>
+</section>

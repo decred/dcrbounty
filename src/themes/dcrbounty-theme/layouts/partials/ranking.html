@@ -1,0 +1,17 @@
+<section>
+    <a name="hall_of_fame"></a>
+    <h2>Hall of Fame</h2>
+    {{ $items := .Site.Data.ranking}}
+    <ul class="ranking-list">
+    {{ range $items }}
+        <pre></pre>
+        <li>
+            <div class="person">
+                <span >{{ .position }}. {{ .name }}</span>
+                <a href="https://github.com/{{ .github_id }}">{{ .github_id }}</a>
+            </div>
+            <span>{{ .points }} pts</span>
+        </li>
+    {{ end }}
+    </ul>
+</section>

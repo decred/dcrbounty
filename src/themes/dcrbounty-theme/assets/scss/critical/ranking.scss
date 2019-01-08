@@ -1,0 +1,15 @@
+.ranking-list {
+    list-style-type: none;
+    & > li {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+        border-bottom: 1px solid $light-grey;
+        & > .person {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

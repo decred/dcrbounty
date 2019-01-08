@@ -1,6 +1,10 @@
 
 <div class="bottom-bar">
-    <a href="{{ "" | absLangURL }}">home</a>
+    {{ $dcrlogo := resources.Get "img/iconDecredLightBlue.svg" }}
+    <a class="link" href="https://github.com/decred">
+        <img src="{{ $dcrlogo.Permalink }}" />
+        <span>Decred developers</span>
+    </a>
 </div>
 
 {{ $options := (dict "targetPath" "optinal-style.css" "outputStyle" "compressed" "enableSourceMap" true) }}

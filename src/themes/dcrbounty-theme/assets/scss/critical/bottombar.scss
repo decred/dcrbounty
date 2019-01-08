@@ -1,11 +1,21 @@
 .bottom-bar {
-    width: 100%;
+    width: calc(100% - 40px);
     margin-top: 10em;
-    background-color: #091440;
+    background-color: $dcr-blue;
     padding: 20px 20px;
     color: #eee;
 
     a {
         color: #eee;
+    }
+
+    .link {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        & > img {
+            height: 16px;
+            margin-right: 5px;
+        }
     }
 }
