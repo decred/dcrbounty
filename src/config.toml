@@ -5,7 +5,7 @@ copyright = "Decred Developers"
 theme = "dcrbounty-theme"
 
 [params.bannerLink]
-  URL = "submit/"
+  URL = "#Submit Vulnerability"
 
 [languages]
   [languages.en]
