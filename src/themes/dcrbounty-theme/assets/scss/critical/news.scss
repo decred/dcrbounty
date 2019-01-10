@@ -1,0 +1,29 @@
+.news-list {
+    list-style-type: none;
+    border-left: 1px dashed black;
+    padding-left: 12px;
+    li {
+        margin-top: 0;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        .date {
+            font-size: 12px;
+        }
+
+        .title {
+            font-weight: bold;
+        }
+
+        .checkpoint {
+            height: 12px;
+            width: 12px;
+            border-radius: 50%;
+            position: absolute;
+            background: black;
+            top: 4px;
+            left: -18px;
+        }
+    }
+}

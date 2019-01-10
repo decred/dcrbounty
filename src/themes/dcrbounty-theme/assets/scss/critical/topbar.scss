@@ -1,14 +1,17 @@
 .top-bar {
     position: fixed;
+    z-index: 2;
     top: 0;
-    width: calc(100% - 40px);
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 20px;
-    border-bottom: 1px solid #d6d6dd;
-    background: white;
+    padding: 5px 10%;
+    background: $dcr-dark-blue;
 
+    .logo {
+        height: 24px;
+    }
     .menu {
         
 
@@ -23,12 +26,18 @@
                 
                 & > a {
                     text-decoration: none;
-                    color: black;
+                    color: white;;
                     &:hover {
-                        color: $dcr-blue;
+                        color: $dcr-alt-blue;
                     }
                 }
             }
         }
     }
+}
+
+@media only screen and (max-width: 600px) {
+   .top-bar {
+       width: 90%;
+   }
 }

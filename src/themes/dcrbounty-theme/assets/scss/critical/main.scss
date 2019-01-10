@@ -5,29 +5,42 @@
 @import "topbar.scss";
 @import "banner.scss";
 @import "ranking.scss";
+@import "news.scss";
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    padding-top: 70px;
+    padding-top: 52px;
+    margin: 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #efeded;
 }
 
 section {
     padding: 1em 2em;
+    background: white;
+    border: 1px solid #d6d6d6;
+    width: calc(80% - 4em);
+    z-index: 1;
+    margin-bottom: 20px;
     & > a {
         display: block;
         position: relative;
-        top: -70px;
+        top: -52px;
         visibility: hidden;
     }
-
-    &.highlight {
-        background: $dcr_alt_blue;
-    }
-
 }
 
 @media only screen and (max-width: 600px) {
+    body {
+        padding-top: 112px;
+    }
     section {
         padding: 10px 20px;
+        width: 80%;
+        a {
+            top: -112px;
+        }
     }
 }

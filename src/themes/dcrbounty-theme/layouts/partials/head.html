@@ -25,9 +25,8 @@
 
 <div class="top-bar">
     
-    {{ $logo := resources.Get "img/lightlogo.svg" }}
-    
-    <span><a href="{{ "" | absLangURL }}"><img src="{{ $logo.Permalink }}" /></a></span>
+    {{ $logo := resources.Get "img/darklogo.svg" }}
+    <span><a href="{{ "" | absLangURL }}"><img class="logo" src="{{ $logo.Permalink }}" /></a></span>
 
     <div class="menu">
         <ul class="menu-primary-items">
