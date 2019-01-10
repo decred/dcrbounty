@@ -1,4 +1,6 @@
 ---
-title: "Submit a Vulnerability"
+title: "Submit Vulnerability"
 draft: false
 ---
+
+Here goes the text copy

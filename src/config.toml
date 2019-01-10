@@ -31,10 +31,10 @@ weight = 1
 
 [[menu.main]]
 name = "Rules"
-url = "rules/"
+url = "#Rules"
 weight = 1
 
 [[menu.main]]
 name = "Submit Vulnerability"
-url = "/submit"
+url = "#Submit Vulnerability"
 weight = 1

@@ -1,0 +1,10 @@
+{{ $items := .Site.RegularPages }}
+{{ range $items }}
+<section>
+    <a name="{{ .Title }}"></a>
+    <h2>{{ .Title }}</h2> 
+    <div class="content">
+        {{ .Content }}
+    </div>
+</section>
+{{ end }}
