@@ -20,6 +20,10 @@ section {
         visibility: hidden;
     }
 
+    &.highlight {
+        background: $dcr_alt_blue;
+    }
+
 }
 
 @media only screen and (max-width: 600px) {

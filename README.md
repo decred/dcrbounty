@@ -1,6 +1,6 @@
-# dcrweb v2
+# dcrbounty
 
-Hugo-generated version of the dcrweb website.
+The Decred Bug Bounty website.
 
 ## Development
 
@@ -22,12 +22,24 @@ Then update the server with the contents of `dist/`.
 
 ## Maintenance Activities
 
-### Updating Contributor List
+### Updating the banner content
 
-Send a PR modifying the appropriate file inside (/src/data/contributors/).
+Send a PR modifying the appropriate values inside `/src/i18n/en.yaml`.
 
-If the contributor belongs to a new corporate contractor, add the information in (/src/data/companies.yml).
+### Updating Hall of Fame
 
-### Updating Exchange List
+Send a PR modifying `/src/data/ranking.yml` as appropriate.
 
-Send a PR modifying (/src/data/exchanges.yml) as appropriate.
+### Updating News & Updates
+
+Send a PR modifying `/src/data/news.yml` as appropriate.
+
+### Updating Rules
+
+Send a PR modifying `/src/content/en/rules/index.md` as appropriate.
+
+### Updating Submit Vulnerability
+
+Send a PR modifying `/src/content/en/submit/index.md` as appropriate.
+
+
