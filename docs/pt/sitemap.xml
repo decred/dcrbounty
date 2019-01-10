@@ -3,36 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://fernandoabolafio.github.io/dcrbounty/pt/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://fernandoabolafio.github.io/dcrbounty/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://fernandoabolafio.github.io/dcrbounty/pt/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://fernandoabolafio.github.io/dcrbounty/pt/contributors/</loc>
-  </url>
-  
-  <url>
-    <loc>https://fernandoabolafio.github.io/dcrbounty/pt/contributors/development/</loc>
-  </url>
-  
-  <url>
-    <loc>https://fernandoabolafio.github.io/dcrbounty/pt/contributors/marketing/</loc>
-  </url>
-  
-  <url>
-    <loc>https://fernandoabolafio.github.io/dcrbounty/pt/exchanges/</loc>
-  </url>
-  
-  <url>
     <loc>https://fernandoabolafio.github.io/dcrbounty/pt/categories/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -44,6 +14,21 @@
                 rel="alternate"
                 hreflang="pt"
                 href="https://fernandoabolafio.github.io/dcrbounty/pt/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://fernandoabolafio.github.io/dcrbounty/pt/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fernandoabolafio.github.io/dcrbounty/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://fernandoabolafio.github.io/dcrbounty/pt/"
                 />
   </url>
   

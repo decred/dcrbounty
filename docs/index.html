@@ -48,13 +48,17 @@
             <li class="menu-item">
                 
                 
-                <a href=" https://fernandoabolafio.github.io/dcrbounty/rules/ ">Rules</a>
+                    
+                
+                <a href=" #Rules ">Rules</a>
             </li>
             
             <li class="menu-item">
                 
                 
-                <a href=" https://fernandoabolafio.github.io/dcrbounty/submit ">Submit Vulnerability</a>
+                    
+                
+                <a href=" #Submit%20Vulnerability ">Submit Vulnerability</a>
             </li>
             
         </ul>
@@ -120,6 +124,167 @@ the code. Bugs in old releases or feature branches are not in scope.</p>
     
     </ul>
 </section>
+
+
+<section>
+    <a name="Rules"></a>
+    <h2>Rules</h2> 
+    <div class="content">
+        <p><strong>Introduction:</strong></p>
+
+<p>The decred community welcomes security researchers and bug bounty hunters to find security vulnerabilities in its website and projects. (more text to follow). All bug reports need to have a clear exploit or POC. All bugs must be reproducible in the latest production release or the master branch of the code. Bugs in old releases or feature branches are not in scope.</p>
+
+<p><strong>Projects in scope :</strong></p>
+
+<table>
+<thead>
+<tr>
+<th>Github repo</th>
+<th>URL</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><a href="https://github.com/decred/dcrweb">dcrweb</a></td>
+<td><a href="https://decred.org">https://decred.org</a></td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/decred/politeia">politeia</a> &amp; <a href="https://github.com/decred/politeiagui">politeiagui</a></td>
+<td><a href="https://proposals.decred.org">https://proposals.decred.org</a></td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/decred/dcrdocs">dcrdocs</a></td>
+<td><a href="https://docs.decred.org">https://docs.decred.org</a></td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/decred/dcrwebapi">dcrwebapi</a></td>
+<td><a href="https://api.decred.org">https://api.decred.org</a></td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/decred/testnetfaucet">testnetfaucet</a></td>
+<td><a href="https://faucet.decred.org">https://faucet.decred.org</a></td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/decred/dcr-netstats">dcr-netstats</a></td>
+<td><a href="https://stats.decred.org">https://stats.decred.org</a></td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/decred/dcrdata">dcrdata</a> <em>(latest stable release branch only)</em></td>
+<td><a href="https://explorer.dcrdata.org">https://explorer.dcrdata.org</a></td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/decred/dcrtime">dcrtime</a></td>
+<td><a href="https://time.decred.org">https://time.decred.org</a></td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/decred/dcrd">dcrd</a></td>
+<td></td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/decred/dcrwallet">dcrwallet</a></td>
+<td></td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/decred/decrediton">decrediton</a></td>
+<td></td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/decred/atomicswap">atomicswap</a></td>
+<td></td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/decred/dcrstakepool">dcrstakepool</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>The following are not in scope:</strong></p>
+
+<ul>
+<li>Chat and communication platforms including Slack, RocketChat, Matrix, Discord and the Decred forum.</li>
+<li>Testing or staging sites</li>
+<li>Mobile wallets (<a href="https://github.com/decred/dcrios">dcrios</a> and <a href="https://github.com/decred/dcrandroid">dcrandroid</a>)</li>
+<li>Projects still under development</li>
+<li>Deprecated projects including:
+
+<ul>
+<li><a href="https://github.com/decred/insight">insight</a> and <a href="https://github.com/decred/insight-api">insight-api</a></li>
+<li><a href="https://github.com/decred/bitcore-wallet-service">bitcore-wallet-service</a></li>
+<li><a href="https://github.com/decred/paymetheus">Paymetheus</a></li>
+<li><a href="https://github.com/decred/copay">Copay</a></li>
+</ul></li>
+</ul>
+
+<p><strong>The following vulnerabilities are generally out of scope:</strong></p>
+
+<p>Missing security best practices that do not directly lead to a vulnerability</p>
+
+<p>Insecure settings in non-sensitive cookies</p>
+
+<p>Vulnerabilities (including XSS) that affect only legacy browser/plugins</p>
+
+<p>Non-technical attacks such as social engineering, phishing, or physical attacks against our members, users, or infrastructure</p>
+
+<p>Missing HTTP headers, unless a vulnerability can be demonstrated</p>
+
+<p>Bugs requiring exceedingly unlikely user interaction</p>
+
+<p>Outdated software / library versions</p>
+
+<p>Clickjacking on pages with no sensitive actions.</p>
+
+<p><strong>Rules:</strong></p>
+
+<p>We prohibit DDOS or network bandwidth load testing.</p>
+
+<p>Unfortunately we are unable to pay for duplicate reports</p>
+
+<p>Public disclosure of the vulnerability without prior approval will make it ineligible for bounty.</p>
+
+<p>No social engineering.</p>
+
+<p>No spamming.</p>
+
+<p>All Current/Past (For up-to 6 months) decred developers are barred from taking part in this bug bounty program.</p>
+
+<p>Vulnerability reports made before the start of the program will not be eligible for a bounty.</p>
+
+<p><strong>Reminders:</strong></p>
+
+<p>Almost all of decred&rsquo;s projects can be run locally and reproduction instruction are available on github. We strongly recommend you to do this.</p>
+
+<p>Always check the &ldquo;issues&rdquo; in github of a project to avoid a duplicate report</p>
+
+<p>Use the testnet when possible.</p>
+
+<p>Decred project is not responsible for any loss of DCR due to bug testing. (ie: don&rsquo;t do dumb stuff and lose your DCR)</p>
+
+    </div>
+</section>
+
+<section>
+    <a name="Submit Vulnerability"></a>
+    <h2>Submit Vulnerability</h2> 
+    <div class="content">
+        <p>Here goes the text copy</p>
+
+    </div>
+</section>
+
 
 <div class="bottom-bar">
     
