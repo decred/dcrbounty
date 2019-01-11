@@ -7,10 +7,13 @@
         <pre></pre>
         <li>
             <div class="person">
-                <span >{{ .position }}. {{ .name }}</span>
-                <a href="https://github.com/{{ .github_id }}">{{ .github_id }}</a>
+                <div class="pos-name">
+                    <span class="position">{{ .position }}</span>
+                    <span class="name">{{ .name }}</span>
+                </div>
+                <a class="link" href="https://github.com/{{ .github_id }}">{{ .github_id }}</a>
             </div>
-            <span>{{ .points }} pts</span>
+            <span class="points">{{ .points }} pts</span>
         </li>
     {{ end }}
     </ul>

@@ -8,6 +8,4 @@
   translation: |
    The decred community welcomes security researchers and bug bounty 
    hunters to find security vulnerabilities in its website and projects. 
-   All bug reports need to have a clear exploit or POC. All bugs must be 
-   reproducible in the latest production release or the master branch of 
-   the code. Bugs in old releases or feature branches are not in scope.
+   

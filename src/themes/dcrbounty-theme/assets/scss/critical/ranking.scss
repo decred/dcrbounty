@@ -11,6 +11,39 @@
         & > .person {
             display: flex;
             flex-direction: column;
+
+            .pos-name {
+                display: flex;
+            }
+
+            .name {
+                font-weight: bold;
+                color:  $dcr-dark-blue;
+            }
+
+            .link {
+                padding-left: 32px;
+            }
+        }
+
+        .position {
+            height: 24px;
+            width: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50px;
+            background: $dcr-blue;
+            color: white;
+            margin-right: 10px;
+        }
+
+        .points {
+            font-size: 18px;
+            background: $dcr-blue;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 8px;
         }
     }
 }
