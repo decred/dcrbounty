@@ -1,0 +1,6 @@
+{{ partial "head" . }}
+<br>
+{{ $items := .Site.Data.news }}
+{{ $numOfItemsToRender := len $items }}
+{{ partial "news" (dict "ctx" . "items" $items  "itemsLimit" $numOfItemsToRender) }}
+{{ partial "footer" . }}

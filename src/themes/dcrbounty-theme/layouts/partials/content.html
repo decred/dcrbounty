@@ -1,5 +1,6 @@
 {{ $items := .Site.RegularPages }}
 {{ range $items }}
+{{ if eq .Type "section" }}
 <section>
     <a name="{{ .Title }}"></a>
     <h2>{{ .Title }}</h2> 
@@ -7,4 +8,5 @@
         {{ .Content }}
     </div>
 </section>
+{{ end}}
 {{ end }}

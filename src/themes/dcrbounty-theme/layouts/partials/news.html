@@ -1,9 +1,9 @@
 <section>
     <a name="news"></a>
     <h2>News & Updates</h2>
-    {{ $items := .Site.Data.news}}
+    {{ $items := .ctx.Site.Data.news }}
     <ul class="news-list">
-    {{ range $items }}
+    {{ range first .itemsLimit $items }}
         <li>
             <span class="checkpoint"></span>
             <span class="date">{{ dateFormat  "January 2, 2006" .date }}</span>
@@ -12,4 +12,9 @@
         </li>
     {{ end }}
     </ul>
+    {{if eq .itemsLimit 10 }}
+        <div>
+            <a class="see-more" href="{{ .ctx.Site.Params.news.URL | absURL }}">See more</a>
+        </div>
+    {{ end }}
 </section>

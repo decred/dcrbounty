@@ -1,6 +1,7 @@
 ---
 title: "Rules"
 draft: false
+type: "section"
 ---
 
 **Introduction:**

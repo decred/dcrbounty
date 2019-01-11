@@ -7,6 +7,9 @@ theme = "dcrbounty-theme"
 [params.bannerLink]
   URL = "#Submit Vulnerability"
 
+[params.news]
+  URL = "news/"
+
 [languages]
   [languages.en]
     languageName = "english"
