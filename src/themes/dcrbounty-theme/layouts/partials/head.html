@@ -21,16 +21,49 @@
     {{ $criticalJs := resources.Get "js/critical.js" | resources.Minify | resources.Fingerprint  }}
     <script src="{{ $criticalJs.Permalink }}"></script>
 
+    {{ $favicon := resources.Get "img/favicon.ico" }}
+    <link rel="shortcut icon" type="image/png" href="{{ $favicon.Permalink }}" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 
-<div class="top-bar">
+<header class="top-bar">
     
     {{ $logo := resources.Get "img/darklogo.svg" }}
     <span><a href="{{ "" | absLangURL }}"><img class="logo" src="{{ $logo.Permalink }}" /></a></span>
-    <div class="menu">
-        <ul class="menu-primary-items">
+
+    <a href="#main-menu"
+    class="menu-toggle"
+    role="button"
+    id="main-menu-toggle"
+    aria-expanded="false"
+    aria-controls="main-menu"
+    aria-label="Open main menu">
+        <span class="sr-only">Open main menu</span>
+        {{ $openMenuIcon := resources.Get "img/open-menu.svg" }}
+        <img src="{{ $openMenuIcon.Permalink }}" aria-hidden="true" />
+    </a>
+    <nav 
+        id="main-menu"
+        class="main-menu"
+        role="navigation"
+        aria-expanded="false"
+        aria-lable="Main menu"
+    >
+        <a href="#main-menu-toggle"
+        class="menu-close"
+        role="button"
+        id="main-menu-close"
+        aria-expanded="false"
+        aria-controls="main-menu"
+        aria-label="Close main menu">
+            <span class="sr-only">Close main menu</span>
+            {{ $closeMenuIcon := resources.Get "img/close-menu.svg" }}
+            <img  src="{{ $closeMenuIcon.Permalink }}" aria-hidden="true" />
+        </a>
+        <ul>
             {{ range .Site.Menus.main }}
-            <li class="menu-item">
+            <li>
                 {{ $isAnchor := false }}
                 {{if eq (substr .URL 0 1) "#"}}
                     {{ $isAnchor = true}}
@@ -43,7 +76,12 @@
             </li>
             {{ end }}
         </ul>
-    </div>
-</div>
+    </nav>
+    <a href="#main-menu-toggle"
+    class="backdrop"
+    tabindex="-1"
+    aria-hidden="true"
+    hidden></a>
+</header>
 
 <body>

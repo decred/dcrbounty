@@ -13,21 +13,54 @@
 
     
     
-    <link rel="stylesheet" href="https://fernandoabolafio.github.io/dcrbounty/style.7daff8ca724d76f5adf9b0600eb26742a304ac22152e6686c5de56961ccf56c3.css">
+    <link rel="stylesheet" href="https://fernandoabolafio.github.io/dcrbounty/style.d12d318522d2f915148061aeea7fcb931bb6c73dec4563950ad631a1663654b7.css">
 
     
     <script src="https://fernandoabolafio.github.io/dcrbounty/js/critical.min.09933981228eefdedea0ce57a17f9f8c37b11926a4ecfb15317dbf98c59f98df.js"></script>
 
+    
+    <link rel="shortcut icon" type="image/png" href="https://fernandoabolafio.github.io/dcrbounty/img/favicon.ico" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 
-<div class="top-bar">
+<header class="top-bar">
     
     
     <span><a href="https://fernandoabolafio.github.io/dcrbounty/pt/"><img class="logo" src="https://fernandoabolafio.github.io/dcrbounty/img/darklogo.svg" /></a></span>
-    <div class="menu">
-        <ul class="menu-primary-items">
+
+    <a href="#main-menu"
+    class="menu-toggle"
+    role="button"
+    id="main-menu-toggle"
+    aria-expanded="false"
+    aria-controls="main-menu"
+    aria-label="Open main menu">
+        <span class="sr-only">Open main menu</span>
+        
+        <img src="https://fernandoabolafio.github.io/dcrbounty/img/open-menu.svg" aria-hidden="true" />
+    </a>
+    <nav 
+        id="main-menu"
+        class="main-menu"
+        role="navigation"
+        aria-expanded="false"
+        aria-lable="Main menu"
+    >
+        <a href="#main-menu-toggle"
+        class="menu-close"
+        role="button"
+        id="main-menu-close"
+        aria-expanded="false"
+        aria-controls="main-menu"
+        aria-label="Close main menu">
+            <span class="sr-only">Close main menu</span>
             
-            <li class="menu-item">
+            <img  src="https://fernandoabolafio.github.io/dcrbounty/img/close-menu.svg" aria-hidden="true" />
+        </a>
+        <ul>
+            
+            <li>
                 
                 
                     
@@ -37,7 +70,7 @@
                     ">Hall of Fame</a>
             </li>
             
-            <li class="menu-item">
+            <li>
                 
                 
                     
@@ -47,7 +80,7 @@
                     ">News and Updates</a>
             </li>
             
-            <li class="menu-item">
+            <li>
                 
                 
                     
@@ -57,7 +90,17 @@
                     ">Rules</a>
             </li>
             
-            <li class="menu-item">
+            <li>
+                
+                
+                    
+                
+                <a href=" 
+                    #Scope 
+                    ">Scope</a>
+            </li>
+            
+            <li>
                 
                 
                     
@@ -68,8 +111,13 @@
             </li>
             
         </ul>
-    </div>
-</div>
+    </nav>
+    <a href="#main-menu-toggle"
+    class="backdrop"
+    tabindex="-1"
+    aria-hidden="true"
+    hidden></a>
+</header>
 
 <body>
 
