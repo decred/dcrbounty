@@ -12,21 +12,54 @@
 
     
     
-    <link rel="stylesheet" href="https://fernandoabolafio.github.io/dcrbounty/style.7daff8ca724d76f5adf9b0600eb26742a304ac22152e6686c5de56961ccf56c3.css">
+    <link rel="stylesheet" href="https://fernandoabolafio.github.io/dcrbounty/style.d12d318522d2f915148061aeea7fcb931bb6c73dec4563950ad631a1663654b7.css">
 
     
     <script src="https://fernandoabolafio.github.io/dcrbounty/js/critical.min.09933981228eefdedea0ce57a17f9f8c37b11926a4ecfb15317dbf98c59f98df.js"></script>
 
+    
+    <link rel="shortcut icon" type="image/png" href="https://fernandoabolafio.github.io/dcrbounty/img/favicon.ico" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 
-<div class="top-bar">
+<header class="top-bar">
     
     
     <span><a href="https://fernandoabolafio.github.io/dcrbounty"><img class="logo" src="https://fernandoabolafio.github.io/dcrbounty/img/darklogo.svg" /></a></span>
-    <div class="menu">
-        <ul class="menu-primary-items">
+
+    <a href="#main-menu"
+    class="menu-toggle"
+    role="button"
+    id="main-menu-toggle"
+    aria-expanded="false"
+    aria-controls="main-menu"
+    aria-label="Open main menu">
+        <span class="sr-only">Open main menu</span>
+        
+        <img src="https://fernandoabolafio.github.io/dcrbounty/img/open-menu.svg" aria-hidden="true" />
+    </a>
+    <nav 
+        id="main-menu"
+        class="main-menu"
+        role="navigation"
+        aria-expanded="false"
+        aria-lable="Main menu"
+    >
+        <a href="#main-menu-toggle"
+        class="menu-close"
+        role="button"
+        id="main-menu-close"
+        aria-expanded="false"
+        aria-controls="main-menu"
+        aria-label="Close main menu">
+            <span class="sr-only">Close main menu</span>
             
-            <li class="menu-item">
+            <img  src="https://fernandoabolafio.github.io/dcrbounty/img/close-menu.svg" aria-hidden="true" />
+        </a>
+        <ul>
+            
+            <li>
                 
                 
                     
@@ -36,7 +69,7 @@
                     ">Hall of Fame</a>
             </li>
             
-            <li class="menu-item">
+            <li>
                 
                 
                     
@@ -46,7 +79,7 @@
                     ">News and Updates</a>
             </li>
             
-            <li class="menu-item">
+            <li>
                 
                 
                     
@@ -56,7 +89,17 @@
                     ">Rules</a>
             </li>
             
-            <li class="menu-item">
+            <li>
+                
+                
+                    
+                
+                <a href="
+                    /dcrbounty/#Scope
+                    ">Scope</a>
+            </li>
+            
+            <li>
                 
                 
                     
@@ -67,8 +110,13 @@
             </li>
             
         </ul>
-    </div>
-</div>
+    </nav>
+    <a href="#main-menu-toggle"
+    class="backdrop"
+    tabindex="-1"
+    aria-hidden="true"
+    hidden></a>
+</header>
 
 <body>
 
@@ -83,119 +131,6 @@
       <p><strong>Introduction:</strong></p>
 
 <p>The decred community welcomes security researchers and bug bounty hunters to find security vulnerabilities in its website and projects. (more text to follow). All bug reports need to have a clear exploit or POC. All bugs must be reproducible in the latest production release or the master branch of the code. Bugs in old releases or feature branches are not in scope.</p>
-
-<p><strong>Projects in scope :</strong></p>
-
-<table>
-<thead>
-<tr>
-<th>Github repo</th>
-<th>URL</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td><a href="https://github.com/decred/dcrweb">dcrweb</a></td>
-<td><a href="https://decred.org">https://decred.org</a></td>
-</tr>
-
-<tr>
-<td><a href="https://github.com/decred/politeia">politeia</a> &amp; <a href="https://github.com/decred/politeiagui">politeiagui</a></td>
-<td><a href="https://proposals.decred.org">https://proposals.decred.org</a></td>
-</tr>
-
-<tr>
-<td><a href="https://github.com/decred/dcrdocs">dcrdocs</a></td>
-<td><a href="https://docs.decred.org">https://docs.decred.org</a></td>
-</tr>
-
-<tr>
-<td><a href="https://github.com/decred/dcrwebapi">dcrwebapi</a></td>
-<td><a href="https://api.decred.org">https://api.decred.org</a></td>
-</tr>
-
-<tr>
-<td><a href="https://github.com/decred/testnetfaucet">testnetfaucet</a></td>
-<td><a href="https://faucet.decred.org">https://faucet.decred.org</a></td>
-</tr>
-
-<tr>
-<td><a href="https://github.com/decred/dcr-netstats">dcr-netstats</a></td>
-<td><a href="https://stats.decred.org">https://stats.decred.org</a></td>
-</tr>
-
-<tr>
-<td><a href="https://github.com/decred/dcrdata">dcrdata</a> <em>(latest stable release branch only)</em></td>
-<td><a href="https://explorer.dcrdata.org">https://explorer.dcrdata.org</a></td>
-</tr>
-
-<tr>
-<td><a href="https://github.com/decred/dcrtime">dcrtime</a></td>
-<td><a href="https://time.decred.org">https://time.decred.org</a></td>
-</tr>
-
-<tr>
-<td><a href="https://github.com/decred/dcrd">dcrd</a></td>
-<td></td>
-</tr>
-
-<tr>
-<td><a href="https://github.com/decred/dcrwallet">dcrwallet</a></td>
-<td></td>
-</tr>
-
-<tr>
-<td><a href="https://github.com/decred/decrediton">decrediton</a></td>
-<td></td>
-</tr>
-
-<tr>
-<td><a href="https://github.com/decred/atomicswap">atomicswap</a></td>
-<td></td>
-</tr>
-
-<tr>
-<td><a href="https://github.com/decred/dcrstakepool">dcrstakepool</a></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-
-<p><strong>The following are not in scope:</strong></p>
-
-<ul>
-<li>Chat and communication platforms including Slack, RocketChat, Matrix, Discord and the Decred forum.</li>
-<li>Testing or staging sites</li>
-<li>Mobile wallets (<a href="https://github.com/decred/dcrios">dcrios</a> and <a href="https://github.com/decred/dcrandroid">dcrandroid</a>)</li>
-<li>Projects still under development</li>
-<li>Deprecated projects including:
-
-<ul>
-<li><a href="https://github.com/decred/insight">insight</a> and <a href="https://github.com/decred/insight-api">insight-api</a></li>
-<li><a href="https://github.com/decred/bitcore-wallet-service">bitcore-wallet-service</a></li>
-<li><a href="https://github.com/decred/paymetheus">Paymetheus</a></li>
-<li><a href="https://github.com/decred/copay">Copay</a></li>
-</ul></li>
-</ul>
-
-<p><strong>The following vulnerabilities are generally out of scope:</strong></p>
-
-<p>Missing security best practices that do not directly lead to a vulnerability</p>
-
-<p>Insecure settings in non-sensitive cookies</p>
-
-<p>Vulnerabilities (including XSS) that affect only legacy browser/plugins</p>
-
-<p>Non-technical attacks such as social engineering, phishing, or physical attacks against our members, users, or infrastructure</p>
-
-<p>Missing HTTP headers, unless a vulnerability can be demonstrated</p>
-
-<p>Bugs requiring exceedingly unlikely user interaction</p>
-
-<p>Outdated software / library versions</p>
-
-<p>Clickjacking on pages with no sensitive actions.</p>
 
 <p><strong>Rules:</strong></p>
 

@@ -1,5 +1,38 @@
+/* Screen reader only */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}  
+
+/* Button styling */
+.menu-toggle {
+    display: inline-block;
+    padding: 2px;
+    line-height: 1em;
+    font-size: 1em;
+    z-index: 99;
+    background: white;
+    
+    &:hover {
+        color: $dcr-alt-blue;
+    }
+}
+  
+  
+
+/*
+ Default styles + Mobile first
+ Offscreen menu style
+*/
+
 .top-bar {
-    position: fixed;
+    width: 90%;
     z-index: 2;
     top: 0;
     width: 80%;
@@ -13,34 +46,159 @@
     .logo {
         height: 24px;
     }
-    .menu {
-        
 
-        .menu-primary-items {
-           
-            list-style-type: none;
+    .main-menu {
+        position: absolute;
+        right: -100vw;
+        top: 0;
+        height: 100%;
+        overflow-y: scroll;
+        overflow-x: visible;
+        transition: right 0.3s ease,
+                    box-shadow 0.3s ease;
+        z-index: 999;
+        color: white;
 
-            .menu-item {
-                display: inline;
-                margin-right: 10px;
+        ul {
+            list-style: none;
+            text-align: center;
+            margin: 0;
+            padding: 2.5em 0 0;
+            /* Hide shadow w/ -8px while 'closed' */
+            -webkit-box-shadow: -8px 0 8px rgba(0,0,0,.5);
+                -moz-box-shadow: -8px 0 8px rgba(0,0,0,.5);
+                    box-shadow: -8px 0 8px rgba(0,0,0,.5);
+            min-height: 100%;
+            width: 100vw;
+            background: white;
+
+
+            li {
+                margin-bottom: 5px;
+            }
+
+            a {
+                color: $dcr-dark-blue;
+                text-decoration: none;
                 text-transform: uppercase;
-                font-size: 14px;
-                
-                & > a {
-                    text-decoration: none;
-                    color: white;;
-                    &:hover {
-                        color: $dcr-alt-blue;
+                font-weight: bold;
+            }
+
+            a:hover, a:focus {
+                color: $dcr-alt-blue;
+            }
+        }
+
+        .menu-close {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            height: 24px;
+        }
+ 
+        &:target, &[aria-expanded="true"] {
+            right: 0;
+            outline: none;
+            -moz-box-shadow: 3px 0 12px rgba(0,0,0,.25);
+            -webkit-box-shadow: 3px 0 12px rgba(0,0,0,.25);
+            box-shadow: 3px 0 12px rgba(0,0,0,.25);
+        }
+
+        &:target .menu-close, 
+        &[aria-expanded="true"] .menu-close {
+            z-index: 1001;
+        }
+
+        &:target ul,
+        &[aria-expanded="true"] ul {
+            position: relative;
+            z-index: 1000;
+        }
+
+        &:target + .backdrop, 
+        &[aria-expanded="true"] + .backdrop {
+            position: absolute;
+            display: block;
+            right: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 998;
+            background: #000;
+            background: rgba(0,0,0,.85);
+            cursor: default;
+        }
+    }
+
+
+}
+
+@media (min-width: 768px) {
+    .top-bar {
+        position: fixed;
+        width: 90%;
+        z-index: 2;
+        top: 0;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 10%;
+        background: $dcr-dark-blue;
+        min-height: 52px;
+        
+        .backdrop {
+            display: none !important;
+        }
+
+        .logo {
+            height: 24px;
+        }
+
+        .menu-toggle, .menu-close {
+            display: none;
+        }
+
+        .main-menu {
+            position: relative;
+            display: flex;
+            right: auto;
+            top: auto;
+            height: auto;
+            overflow: hidden;
+            
+
+            a {
+                border: 0 !important;
+            }
+            
+            ul {
+                /* Undo off-canvas styling */
+                padding: 0;
+                -webkit-box-shadow: none;
+                -moz-box-shadow: none;
+                        box-shadow: none;
+                height: auto;
+                width: auto;
+                background: none;
+                list-style-type: none;
+    
+                li {
+                    display: inline;
+                    margin-right: 10px;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    
+                    & > a {
+                        text-decoration: none;
+                        color: white;;
+                        &:hover {
+                            color: $dcr-alt-blue;
+                        }
                     }
                 }
             }
         }
     }
-}
-
-@media only screen and (max-width: 600px) {
-   .top-bar {
-       width: 90%;
-   }
-
+    
 }

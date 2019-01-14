@@ -27,8 +27,18 @@
       <guid>https://fernandoabolafio.github.io/dcrbounty/rules/</guid>
       <description>Introduction:
 The decred community welcomes security researchers and bug bounty hunters to find security vulnerabilities in its website and projects. (more text to follow). All bug reports need to have a clear exploit or POC. All bugs must be reproducible in the latest production release or the master branch of the code. Bugs in old releases or feature branches are not in scope.
-Projects in scope :
-   Github repo URL     dcrweb https://decred.</description>
+Rules:
+We prohibit DDOS or network bandwidth load testing.</description>
+    </item>
+    
+    <item>
+      <title>Scope</title>
+      <link>https://fernandoabolafio.github.io/dcrbounty/scope/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fernandoabolafio.github.io/dcrbounty/scope/</guid>
+      <description>Projects in scope :
+   Github repo URL     dcrweb https://decred.org   politeia &amp;amp; politeiagui https://proposals.decred.org   dcrdocs https://docs.decred.org   dcrwebapi https://api.decred.org   testnetfaucet https://faucet.decred.org   dcr-netstats https://stats.decred.org   dcrdata (latest stable release branch only) https://explorer.dcrdata.org   dcrtime https://time.decred.org   dcrd    dcrwallet    decrediton    atomicswap    dcrstakepool     The following are not in scope:</description>
     </item>
     
     <item>
