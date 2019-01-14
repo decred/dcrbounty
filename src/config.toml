@@ -38,6 +38,12 @@ url = "#Rules"
 weight = 1
 
 [[menu.main]]
+name = "Scope"
+url = "#Scope"
+weight = 1
+
+
+[[menu.main]]
 name = "Submit Vulnerability"
 url = "#Submit Vulnerability"
 weight = 1
