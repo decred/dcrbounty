@@ -1,4 +1,8 @@
-# dcrbounty
+dcrbounty
+=========
+
+[![Build Status](https://travis-ci.org/decred/dcrbounty.png?branch=master)](https://travis-ci.org/decred/dcrbounty)
+[![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 
 The Decred Bug Bounty website.
 
@@ -42,4 +46,6 @@ Send a PR modifying `/src/content/en/rules/index.md` as appropriate.
 
 Send a PR modifying `/src/content/en/submit/index.md` as appropriate.
 
+## License
 
+dcrbounty is licensed under the [copyfree](http://copyfree.org) ISC License.
