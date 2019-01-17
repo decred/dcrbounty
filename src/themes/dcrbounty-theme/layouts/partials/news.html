@@ -12,7 +12,7 @@
         </li>
     {{ end }}
     </ul>
-    {{if eq .itemsLimit 10 }}
+    {{if eq .itemsLimit (len $items) }}
         <div>
             <a class="see-more" href="{{ .ctx.Site.Params.news.URL | absURL }}">See more</a>
         </div>

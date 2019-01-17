@@ -1,11 +1,11 @@
-- name: Abubakar Suleiman
-  slack_alias: macsleven
-  github_id: macsleven
-  position: 1
-  points: 1000
+# - name: Abubakar Suleiman
+#   slack_alias: macsleven
+#   github_id: macsleven
+#   position: 1
+#   points: 1000
 
-- name: Alex Yocom-Piatt
-  slack_alias: ay-p
-  github_id: ay-p
-  position: 2
-  points: 800
+# - name: Alex Yocom-Piatt
+#   slack_alias: ay-p
+#   github_id: ay-p
+#   position: 2
+#   points: 800
