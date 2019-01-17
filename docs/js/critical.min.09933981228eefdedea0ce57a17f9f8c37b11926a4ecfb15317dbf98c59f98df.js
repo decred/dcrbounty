@@ -1,1 +1,0 @@
-window.addEventListener('load',()=>console.log("Initial load!"));

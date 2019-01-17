@@ -2,19 +2,26 @@
     <a name="hall_of_fame"></a>
     <h2>Hall of Fame</h2>
     {{ $items := .Site.Data.ranking}}
-    <ul class="ranking-list">
-    {{ range $items }}
-        <pre></pre>
-        <li>
-            <div class="person">
-                <div class="pos-name">
-                    <span class="position">{{ .position }}</span>
-                    <span class="name">{{ .name }}</span>
-                </div>
-                <a class="link" href="https://github.com/{{ .github_id }}">{{ .github_id }}</a>
-            </div>
-            <span class="points">{{ .points }} pts</span>
-        </li>
+    {{ if ne $items nil }}
+        <ul class="ranking-list">
+            {{ range $items }}
+                <pre></pre>
+                <li>
+                    <div class="person">
+                        <div class="pos-name">
+                            <span class="position">{{ .position }}</span>
+                            <span class="name">{{ .name }}</span>
+                        </div>
+                        <a class="link" href="https://github.com/{{ .github_id }}">{{ .github_id }}</a>
+                    </div>
+                    <span class="points">{{ .points }} pts</span>
+                </li>
+            {{ end }}
+            </ul>
+    {{ else }}
+         <div>
+            <a href="{{ .Site.Params.bannerLink.URL }}" class="no-ranking-items-message">Be the first to report a bug and get placed here</a>
+         </div>
     {{ end }}
-    </ul>
+    
 </section>
