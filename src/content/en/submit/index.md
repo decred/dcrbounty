@@ -24,6 +24,9 @@ Mailto: bugbounty {[<code>&#64;</code>]) decred.org
 
 Always use the below PGP key to encrypt the email. Failure to do so WILL reduce payout amount.
 
+```
+FingerPrint:D507 9E93 D0AF F567 DEF2  F6AC 6457 2029 21F7 0A78
+```
 
 ```
 
