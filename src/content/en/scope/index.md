@@ -6,7 +6,7 @@ type: "section"
 
 **Projects in scope :**
 
-|Github repo|URL|
+|GitHub repo|URL|
 |---|---|
 |[dcrweb](https://github.com/decred/dcrweb)|https://decred.org|
 |[politeia](https://github.com/decred/politeia) & [politeiagui](https://github.com/decred/politeiagui)|https://proposals.decred.org|
