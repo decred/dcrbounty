@@ -1,4 +1,3 @@
-baseURL = "https://fernandoabolafio.github.io/dcrbounty"
 title = "Decred Bug Bounty"
 DefaultContentLanguage = "en"
 copyright = "Decred Developers"
