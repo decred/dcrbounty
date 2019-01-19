@@ -1,5 +1,6 @@
 // this is all critical css, that should be loaded before rendering the rest of
 // the page. Keep it as small as possible.
+@import "fonts.scss";
 @import "colors.scss";
 @import "bottombar.scss";
 @import "topbar.scss";
@@ -8,7 +9,6 @@
 @import "news.scss";
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
     padding-top: 52px;
     margin: 0 !important;
     display: flex;
