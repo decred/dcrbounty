@@ -9,7 +9,8 @@
 @import "news.scss";
 
 body {
-    padding-top: 52px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 62px;
     margin: 0 !important;
     display: flex;
     flex-direction: column;
@@ -39,7 +40,7 @@ section {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     body {
         padding-top: 0;
     }

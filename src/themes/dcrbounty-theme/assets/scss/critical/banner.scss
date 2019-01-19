@@ -1,58 +1,64 @@
 .banner {
     width: 100%;
-    text-align: center;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     background: $dcr-dark-blue;
-    color: white;
+    color: $banner-text-gray;
     padding-bottom: 40px;
-    position: relative;
-    & > p {
-        max-width: 60%;
+
+    #banner-bugs {
+        background-image: url("img/banner.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 300px;
+        width: 300px;
+    }
+
+    #banner-text {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 600px;
+    }
+
+    #banner-title {
+        color: #69d5f7;
+        font-size: 38px;
+        font-weight: 600;
     }
 
     .description {
-        text-align: center;
-        font-size: 18px;
-        max-width: 60%;
-        margin-bottom: 20px;
-    }
-
-    .skirt {
-        position: absolute;
-        bottom: -139px;
-        background: $dcr-dark-blue;
-        width: 100%;
-        height: 140px;
-    }
-
-    .button-wrapper {
-        width: 210px;
-        height: 45px;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0 20px 35px 20px;
+        line-height: 20px;
     }
 
     .button {
-        width: 200px;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: none;
-        font-size: 16px;
-        border-radius: 24px;
-        background: $dcr-alt-blue;
-        color: $dcr-dark-blue;
-        font-weight: bold;
+        font-size: 14px;
+        border-radius: 4px;
+        padding: 12px 20px 13px;
+        background: $dcr-blue;
+        color: white;
+        font-weight: 600;
         text-decoration: none;
         cursor: pointer;
-        -webkit-transition: width 0.1s, height 0.1s; 
-        transition: width 0.1s, height 0.1s;
 
         &:hover {
-            width: 210px;
-            height: 45px;
+            background: $button-hover-blue;
+        }
+    }
+
+    @media (max-width: 768px) {
+        #banner-text {
+            max-width: 80%
+        }
+        #banner-bugs {
+            height: 200px;
+            width: 200px;
         }
     }
 }
