@@ -4,9 +4,9 @@ draft: false
 type: "section"
 ---
 
-We ask that you respect the following rules and guidelines when testing:
+We ask that you respect the following rules and guidelines:
 
-- All bug reports need to have a clear exploit or proof of concept.
+- All bug reports need to have clear reproduction steps and/or proof of concept.
 
 - All bugs must be reproducible in the latest production release or the master branch of the code.
 
@@ -14,7 +14,7 @@ We ask that you respect the following rules and guidelines when testing:
 
 - We prohibit denial of service attacks or network bandwidth load testing.
 
-- Unfortunately we are unable to pay for duplicate reports.
+- Unfortunately we are unable to pay for duplicate reports or reports of bugs which are already known.
 
 - Any type of public disclosure of the vulnerability without prior approval from the bug bounty program will make it ineligible for payout.
 
@@ -26,19 +26,56 @@ We ask that you respect the following rules and guidelines when testing:
 
 - Vulnerability reports made before the start of the program will not be eligible for a bounty.
 
-**Reminders:**
+- Do not attempt to attack or test on mainnet - the main Decred network. There is a completely seperate Decred [testnet](https://docs.decred.org/advanced/using-testnet/) which is specifically created for software testing. Testing on the public testnet will prevent impact on mainnet and removes the risk of causing real financial damage. It is also possible to create your own personal [simnet](https://docs.decred.org/advanced/using-testnet/). Simnet runs on on your own local system, and has a low enough difficulty to mine blocks using only a CPU.
+
+## Reminders
 
 - Almost all of Decred's projects can be run locally and reproduction instruction are available on GitHub. We strongly recommend you to do this.
 
-- Always check the "issues" in GitHub of a project to avoid a duplicate report
+- Always check the "issues" in GitHub of a project to avoid a duplicate report.
 
-- Do not attempt to attack or test on mainnet - the main Decred network. There is a completely seperate Decred [testnet](https://docs.decred.org/advanced/using-testnet/) which is specifically created for software testing. Testing on the public testnet will prevent impact on mainnet and removes the risk of causing real financial damage. It is also possible to create your own personal [simnet](https://docs.decred.org/advanced/using-testnet/). Simnet runs on on your own local system, and has a low enough difficulty to mine blocks using only a CPU.
 
 - Decred project is not responsible for any loss of DCR due to bug testing.
 
-**Payout:**
+## Payout
 
-We will be using the [OWASP Risk Rating Methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology) for scoring and prioritizing vulnerabilities.
+We will be using the [OWASP Risk Rating Methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology) for assessing vulnerabilities and determining payout amount.
+
+<table align="center" cellpadding="5" style="text-align: center; border-collapse: collapse;">
+	<tbody>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<th colspan="3" style="border: 1px solid black;">Likelihood</th>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td style="border: 1px solid black;">LOW</td>
+			<td style="border: 1px solid black;">MEDIUM</td>
+			<td style="border: 1px solid black;">HIGH</td>
+		</tr>
+		<tr>
+			<th rowspan="3" style="width: 15%; border: 1px solid black;">Impact</th>
+			<td style="width: 15%; border: 1px solid black;">HIGH</td>
+			<td style="width: 15%; border: 1px solid black; background-color: orange;">Medium</td>
+			<td style="width: 15%; border: 1px solid black; background-color: red;">High</td>
+			<td style="width: 15%; border: 1px solid black; background-color: pink;">Critical</td>
+		</tr>
+		<tr>
+			<td style="border: 1px solid black;">MEDIUM</td>
+			<td style="border: 1px solid black; background-color: yellow;">Low</td>
+			<td style="border: 1px solid black; background-color: orange;">Medium</td>
+			<td style="border: 1px solid black; background-color: red;">High</td>
+		</tr>
+		<tr>
+			<td style="border: 1px solid black;">LOW</td>
+			<td style="border: 1px solid black; background-color: lightgreen;">Note</td>
+			<td style="border: 1px solid black; background-color: yellow;">Low</td>
+			<td style="border: 1px solid black; background-color: orange;">Medium</td>
+		</tr>
+	</tbody>
+</table>
 
 We will also take into consideration the impact on the Decred ecosystem. An RCE in dcr-netstats (low impact) is not the same as an RCE in dcrd or Decrediton (higher impact).
 
@@ -48,18 +85,18 @@ The following are also factors in the payout:
 
 * Quality of vulnerability reproduction steps and/or proof of concept.
 
-* If you provide an actual code fix for the vulnerability then you will also be eligible for a "code fix" bonus on the condition that our existing developers accept it as valid.
+* If you provide a code fix for the vulnerability then you will also be eligible for a "code fix" bonus on the condition that our existing developers accept it as valid.
 
 All payouts will be in Decred only. You will be required to create and operate a Decred wallet. The DCR to USD ratio is based on the the average USD rate of the previous month. Payout amount is decided by a core "bug bounty" group.
 
-*Indicative payout amounts:*
+## Indicative payout amounts
 
-Note: up to 300 USD
+**Note:** up to 300 USD
 
-Low: up to 1,000 USD
+**Low:** up to 1,000 USD
 
-Medium: up to 3,000 USD
+**Medium:** up to 3,000 USD
 
-High: up to 10,000 USD
+**High:** up to 10,000 USD
 
-Critical: up to 25,000 USD
+**Critical:** up to 25,000 USD

@@ -24,7 +24,7 @@ type: "section"
 
 **The following are not in scope:**
 
-- Chat and communication platforms including Slack, RocketChat, Matrix, Discord and the Decred forum.
+- Chat and communication platforms including Slack, RocketChat, Matrix, Discord and the Decred forum
 - Testing or staging sites
 - Mobile wallets ([dcrios](https://github.com/decred/dcrios) and [dcrandroid](https://github.com/decred/dcrandroid))
 - Projects still under development
@@ -37,13 +37,11 @@ type: "section"
 
 **The following vulnerabilities are generally out of scope:**
 
-- Missing security best practices that do not directly lead to a vulnerability
-- Insecure settings in non-sensitive cookies
-- Vulnerabilities (including XSS) that affect only legacy browser/plugins
-- Non-technical attacks such as social engineering, phishing, or physical attacks against our members, users, or infrastructure
-- Missing HTTP headers, unless a vulnerability can be demonstrated
-- Bugs requiring exceedingly unlikely user interaction
-- Outdated software / library versions 
+- Missing security best practices that do not directly lead to a vulnerability.
+- Insecure settings in non-sensitive cookies.
+- Vulnerabilities (including XSS) that affect only legacy browser/plugins.
+- Non-technical attacks such as social engineering, phishing, or physical attacks against our members, users, or infrastructure.
+- Missing HTTP headers, unless a vulnerability can be demonstrated.
+- Bugs requiring exceedingly unlikely user interaction.
+- Outdated software/library versions.
 - Clickjacking on pages with no sensitive actions.
-    
-    
