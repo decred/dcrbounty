@@ -1,5 +1,6 @@
 <div class="banner">
-		<div id="banner-bugs"></div>
+		{{ $banner := resources.Get "img/banner.svg" }}
+		<img id="banner-bugs" src="{{ $banner.Permalink }}" />
 		<div id="banner-text">
 			<h1 id="banner-title">{{ .Site.Title }}</h1>
 			<span class="description">{{ T "banner_description" }}</span>
