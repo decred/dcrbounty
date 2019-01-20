@@ -41,38 +41,38 @@ We ask that you respect the following rules and guidelines:
 
 We will be using the [OWASP Risk Rating Methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology) for assessing vulnerabilities and determining payout amount.
 
-<table align="center" cellpadding="5" style="text-align: center; border-collapse: collapse;">
+<table align="center" cellpadding="5" style="text-align: center; box-shadow: none; font-size: 22px;">
 	<tbody>
-		<tr>
+		<tr style="border: none;">
 			<td>&nbsp;</td>
 			<td>&nbsp;</td>
-			<th colspan="3" style="border: 1px solid black;">Likelihood</th>
+			<td style="padding: 10px  0px; font-style: italic;" colspan="3" >Likelihood</td>
 		</tr>
-		<tr>
+		<tr style="border: none;">
 			<td>&nbsp;</td>
 			<td>&nbsp;</td>
-			<td style="border: 1px solid black;">LOW</td>
-			<td style="border: 1px solid black;">MEDIUM</td>
-			<td style="border: 1px solid black;">HIGH</td>
+			<td style="padding: 10px 20px; color: white; background-color: #276FB2;">Low</td>
+			<td style="padding: 10px 20px; color: white; background-color: #0F5098;">Medium</td>
+			<td style="padding: 10px 20px; color: white; background-color: #0F3269;">High</td>
 		</tr>
-		<tr>
-			<th rowspan="3" style="width: 15%; border: 1px solid black;">Impact</th>
-			<td style="width: 15%; border: 1px solid black;">HIGH</td>
-			<td style="width: 15%; border: 1px solid black; background-color: orange;">Medium</td>
-			<td style="width: 15%; border: 1px solid black; background-color: red;">High</td>
-			<td style="width: 15%; border: 1px solid black; background-color: pink;">Critical</td>
+		<tr style="border: none;">
+			<td style="padding: 10px  0px; font-style: italic; transform: rotate(-90deg);" rowspan="3" >Impact</td>
+			<td style="padding: 10px 20px; color: white; background-color: #276FB2;">Low</td>
+			<td style="padding: 10px 20px; color: black; background-color: #FFFFB5;">Note</td>
+			<td style="padding: 10px 20px; color: black; background-color: #FECC63;">Low</td>
+			<td style="padding: 10px 20px; color: black; background-color: #FC8C43;">Medium</td>
 		</tr>
-		<tr>
-			<td style="border: 1px solid black;">MEDIUM</td>
-			<td style="border: 1px solid black; background-color: yellow;">Low</td>
-			<td style="border: 1px solid black; background-color: orange;">Medium</td>
-			<td style="border: 1px solid black; background-color: red;">High</td>
+		<tr style="border: none;">
+			<td style="padding: 10px 20px; color: white; background-color: #0F5098;">Medium</td>
+			<td style="padding: 10px 20px; color: black; background-color: #FECC63;">Low</td>
+			<td style="padding: 10px 20px; color: black; background-color: #FC8C43;">Medium</td>
+			<td style="padding: 10px 20px; color: black; background-color: #EE3C24;">High</td>
 		</tr>
-		<tr>
-			<td style="border: 1px solid black;">LOW</td>
-			<td style="border: 1px solid black; background-color: lightgreen;">Note</td>
-			<td style="border: 1px solid black; background-color: yellow;">Low</td>
-			<td style="border: 1px solid black; background-color: orange;">Medium</td>
+		<tr style="border: none;">
+			<td style="padding: 10px 20px; color: white; background-color: #0F3269;">High</td>
+			<td style="padding: 10px 20px; color: black; background-color: #FC8C43;">Medium</td>
+			<td style="padding: 10px 20px; color: black; background-color: #EE3C24;">High</td>
+			<td style="padding: 10px 20px; color: white; background-color: #BA0028;">Critical</td>
 		</tr>
 	</tbody>
 </table>
