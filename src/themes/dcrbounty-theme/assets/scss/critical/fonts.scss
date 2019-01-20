@@ -56,3 +56,66 @@ pre, code {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: "dcrbounty-code", "Courier New", "monospace" !important;
 }
+
+section {
+    h1 {
+        color         : #596D81;
+        font-size     : 34px;
+        text-transform: none;
+    }
+
+    h2 {
+        color         : #091440;
+        font-size     : 26px;
+        text-transform: none;
+        font-weight   : bold;
+    }
+
+    h3 {
+        color         : #091440;
+        font-size     : 23px;
+        text-transform: none;
+    }
+
+    h4 {
+        color         : #091440;
+        font-size     : 20px;
+        text-transform: none;
+        font-weight   : bold;
+    }
+
+    h5 {
+        color         : #091440;
+        font-size     : 18px;
+        text-transform: none;
+    }
+
+    h6 {
+        color         : #596D81;
+        font-size     : 16px;
+        text-transform: none;
+        font-weight   : bold;
+    }
+
+    p,
+    ul,
+    ol,
+    table {
+        color    : #48566E;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:link,
+    a:visited {
+        color: #2970FF;
+    }
+    a:hover,
+    a:active {
+        color: #1A59F7;
+    }
+}
