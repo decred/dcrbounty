@@ -41,41 +41,7 @@ We ask that you respect the following rules and guidelines:
 
 We will be using the [OWASP Risk Rating Methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology) for assessing vulnerabilities and determining payout amount.
 
-<table align="center" cellpadding="5" style="text-align: center; box-shadow: none; font-size: 22px;">
-	<tbody>
-		<tr style="border: none;">
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-			<td style="padding: 10px  0px; font-style: italic;" colspan="3" >Likelihood</td>
-		</tr>
-		<tr style="border: none;">
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-			<td style="padding: 10px 20px; color: white; background-color: #276FB2;">Low</td>
-			<td style="padding: 10px 20px; color: white; background-color: #0F5098;">Medium</td>
-			<td style="padding: 10px 20px; color: white; background-color: #0F3269;">High</td>
-		</tr>
-		<tr style="border: none;">
-			<td style="padding: 10px  0px; font-style: italic; transform: rotate(-90deg);" rowspan="3" >Impact</td>
-			<td style="padding: 10px 20px; color: white; background-color: #276FB2;">Low</td>
-			<td style="padding: 10px 20px; color: black; background-color: #FFFFB5;">Note</td>
-			<td style="padding: 10px 20px; color: black; background-color: #FECC63;">Low</td>
-			<td style="padding: 10px 20px; color: black; background-color: #FC8C43;">Medium</td>
-		</tr>
-		<tr style="border: none;">
-			<td style="padding: 10px 20px; color: white; background-color: #0F5098;">Medium</td>
-			<td style="padding: 10px 20px; color: black; background-color: #FECC63;">Low</td>
-			<td style="padding: 10px 20px; color: black; background-color: #FC8C43;">Medium</td>
-			<td style="padding: 10px 20px; color: black; background-color: #EE3C24;">High</td>
-		</tr>
-		<tr style="border: none;">
-			<td style="padding: 10px 20px; color: white; background-color: #0F3269;">High</td>
-			<td style="padding: 10px 20px; color: black; background-color: #FC8C43;">Medium</td>
-			<td style="padding: 10px 20px; color: black; background-color: #EE3C24;">High</td>
-			<td style="padding: 10px 20px; color: white; background-color: #BA0028;">Critical</td>
-		</tr>
-	</tbody>
-</table>
+<img src="img/owasp-rating.png" style="width: 80%; max-width: 448px;" />
 
 We will also take into consideration the impact on the Decred ecosystem. An RCE in dcr-netstats (low impact) is not the same as an RCE in dcrd or Decrediton (higher impact).
 
