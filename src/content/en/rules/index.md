@@ -41,41 +41,7 @@ We ask that you respect the following rules and guidelines:
 
 We will be using the [OWASP Risk Rating Methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology) for assessing vulnerabilities and determining payout amount.
 
-<table align="center" cellpadding="5" style="text-align: center; border-collapse: collapse;">
-	<tbody>
-		<tr>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-			<th colspan="3" style="border: 1px solid black;">Likelihood</th>
-		</tr>
-		<tr>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-			<td style="border: 1px solid black;">LOW</td>
-			<td style="border: 1px solid black;">MEDIUM</td>
-			<td style="border: 1px solid black;">HIGH</td>
-		</tr>
-		<tr>
-			<th rowspan="3" style="width: 15%; border: 1px solid black;">Impact</th>
-			<td style="width: 15%; border: 1px solid black;">HIGH</td>
-			<td style="width: 15%; border: 1px solid black; background-color: orange;">Medium</td>
-			<td style="width: 15%; border: 1px solid black; background-color: red;">High</td>
-			<td style="width: 15%; border: 1px solid black; background-color: pink;">Critical</td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid black;">MEDIUM</td>
-			<td style="border: 1px solid black; background-color: yellow;">Low</td>
-			<td style="border: 1px solid black; background-color: orange;">Medium</td>
-			<td style="border: 1px solid black; background-color: red;">High</td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid black;">LOW</td>
-			<td style="border: 1px solid black; background-color: lightgreen;">Note</td>
-			<td style="border: 1px solid black; background-color: yellow;">Low</td>
-			<td style="border: 1px solid black; background-color: orange;">Medium</td>
-		</tr>
-	</tbody>
-</table>
+<img src="img/owasp-rating.png" style="width: 80%; max-width: 448px;" />
 
 We will also take into consideration the impact on the Decred ecosystem. An RCE in dcr-netstats (low impact) is not the same as an RCE in dcrd or Decrediton (higher impact).
 
