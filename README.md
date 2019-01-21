@@ -42,6 +42,10 @@ Send a PR modifying `/src/data/news.yml` as appropriate.
 
 Send a PR modifying `/src/content/en/rules/index.md` as appropriate.
 
+### Updating Scope
+
+Send a PR modifying `/src/content/en/scope/index.md` as appropriate.
+
 ### Updating Submit Vulnerability
 
 Send a PR modifying `/src/content/en/submit/index.md` as appropriate.
