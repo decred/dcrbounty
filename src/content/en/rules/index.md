@@ -26,7 +26,7 @@ We ask that you respect the following rules and guidelines:
 
 - Vulnerability reports made before the start of the program will not be eligible for a bounty.
 
-- Do not attempt to attack or test on mainnet - the main Decred network. There is a completely seperate Decred [testnet](https://docs.decred.org/advanced/using-testnet/) which is specifically created for software testing. Testing on the public testnet will prevent impact on mainnet and removes the risk of causing real financial damage. It is also possible to create your own personal [simnet](https://docs.decred.org/advanced/using-testnet/). Simnet runs on on your own local system, and has a low enough difficulty to mine blocks using only a CPU.
+- Do not attempt to attack or test on mainnet - the main Decred network. There is a completely separate Decred [testnet](https://docs.decred.org/advanced/using-testnet/) which is specifically created for software testing. Testing on the public testnet will prevent impact on mainnet and removes the risk of causing real financial damage. It is also possible to create your own personal [simnet](https://docs.decred.org/advanced/using-testnet/). Simnet runs on on your own local system, and has a low enough difficulty to mine blocks using only a CPU.
 
 ## Reminders
 
