@@ -141,4 +141,17 @@ section {
     a:active {
         color: #1A59F7;
     }
+
+    code {
+        border-radius   : 3px;
+        background-color: #EDEFF1;
+        color           : #37474F;
+        display         : inline-block;
+        width           : auto;
+        padding         : 5px;
+    }
+
+    pre > code {
+        padding         : 20px;
+    }
 }
