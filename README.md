@@ -11,7 +11,7 @@ The Decred Bug Bounty website.
 Install the **extended** version of [Hugo](https://gohugo.io/) somewhere along your `$PATH`.
 
 ```bash
-$ bin/serve.sh
+$ bin/watch.sh
 ```
 
 Then access the page with a browser (the server usually starts in `https://localhost:1313`).
