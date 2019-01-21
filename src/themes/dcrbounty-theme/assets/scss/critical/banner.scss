@@ -21,6 +21,14 @@
         max-width: 600px;
     }
 
+    #skirt {
+        position: absolute;
+        top: 362px; /* 300px = banner-bugs height, 62px = top-bar height */
+        background: $dcr-dark-blue;
+        width: 100%;
+        height: 140px;
+    }
+
     #banner-title {
         color: #69d5f7;
         font-size: 38px;
