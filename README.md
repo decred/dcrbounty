@@ -21,8 +21,7 @@ Then access the page with a browser (the server usually starts in `https://local
 ```bash
 $ bin/build.sh
 ```
-
-Then update the server with the contents of `dist/`.
+This will build the docker image.
 
 ## Maintenance Activities
 
