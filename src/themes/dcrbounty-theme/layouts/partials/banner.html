@@ -1,8 +1,12 @@
 <div class="banner">
-        <h1>{{ .Site.Title }}</h1>
-        <span class="description">{{ T "banner_description" }}</span>
-        <div class="button-wrapper">
-                <a href="{{ .Site.Params.bannerLink.URL }}" class="button">Submit Vulnerability</a>
-        </div>
-        <div class="skirt"></div>
+		{{ $banner := resources.Get "img/banner.svg" }}
+		<img id="banner-bugs" src="{{ $banner.Permalink }}" />
+		<div id="banner-text">
+			<h1 id="banner-title">{{ .Site.Title }}</h1>
+			<span class="description">{{ T "banner_description" }}</span>
+			<div>
+				<a href="{{ .Site.Params.bannerLink.URL }}" class="button">Submit Vulnerability</a>
+			</div>
+		</div>
+	<div id="skirt"></div>
 </div>

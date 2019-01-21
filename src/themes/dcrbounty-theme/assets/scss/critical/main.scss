@@ -9,7 +9,7 @@
 @import "news.scss";
 
 body {
-    padding-top: 52px;
+    padding-top: 62px; /* 62px = top-bar height */
     margin: 0 !important;
     display: flex;
     flex-direction: column;
@@ -39,7 +39,7 @@ section {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     body {
         padding-top: 0;
     }
