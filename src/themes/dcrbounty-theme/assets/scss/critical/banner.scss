@@ -6,7 +6,7 @@
     justify-content: center;
     background: $dcr-dark-blue;
     color: $banner-text-gray;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 
     #banner-bugs {
         height: 300px;
@@ -17,8 +17,8 @@
         text-align: center;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         max-width: 600px;
+        padding-top: 35px;
     }
 
     #skirt {
@@ -52,6 +52,8 @@
         font-weight: 600;
         text-decoration: none;
         cursor: pointer;
+        display: inline-block;
+        margin-bottom: 10px;
 
         &:hover {
             background: $button-hover-blue;
@@ -60,11 +62,13 @@
 
     @media (max-width: 768px) {
         #banner-text {
-            max-width: 80%
+            max-width: 80%;
+            padding-top: 0;
         }
+
         #banner-bugs {
-            height: 200px;
-            width: 200px;
+            height: 250px;
+            width: 250px;
         }
     }
 }

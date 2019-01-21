@@ -1,12 +1,10 @@
 .bottom-bar {
     width: calc(100% - 40px);
-    margin-top: 10em;
     background-color: $dcr-dark-blue;
     padding: 20px 20px;
-    color: #eee;
 
     a {
-        color: #eee;
+        color: $banner-text-gray;
     }
 
     .link {
