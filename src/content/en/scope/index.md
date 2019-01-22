@@ -13,7 +13,6 @@ type: "section"
 |[dcrdocs](https://github.com/decred/dcrdocs)|https://docs.decred.org|
 |[dcrwebapi](https://github.com/decred/dcrwebapi)|https://api.decred.org|
 |[testnetfaucet](https://github.com/decred/testnetfaucet)|https://faucet.decred.org|
-|[dcr-netstats](https://github.com/decred/dcr-netstats)|https://stats.decred.org|
 |[dcrdata](https://github.com/decred/dcrdata) *(latest stable release branch only)*|https://explorer.dcrdata.org|
 |[dcrtime](https://github.com/decred/dcrtime)|https://time.decred.org|
 |[dcrd](https://github.com/decred/dcrd)||
@@ -33,6 +32,7 @@ type: "section"
   - [bitcore-wallet-service](https://github.com/decred/bitcore-wallet-service)
   - [Paymetheus](https://github.com/decred/paymetheus)
   - [Copay](https://github.com/decred/copay)
+  - [dcr-netstats](https://github.com/decred/dcr-netstats)
 
 
 **The following vulnerabilities are generally out of scope:**
