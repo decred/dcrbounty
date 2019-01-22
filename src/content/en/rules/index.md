@@ -43,7 +43,7 @@ We will be using the [OWASP Risk Rating Methodology](https://www.owasp.org/index
 
 <img src="img/owasp-rating.png" style="width: 80%; max-width: 448px;" />
 
-We will also take into consideration the impact on the Decred ecosystem. An RCE in dcr-netstats (low impact) is not the same as an RCE in dcrd or Decrediton (higher impact).
+We will also take into consideration the impact on the Decred ecosystem. An RCE in dcrweb (low impact) is not the same as an RCE in dcrd or Decrediton (higher impact).
 
 The following are also factors in the payout:
 
