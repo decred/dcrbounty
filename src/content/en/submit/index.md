@@ -24,7 +24,9 @@ Email your bug report to &#098;&#117;&#103;&#098;&#111;&#117;&#110;&#116;&#121;&
 
 Always use the below PGP key to encrypt the email. Failure to do so will reduce payout amount.
 
-Any supporting evidence (screenshots, videos, etc) should be attached to the email itself. Media files should be encrypted inside a .7z, .zip or .tar.gz file with a secure password that is included in the PGP encrypted email body. Hosting on external services may lead to disqualification.
+Any supporting evidence (screenshots, videos, etc) should be attached to the email itself. Media files should be encrypted inside a .7z, .zip or .tar.gz file with a secure password that is included in the PGP encrypted email body. Hosting on external services may lead to disqualification. 
+
+Also be sure to mention your own public key so that we can securely email you.
 
 `FingerPrint: D507 9E93 D0AF F567 DEF2  F6AC 6457 2029 21F7 0A78`
 
