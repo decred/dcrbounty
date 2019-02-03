@@ -1,5 +1,5 @@
 # builder image
-FROM golang
+FROM golang:1.11.5
 
 LABEL description="gohugo build"
 LABEL version="1.0"
@@ -16,14 +16,11 @@ COPY src/ /root/
 
 RUN hugo
 
-
-
-# final image
-FROM nginx
+# Serve image (stable nginx version)
+FROM nginx:1.14.2
 
 LABEL description="dcrbounty server"
 LABEL version="1.0"
 LABEL maintainer="holdstockjamie@gmail.com"
-
 
 COPY --from=0 /root/public/ /usr/share/nginx/html
