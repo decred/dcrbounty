@@ -23,4 +23,6 @@ LABEL description="dcrbounty server"
 LABEL version="1.0"
 LABEL maintainer="holdstockjamie@gmail.com"
 
+COPY conf/nginx.conf /etc/nginx/conf.d/default.conf
+
 COPY --from=0 /root/public/ /usr/share/nginx/html
