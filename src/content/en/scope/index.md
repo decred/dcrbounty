@@ -23,7 +23,7 @@ type: "section"
 
 **The following are not in scope:**
 
-- Chat and communication platforms including Email systems,Slack, RocketChat, Matrix, Discord and the Decred forum
+- Chat and communication platforms including Email systems, Slack, RocketChat, Matrix, Discord and the Decred forum
 - Testing or staging sites
 - Mobile wallets ([dcrios](https://github.com/decred/dcrios) and [dcrandroid](https://github.com/decred/dcrandroid))
 - Projects still under development
