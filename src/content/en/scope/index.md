@@ -37,6 +37,7 @@ type: "section"
 
 **The following vulnerabilities are generally out of scope:**
 
+- The primary objective of this bounty program is to find vulnerabilities in software developed by Decred. Hence Infrastructure related vulnerabilities are out of scope unless they lead to critical exploit (RCE or similar).
 - Missing security best practices that do not directly lead to a vulnerability.
 - Insecure settings in non-sensitive cookies.
 - Vulnerabilities (including XSS) that affect only legacy browser/plugins.
