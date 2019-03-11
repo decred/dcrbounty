@@ -1,7 +1,11 @@
+- title: Status update
+  date: 2019-03-11  
+  body: We have processed a total of 27 submissions till now with 2 of them being eligible for payouts. 
+        The "Hall of Fame" will not be updated as the submitters have not chosen to be listed.
+        We will also be making some updates to the scope to better communicate the types of submissions we are looking for.
 
 - title: Bug bounty program released
   date: 2019-01-21  
   body: Today we are kicking off the bug bounty program. 
         We look forward to receiving some great reports from the community. 
         Please read the rules and scope section before you start testing.
-  
