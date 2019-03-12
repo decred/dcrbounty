@@ -18,6 +18,8 @@ We ask that you respect the following rules and guidelines:
 
 - Any type of public disclosure of the vulnerability without prior approval from the bug bounty program will make it ineligible for payout.
 
+- Do not attempt to directly contact the developers in order to obtain the status of a patch/fix.
+
 - No social engineering.
 
 - No spamming.
@@ -53,7 +55,9 @@ The following are also factors in the payout:
 
 * If you provide a code fix for the vulnerability then you will also be eligible for a "code fix" bonus on the condition that our existing developers accept it as valid.
 
-All payouts will be in Decred only. You will be required to create and operate a Decred wallet. The DCR to USD ratio is based on the the average USD rate of the previous month. Payout amount is decided by a core "bug bounty" group.
+All payouts will be in Decred only. Payouts are done in a single batch once a month. You will be required to create and operate a Decred wallet. The DCR to USD ratio is based on the the average USD rate of the previous month. Payout amount is decided by a core "bug bounty" group.
+
+The Payout amout will only be decided after the patch for the vulnerability has been merged.
 
 ## Indicative payout amounts
 
