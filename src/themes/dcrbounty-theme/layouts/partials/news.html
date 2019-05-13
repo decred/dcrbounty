@@ -8,7 +8,7 @@
             <span class="checkpoint"></span>
             <span class="date">{{ dateFormat  "January 2, 2006" .date }}</span>
             <span class="title">{{ .title }}</span>
-            <p>{{ .body }}</p>
+            <div>{{ .body | markdownify }}</div>
         </li>
     {{ end }}
     </ul>
