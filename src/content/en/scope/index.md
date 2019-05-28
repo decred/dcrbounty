@@ -20,6 +20,11 @@ type: "section"
 |[decrediton](https://github.com/decred/decrediton)||
 |[atomicswap](https://github.com/decred/atomicswap) ||
 |[dcrstakepool](https://github.com/decred/dcrstakepool)||
+|[dcrlnd *](https://github.com/decred/dcrlnd#security)||
+
+**Special Notes:**
+
+dcrlnd scope has some limitations, please read the linked github page before testing.
 
 **The following are not in scope:**
 
