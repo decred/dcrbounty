@@ -1,4 +1,14 @@
 - title: Status update
+  date: 2019-07-26  
+  body: The bug bounty program has been [renewed](https://proposals.decred.org/proposals/073694ed82d34b2bfff51e35220e8052ad4060899b23bc25791a9383375cae70) for another year. <br>
+    <br>
+    We have processed a total of 67 submissions so far, with 9 of them being eligible for a payout. The following vulnerabilities have been fixed and hence can be listed. <br>
+    <br>
+    [Stakepool user session not expiring on password change](https://github.com/decred/dcrstakepool/issues/328)<br>
+    [Stakepool user define link in error page](https://github.com/decred/dcrstakepool/issues/378)<br>
+    [Stakepool user session not expiring on logout](https://github.com/decred/dcrstakepool/issues/379)<br>
+    
+- title: Status update
   date: 2019-05-15  
   body: We have processed a total of 49 submissions so far, with 7 of them being eligible for a payout. The following vulnerabilities have been fixed and hence can be listed. <br>
     <br>
@@ -7,7 +17,6 @@
     [Stakepool cached user data needs to be cleared out on logout](https://github.com/decred/dcrstakepool/issues/318)<br>
     [Stakepool invalidate password reset token on email change](https://github.com/decred/dcrstakepool/issues/320)<br>
     [Stakepool password reset token leaking to github](https://github.com/decred/dcrstakepool/issues/376)<br>
-
 
 - title: Status update
   date: 2019-03-11  
@@ -20,3 +29,4 @@
   body: Today we are kicking off the bug bounty program. 
         We look forward to receiving some great reports from the community. 
         Please read the rules and scope section before you start testing.
+
