@@ -1,18 +1,18 @@
 <section>
     <a name="news"></a>
     <h2>News & Updates</h2>
-    {{ $items := .ctx.Site.Data.news }}
+    {{ $items := (where .ctx.Pages "Section" "news") }}
     <ul class="news-list">
     {{ range first .itemsLimit $items }}
         <li>
             <span class="checkpoint"></span>
-            <span class="date">{{ dateFormat  "January 2, 2006" .date }}</span>
-            <span class="title">{{ .title }}</span>
-            <div>{{ .body | markdownify }}</div>
+            <span class="date">{{ dateFormat  "January 2, 2006" .Params.date }}</span>
+            <a href="{{.Permalink}}" class="title">{{ .Params.title }}</a>
+            <div>{{ .Content }}</div>
         </li>
     {{ end }}
     </ul>
-    {{if eq .itemsLimit (len $items) }}
+    {{if ge (len $items) .itemsLimit }}
         <div>
             <a class="see-more" href="{{ .ctx.Site.Params.news.URL | absURL }}">See more</a>
         </div>
