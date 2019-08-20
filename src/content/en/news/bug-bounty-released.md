@@ -1,7 +1,7 @@
 ---
 title: "Bug bounty program released"
 draft: false
-slug: "status-update"
+slug: "bug-bounty-released"
 date: 2019-01-21
 type: "page"
 ---
