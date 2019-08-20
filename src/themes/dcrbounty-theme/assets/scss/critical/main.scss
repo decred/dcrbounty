@@ -43,6 +43,15 @@ section {
         overflow-x: auto;
     }
 }
+.single-container {
+    min-height: calc(100vh - 122px);
+    text-align: center;
+}
+
+.single-section {
+    display: inline-block;
+    text-align: left;
+}
 
 @media only screen and (max-width: 768px) {
     body {
