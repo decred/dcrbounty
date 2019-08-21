@@ -1,7 +1,7 @@
 # builder image
-FROM golang:1.12.4
+FROM golang:1.12
 
-ENV HUGO_VERSION 0.55.4
+ENV HUGO_VERSION 0.57.2
 
 LABEL description="gohugo build"
 LABEL version="1.0"
@@ -19,7 +19,7 @@ COPY src/ /root/
 RUN hugo
 
 # Serve image (stable nginx version)
-FROM nginx:1.16.0
+FROM nginx:1.16
 
 LABEL description="dcrbounty server"
 LABEL version="1.0"
