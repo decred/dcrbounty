@@ -57,7 +57,7 @@ The following are also factors in the payout:
 
 All payouts will be in Decred only. Payouts are done in a single batch once a month. You will be required to create and operate a Decred wallet. The DCR to USD ratio is based on the the average USD rate of the previous month. Payout amount is decided by a core "bug bounty" group.
 
-The payout amount will only be decided after the patch for the vulnerability has been merged.
+The payout amount will only be decided after the patch for the vulnerability has been merged. The submitter will then be contacted and given instructions on how to claim the bounty. The bounty hunter will be given one month to claim it after which the bounty will be considered forfeit.
 
 ## Indicative payout amounts
 
