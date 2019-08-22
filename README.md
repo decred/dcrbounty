@@ -35,7 +35,7 @@ Send a PR modifying `/src/data/ranking.yml` as appropriate.
 
 ### Updating News & Updates
 
-Send a PR modifying `/src/data/news.yml` as appropriate.
+Send a PR modifying the contents under `/src/content/en/news` as appropriate.
 
 ### Updating Rules
 

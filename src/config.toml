@@ -9,6 +9,9 @@ theme = "dcrbounty-theme"
 [params.news]
   URL = "news/"
 
+[permalinks]
+  news = "/:year/:month/:title/"
+
 [languages]
   [languages.en]
     languageName = "english"
