@@ -28,7 +28,8 @@ dcrlnd scope has some limitations, please read the linked github page before tes
 
 **The following are not in scope:**
 
-- Chat and communication platforms including Email systems, Slack, RocketChat, Matrix, Discord and the Decred forum
+- Chat and communication platforms including Slack, RocketChat, Matrix, Discord and the Decred forum
+- Email servers are not in scope
 - Testing or staging sites
 - Mobile wallets ([dcrios](https://github.com/decred/dcrios) and [dcrandroid](https://github.com/decred/dcrandroid))
 - Projects still under development
@@ -43,6 +44,7 @@ dcrlnd scope has some limitations, please read the linked github page before tes
 **The following vulnerabilities are generally out of scope:**
 
 - The primary objective of this bounty program is to find vulnerabilities in software developed by Decred. Hence infrastructure related vulnerabilities are out of scope unless they lead to critical exploit (RCE or similar).
+- DMARC, DKIM and SPF related issues.
 - Missing security best practices that do not directly lead to a vulnerability.
 - Insecure settings in non-sensitive cookies.
 - Vulnerabilities (including XSS) that affect only legacy browser/plugins.
