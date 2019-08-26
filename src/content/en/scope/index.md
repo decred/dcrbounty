@@ -29,7 +29,7 @@ dcrlnd scope has some limitations, please read the linked github page before tes
 **The following are not in scope:**
 
 - Chat and communication platforms including Slack, RocketChat, Matrix, Discord and the Decred forum
-- Email servers are not in scope
+- Email servers
 - Testing or staging sites
 - Mobile wallets ([dcrios](https://github.com/decred/dcrios) and [dcrandroid](https://github.com/decred/dcrandroid))
 - Projects still under development
