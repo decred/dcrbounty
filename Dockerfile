@@ -23,7 +23,7 @@ FROM nginx:1.16
 
 LABEL description="dcrbounty server"
 LABEL version="1.0"
-LABEL maintainer="holdstockjamie@gmail.com"
+LABEL maintainer="jholdstock@decred.org"
 
 COPY conf/nginx.conf /etc/nginx/conf.d/default.conf
 
