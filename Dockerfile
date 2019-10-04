@@ -1,7 +1,9 @@
 # builder image
-FROM golang:1.12
+FROM alpine:edge
 
-ENV HUGO_VERSION 0.57.2
+ARG HUGO_BASEURL
+ENV HUGO_BASEURL ${HUGO_BASEURL:-https://bounty.decred.org}
+ENV HUGO_VERSION 0.58.3
 
 LABEL description="gohugo build"
 LABEL version="1.0"
@@ -9,8 +11,10 @@ LABEL maintainer="peter@froggle.org"
 
 WORKDIR /tmp
 
+RUN apk update && apk upgrade
+RUN apk add --no-cache wget libc6-compat g++
 RUN wget -q https://github.com/gohugoio/hugo/releases/download/v$HUGO_VERSION/hugo_extended_"$HUGO_VERSION"_Linux-64bit.tar.gz
-RUN tar xz -C /usr/local/bin -f  hugo_extended_"$HUGO_VERSION"_Linux-64bit.tar.gz
+RUN tar xz -C /usr/local/bin -f hugo_extended_"$HUGO_VERSION"_Linux-64bit.tar.gz
 
 WORKDIR /root
 
