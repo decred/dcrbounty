@@ -1,8 +1,8 @@
 dcrbounty
 =========
 
-[![Build Status](https://travis-ci.org/decred/dcrbounty.png?branch=master)](https://travis-ci.org/decred/dcrbounty)
-[![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
+[![Build Status](https://github.com/decred/dcrbounty/workflows/Build%20and%20Test/badge.svg)](https://github.com/decred/dcrbounty/actions)
+[![ISC License](https://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 
 The Decred Bug Bounty website.
 
