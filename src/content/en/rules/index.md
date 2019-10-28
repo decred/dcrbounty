@@ -36,7 +36,6 @@ We ask that you respect the following rules and guidelines:
 
 - Always check the "issues" in GitHub of a project to avoid a duplicate report.
 
-
 - Decred project is not responsible for any loss of DCR due to bug testing.
 
 ## Payout
