@@ -1,5 +1,4 @@
-dcrbounty
-=========
+# dcrbounty
 
 [![Build Status](https://github.com/decred/dcrbounty/workflows/Build%20and%20Test/badge.svg)](https://github.com/decred/dcrbounty/actions)
 [![ISC License](https://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
@@ -21,6 +20,7 @@ Then access the page with a browser (the server usually starts in `https://local
 ```bash
 $ bin/build.sh
 ```
+
 This will build the docker image.
 
 ## Maintenance Activities

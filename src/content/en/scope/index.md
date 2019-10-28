@@ -8,13 +8,13 @@ type: "section"
 
 |GitHub repo|URL|
 |---|---|
-|[dcrweb](https://github.com/decred/dcrweb)|https://decred.org|
-|[politeia](https://github.com/decred/politeia) & [politeiagui](https://github.com/decred/politeiagui)|https://proposals.decred.org|
-|[dcrdocs](https://github.com/decred/dcrdocs)|https://docs.decred.org|
-|[dcrwebapi](https://github.com/decred/dcrwebapi)|https://api.decred.org|
-|[testnetfaucet](https://github.com/decred/testnetfaucet)|https://faucet.decred.org|
-|[dcrdata](https://github.com/decred/dcrdata) *(latest stable release branch only)*|https://explorer.dcrdata.org|
-|[dcrtime](https://github.com/decred/dcrtime)|https://time.decred.org|
+|[dcrweb](https://github.com/decred/dcrweb)|<https://decred.org>|
+|[politeia](https://github.com/decred/politeia) & [politeiagui](https://github.com/decred/politeiagui)|<https://proposals.decred.org>|
+|[dcrdocs](https://github.com/decred/dcrdocs)|<https://docs.decred.org>|
+|[dcrwebapi](https://github.com/decred/dcrwebapi)|<https://api.decred.org>|
+|[testnetfaucet](https://github.com/decred/testnetfaucet)|<https://faucet.decred.org>|
+|[dcrdata](https://github.com/decred/dcrdata) *(latest stable release branch only)*|<https://explorer.dcrdata.org>|
+|[dcrtime](https://github.com/decred/dcrtime)|<https://time.decred.org>|
 |[dcrd](https://github.com/decred/dcrd)||
 |[dcrwallet](https://github.com/decred/dcrwallet)||
 |[decrediton](https://github.com/decred/decrediton)||
@@ -39,7 +39,6 @@ dcrlnd scope has some limitations, please read the linked github page before tes
   - [Paymetheus](https://github.com/decred/paymetheus)
   - [Copay](https://github.com/decred/copay)
   - [dcr-netstats](https://github.com/decred/dcr-netstats)
-
 
 **The following vulnerabilities are generally out of scope:**
 
