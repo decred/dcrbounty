@@ -20,7 +20,7 @@ Please follow a standard format when submitting vulnerabilities
 
 ##### Fix:
 
-Email your bug report to bounty{[@]}decred.org
+Email your bug report to bugbounty{[@]}decred.org
 
 Always use the below PGP key to encrypt the email, and be sure to include your own PGP key so we can securely respond. Failure to do so will reduce payout amount.
 
