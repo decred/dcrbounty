@@ -12,4 +12,6 @@ The PR linked below fixes a potential node crash in dcrd 1.4.0. The network hard
 
 [dcrd memory exhaustion via unbounded knownAddresses map](https://github.com/decred/dcrd/pull/1683)
 
+All bug reporters are given the chance to be listed in the hall of fame, and we are happy to welcome Aaron Hook who discovered the issue above. Thanks for participating Aaron!
+
 With this update, all security issues identified via the bounty program have been made public.
