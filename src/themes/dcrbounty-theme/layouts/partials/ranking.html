@@ -12,7 +12,6 @@
                             <span class="name">{{ $contributor.name | markdownify }}</span>
                         </div>
                         {{ if .github_id }} <a class="link" href="https://github.com/{{ $contributor.github_id }}"  >{{ $contributor.github_id  }}</a>{{ end }}
-                        {{ if .matrix_id }} <a class="link" href="https://matrix.to/#/@{{ $contributor.matrix_id }}">{{ $contributor.matrix_id  }}</a>{{ end }}
                         {{ if .twitter_id }}<a class="link" href="https://twitter.com/{{ $contributor.twitter_id }}">{{ $contributor.twitter_id }}</a>{{ end }}
                     </div>
                     <span class="points">{{ $contributor.points }} pts</span>
