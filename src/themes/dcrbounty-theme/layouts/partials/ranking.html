@@ -1,22 +1,21 @@
 <section>
     <a name="hall_of_fame"></a>
     <h2>Hall of Fame</h2>
-    {{ $items := .Site.Data.ranking}}
-    {{ if ne $items nil }}
+    {{ $contributors := .Site.Data.ranking}}
+    {{ if ne $contributors nil }}
         <ul class="ranking-list">
-            {{ range $items }}
-                <pre></pre>
+            {{ range $idx, $contributor := (sort $contributors "points" "desc") }}
                 <li>
                     <div class="person">
                         <div class="pos-name">
-                            <span class="position">{{ .position }}</span>
-                            <span class="name">{{ .name | markdownify }}</span>
+                            <span class="position">{{ add $idx 1 }}</span>
+                            <span class="name">{{ $contributor.name | markdownify }}</span>
                         </div>
-                        {{ if .github_id }} <a class="link" href="https://github.com/{{ .github_id }}"  >{{ .github_id  }}</a>{{ end }}
-                        {{ if .matrix_id }} <a class="link" href="https://matrix.to/#/@{{ .matrix_id }}">{{ .matrix_id  }}</a>{{ end }}
-                        {{ if .twitter_id }}<a class="link" href="https://twitter.com/{{ .twitter_id }}">{{ .twitter_id }}</a>{{ end }}
+                        {{ if .github_id }} <a class="link" href="https://github.com/{{ $contributor.github_id }}"  >{{ $contributor.github_id  }}</a>{{ end }}
+                        {{ if .matrix_id }} <a class="link" href="https://matrix.to/#/@{{ $contributor.matrix_id }}">{{ $contributor.matrix_id  }}</a>{{ end }}
+                        {{ if .twitter_id }}<a class="link" href="https://twitter.com/{{ $contributor.twitter_id }}">{{ $contributor.twitter_id }}</a>{{ end }}
                     </div>
-                    <span class="points">{{ .points }} pts</span>
+                    <span class="points">{{ $contributor.points }} pts</span>
                 </li>
             {{ end }}
             </ul>
