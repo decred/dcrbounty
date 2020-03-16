@@ -4,8 +4,7 @@
 #   position: 1
 #   points: 1000
 
-# - name: Alex Yocom-Piatt
-#   slack_alias: ay-p
-#   github_id: ay-p
-#   position: 2
-#   points: 800
+ - name: Aaron Hook
+   twitter_id: therealahook
+   position: 1
+   points: 3000
