@@ -1,10 +1,11 @@
 # - name: Abubakar Suleiman
-#   slack_alias: macsleven
+#   matrix_alias: macsleven:decred.org
 #   github_id: macsleven
+#   twitter_id: macsleven
 #   position: 1
 #   points: 1000
 
- - name: Aaron Hook
-   twitter_id: therealahook
-   position: 1
-   points: 3000
+- name: Aaron Hook
+  twitter_id: therealahook
+  position: 1
+  points: 3000
