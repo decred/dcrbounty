@@ -1,10 +1,8 @@
 # - name: Abubakar Suleiman
-#   slack_alias: macsleven
 #   github_id: macsleven
-#   position: 1
+#   twitter_id: macsleven
 #   points: 1000
 
- - name: Aaron Hook
-   twitter_id: therealahook
-   position: 1
-   points: 3000
+- name: Aaron Hook
+  twitter_id: therealahook
+  points: 3000
