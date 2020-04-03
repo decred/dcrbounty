@@ -3,6 +3,11 @@ DefaultContentLanguage = "en"
 copyright = "Decred Developers"
 theme = "dcrbounty-theme"
 
+[markup.goldmark.renderer]
+# This enables embedding raw HTML in markdown files.
+# Needed for attaching inline css style to images.
+  unsafe= true
+
 [params.bannerLink]
   URL = "#Submit Vulnerability"
 
