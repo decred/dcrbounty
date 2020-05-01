@@ -40,7 +40,7 @@ We ask that you respect the following rules and guidelines:
 
 ## Payout
 
-We will be using the [OWASP Risk Rating Methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology) for assessing vulnerabilities and determining payout amount.
+We will be using the [OWASP Risk Rating Methodology](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology) for assessing vulnerabilities and determining payout amount.
 
 <img src="img/owasp-rating.png" style="width: 80%; max-width: 448px;" alt="owasp risk rating table"/>
 
