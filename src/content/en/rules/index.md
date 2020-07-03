@@ -56,6 +56,8 @@ The following are also factors in the payout:
 
 All payouts will be in Decred only. Payouts are done in a single batch once a month. You will be required to create and operate a Decred wallet. The DCR to USD ratio is based on the the average USD rate of the previous month. Payout amount is decided by a core "bug bounty" group.
 
+The maximum approved budget for the payouts is capped at 100,000 USD. Please be aware of this when you are submitting multiple critical vulnerabilities. If the limit is reached then a new proposal will have to be submitted and get stakeholder approval before you get paid fully. 
+
 The payout amount will only be decided after the patch for the vulnerability has been merged. The submitter will then be contacted and given instructions on how to claim the bounty. The bounty hunter will be given one month to claim it after which the bounty will be considered forfeit.
 
 ## Indicative payout amounts
