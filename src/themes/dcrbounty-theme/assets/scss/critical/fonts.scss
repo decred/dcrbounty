@@ -48,13 +48,11 @@
 }
 
 html, body {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: "dcrbounty", "Verdana", "sans-serif" !important;
+    font-family: "dcrbounty", "Verdana", sans-serif;
 }
 
 pre, code {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: "dcrbounty-code", "Courier New", "monospace" !important;
+    font-family: "dcrbounty-code", "Courier New", monospace;
 }
 
 section {
