@@ -18,6 +18,8 @@ We ask that you respect the following rules and guidelines:
 
 - Any type of public disclosure of the vulnerability without prior approval from the bug bounty program will make it ineligible for payout.
 
+- Please inform us if you have your own timeline for full disclosure (90 days minimum). Unless specified we will release the information at our own pace.
+
 - Do not attempt to directly contact the developers in order to obtain the status of a patch/fix.
 
 - No social engineering.
@@ -54,7 +56,9 @@ The following are also factors in the payout:
 
 * If you provide a code fix for the vulnerability then you will also be eligible for a "code fix" bonus on the condition that our existing developers accept it as valid.
 
-All payouts will be in Decred only. Payouts are done in a single batch once a month. You will be required to create and operate a Decred wallet. The DCR to USD ratio is based on the the average USD rate of the previous month. Payout amount is decided by a core "bug bounty" group.
+All payouts will be in Decred only. Payouts are done in a single batch once a month. You will be required to create and operate a Decred wallet and CMS account. The DCR to USD ratio is based on the average USD rate of the previous month. The payout amount is decided by a core "bug bounty" group. Once decided unless the vulnerability impact changes there will be no changes in the payout amount.
+
+For certain vulnerabilities, we might choose to only release 60% of the payout amount first and hold the 40% until a patch has been released and distributed.
 
 The maximum approved budget for the payouts is capped at 100,000 USD. Please be aware of this when you are submitting multiple critical vulnerabilities. If the limit is reached then a new proposal will have to be submitted and get stakeholder approval before you get paid fully. 
 
