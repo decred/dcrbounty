@@ -15,6 +15,9 @@ type: "section"
 |[testnetfaucet](https://github.com/decred/testnetfaucet)|<https://faucet.decred.org>|
 |[dcrdata](https://github.com/decred/dcrdata) *(latest stable release branch only)*|<https://explorer.dcrdata.org>|
 |[dcrtime](https://github.com/decred/dcrtime)|<https://time.decred.org>|
+|[dcrios *](https://github.com/planetdecred/dcrios) | <https://apps.apple.com/us/app/decred-wallet/id1462247643>|
+|[dcrandroid *](https://github.com/planetdecred/dcrandroid)| <https://play.google.com/store/apps/details?id=com.decred.dcrandroid.mainnet>|
+|[cspp](https://github.com/decred/cspp/)||
 |[dcrd](https://github.com/decred/dcrd)||
 |[dcrwallet](https://github.com/decred/dcrwallet)||
 |[decrediton](https://github.com/decred/decrediton)||
@@ -25,6 +28,8 @@ type: "section"
 **Special Notes:**
 
 dcrlnd scope has some limitations, please read the linked github page before testing.
+
+dcrios and dcrandroid we are only interested in vulnerabilities with a valid POC and exploit. Please do not submit automated scanner results. 
 
 **The following are not in scope:**
 
@@ -42,8 +47,8 @@ dcrlnd scope has some limitations, please read the linked github page before tes
 
 **The following vulnerabilities are generally out of scope:**
 
-- The primary objective of this bounty program is to find vulnerabilities in software developed by Decred. Hence infrastructure related vulnerabilities are out of scope unless they lead to critical exploit (RCE or similar).
 - DMARC, DKIM and SPF related issues.
+- The primary objective of this bounty program is to find vulnerabilities in software developed by Decred. Hence infrastructure related vulnerabilities are out of scope unless they lead to critical exploit (RCE or similar).
 - Missing security best practices that do not directly lead to a vulnerability.
 - Insecure settings in non-sensitive cookies.
 - Vulnerabilities (including XSS) that affect only legacy browser/plugins.
