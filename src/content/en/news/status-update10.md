@@ -8,4 +8,4 @@ type: "page"
 
 We have processed a total of 145 submissions so far, with 14 of them being eligible for a payout.
 
-We want to thank Javed Khan (Core Developer at Handshake Development Inc) and Braydon Fuller (Bitcoin Protocol Engineer at PurseIO, Inc) who reported the [INVDoS](https://invdos.net/) vulnerability to the program. HOF has also been updated (primary submitter has been added)
+We want to thank Javed Khan (Core Developer at Handshake Development Inc) and Braydon Fuller (Bitcoin Protocol Engineer at PurseIO, Inc) who reported the [INVDoS](https://invdos.net/) vulnerability to the program. Hall of fame has also been updated (primary submitter has been added).
