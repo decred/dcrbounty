@@ -8,6 +8,11 @@ theme = "dcrbounty-theme"
 # Needed for attaching inline css style to images.
   unsafe= true
 
+[params]
+  # description and image used to populate og tags.
+  description = "Guidelines, updates, and hall-of-fame for the Decred bug bounty program."
+  images = ["/img/og-logo.png"]
+
 [params.bannerLink]
   URL = "#Submit Vulnerability"
 
