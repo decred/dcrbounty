@@ -1,3 +1,4 @@
+baseurl = "https://bounty.decred.org/"
 title = "Decred Bug Bounty"
 DefaultContentLanguage = "en"
 copyright = "Decred Developers"
