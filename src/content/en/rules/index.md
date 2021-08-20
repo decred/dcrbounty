@@ -66,12 +66,12 @@ The payout amount will only be decided after the patch for the vulnerability has
 
 ## Indicative payout amounts
 
-**Note:** up to 300 USD
+**Note:** up to 500 USD
 
-**Low:** up to 1,000 USD
+**Low:** up to 1,500 USD
 
-**Medium:** up to 3,000 USD
+**Medium:** up to 5,000 USD
 
-**High:** up to 10,000 USD
+**High:** up to 15,000 USD
 
-**Critical:** up to 25,000 USD
+**Critical:** up to 30,000 USD
