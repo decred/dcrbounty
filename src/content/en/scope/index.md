@@ -45,6 +45,7 @@ atomicswap only the Bitcoin, Decred and Litecoin versions of the tools are in sc
   - [Paymetheus](https://github.com/decred/paymetheus)
   - [Copay](https://github.com/decred/copay)
   - [dcr-netstats](https://github.com/decred/dcr-netstats)
+  - [dcrstakepool](https://github.com/decred/dcrstakepool)
 
 **The following vulnerabilities are generally out of scope:**
 
