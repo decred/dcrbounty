@@ -21,8 +21,8 @@ type: "section"
 |[dcrd](https://github.com/decred/dcrd)||
 |[dcrwallet](https://github.com/decred/dcrwallet)||
 |[decrediton](https://github.com/decred/decrediton)||
-|[atomicswap](https://github.com/decred/atomicswap) ||
-|[dcrstakepool](https://github.com/decred/dcrstakepool)||
+|[atomicswap *](https://github.com/decred/atomicswap) ||
+|[vspd](https://github.com/decred/vspd)||
 |[dcrlnd *](https://github.com/decred/dcrlnd#security)||
 
 **Special Notes:**
@@ -31,12 +31,13 @@ dcrlnd scope has some limitations, please read the linked github page before tes
 
 dcrios and dcrandroid we are only interested in vulnerabilities with a valid POC and exploit. Please do not submit automated scanner results. 
 
+atomicswap only the Bitcoin, Decred and Litecoin versions of the tools are in scope
+
 **The following are not in scope:**
 
 - Chat and communication platforms including Slack, RocketChat, Matrix, Discord and the Decred forum
 - Email servers
 - Testing or staging sites
-- Mobile wallets ([dcrios](https://github.com/decred/dcrios) and [dcrandroid](https://github.com/decred/dcrandroid))
 - Projects still under development
 - Deprecated projects including:
   - [insight](https://github.com/decred/insight) and [insight-api](https://github.com/decred/insight-api)
