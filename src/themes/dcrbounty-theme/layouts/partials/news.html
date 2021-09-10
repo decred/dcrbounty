@@ -4,11 +4,11 @@
     {{ $items := (where .ctx.Site.RegularPages "Section" "news") }}
     <ul class="news-list">
     {{ range first .itemsLimit $items }}
-        <li>
+        <li class="news-list-item">
             <span class="checkpoint"></span>
             <span class="date">{{ dateFormat  "January 2, 2006" .Params.date }}</span>
             <a href="{{.Permalink}}" class="title">{{ .Params.title }}</a>
-            <div>{{ .Content }}</div>
+            <div class="news-list-content">{{ .Content }}</div>
         </li>
     {{ end }}
     </ul>

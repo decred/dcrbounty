@@ -12,6 +12,6 @@ We have processed a total of 67 submissions so far, with 9 of them being
 eligible for a payout. The following vulnerabilities have been fixed and hence
 can be listed.
 
-[Stakepool user session not expiring on password change](https://github.com/decred/dcrstakepool/issues/328)  
-[Stakepool user define link in error page](https://github.com/decred/dcrstakepool/issues/378)  
-[Stakepool user session not expiring on logout](https://github.com/decred/dcrstakepool/issues/379)  
+- [Stakepool user session not expiring on password change](https://github.com/decred/dcrstakepool/issues/328)  
+- [Stakepool user define link in error page](https://github.com/decred/dcrstakepool/issues/378)  
+- [Stakepool user session not expiring on logout](https://github.com/decred/dcrstakepool/issues/379)  
