@@ -1,7 +1,7 @@
 # builder image
 FROM alpine:latest
 
-ENV HUGO_VERSION 0.83.1
+ENV HUGO_VERSION 0.88.1
 
 LABEL description="gohugo build"
 LABEL version="1.0"
@@ -18,7 +18,11 @@ WORKDIR /root
 
 COPY src/ /root/
 
-RUN hugo
+# Remove old hugo output before building
+RUN rm -rf public resources
+
+# Build site
+RUN hugo --buildFuture
 
 # Serve image (stable nginx version)
 FROM nginx:1.20
