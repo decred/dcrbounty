@@ -10,9 +10,8 @@ We have processed a total of 195 submissions so far, with 18 of them being eligi
 
 Details of two vulnerabilities can now be made public.
 
-[Dcrdata Cross site Scripting](https://github.com/decred/dcrdata/pull/1836)
-
-[Politeia password reset email had no rate limits](https://github.com/decred/politeia/issues/1398)
+- [Dcrdata Cross site Scripting](https://github.com/decred/dcrdata/pull/1836)
+- [Politeia password reset email had no rate limits](https://github.com/decred/politeia/issues/1398)
 
 Congrats to @kazan71p and @sanket_722 who have been listed in the Hall of Fame.
 

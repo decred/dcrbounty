@@ -10,11 +10,10 @@ type: "section"
 |---|---|
 |[dcrweb](https://github.com/decred/dcrweb)|<https://decred.org>|
 |[politeia](https://github.com/decred/politeia) & [politeiagui](https://github.com/decred/politeiagui)|<https://proposals.decred.org>|
-|[dcrdocs](https://github.com/decred/dcrdocs)|<https://docs.decred.org>|
 |[dcrwebapi](https://github.com/decred/dcrwebapi)|<https://api.decred.org>|
 |[testnetfaucet](https://github.com/decred/testnetfaucet)|<https://faucet.decred.org>|
 |[dcrdata](https://github.com/decred/dcrdata) *(latest stable release branch only)*|<https://explorer.dcrdata.org>|
-|[dcrtime](https://github.com/decred/dcrtime)|<https://time.decred.org>|
+|[dcrtime](https://github.com/decred/dcrtime)||
 |[dcrios *](https://github.com/planetdecred/dcrios) | <https://apps.apple.com/us/app/decred-wallet/id1462247643>|
 |[dcrandroid *](https://github.com/planetdecred/dcrandroid)| <https://play.google.com/store/apps/details?id=com.decred.dcrandroid.mainnet>|
 |[cspp](https://github.com/decred/cspp/)||

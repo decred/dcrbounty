@@ -2,11 +2,23 @@
     list-style-type: none;
     border-left: 1px dashed black;
     padding-left: 12px;
-    li {
+
+    .news-list-item {
         margin-top: 0;
         position: relative;
         display: flex;
         flex-direction: column;
+        padding-top: 0;
+        padding-bottom: 20px;
+
+        
+        .news-list-content {
+            p {
+                line-height: normal;
+                margin-top: 8px;
+                margin-bottom: 8px;
+            }
+        }
 
         .date {
             font-size: 12px;
