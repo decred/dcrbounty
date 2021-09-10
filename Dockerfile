@@ -18,7 +18,11 @@ WORKDIR /root
 
 COPY src/ /root/
 
-RUN hugo
+# Remove old hugo output before building
+RUN rm -rf public resources
+
+# Build site
+RUN hugo --buildFuture
 
 # Serve image (stable nginx version)
 FROM nginx:1.20
