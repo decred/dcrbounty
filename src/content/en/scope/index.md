@@ -14,8 +14,6 @@ type: "section"
 |[testnetfaucet](https://github.com/decred/testnetfaucet)|<https://faucet.decred.org>|
 |[dcrdata](https://github.com/decred/dcrdata) *(latest stable release branch only)*|<https://explorer.dcrdata.org>|
 |[dcrtime](https://github.com/decred/dcrtime)||
-|[dcrios *](https://github.com/planetdecred/dcrios) | <https://apps.apple.com/us/app/decred-wallet/id1462247643>|
-|[dcrandroid *](https://github.com/planetdecred/dcrandroid)| <https://play.google.com/store/apps/details?id=com.decred.dcrandroid.mainnet>|
 |[cspp](https://github.com/decred/cspp/)||
 |[dcrd](https://github.com/decred/dcrd)||
 |[dcrwallet](https://github.com/decred/dcrwallet)||
@@ -28,9 +26,7 @@ type: "section"
 
 dcrlnd scope has some limitations, please read the linked github page before testing.
 
-dcrios and dcrandroid we are only interested in vulnerabilities with a valid POC and exploit. Please do not submit automated scanner results. 
-
-atomicswap only the Bitcoin, Decred and Litecoin versions of the tools are in scope
+atomicswap only the Bitcoin, Decred and Litecoin versions of the tools are in scope.
 
 **The following are not in scope:**
 
@@ -38,6 +34,9 @@ atomicswap only the Bitcoin, Decred and Litecoin versions of the tools are in sc
 - Email servers
 - Testing or staging sites
 - Projects still under development
+- Unsupported projects including:
+  - [dcrios](https://github.com/planetdecred/dcrios)
+  - [dcrandroid](https://github.com/planetdecred/dcrandroid)
 - Deprecated projects including:
   - [insight](https://github.com/decred/insight) and [insight-api](https://github.com/decred/insight-api)
   - [bitcore-wallet-service](https://github.com/decred/bitcore-wallet-service)
