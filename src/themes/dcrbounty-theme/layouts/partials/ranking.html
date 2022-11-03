@@ -1,27 +1,35 @@
 <section>
     <a name="hall_of_fame"></a>
+    
     <h2>Hall of Fame</h2>
-    {{ $contributors := .Site.Data.ranking}}
-    {{ if ne $contributors nil }}
-        <ul class="ranking-list">
-            {{ range $idx, $contributor := (sort $contributors "points" "desc") }}
-                <li>
-                    <div class="person">
-                        <div class="pos-name">
-                            <span class="position">{{ add $idx 1 }}</span>
-                            <span class="name">{{ $contributor.name | markdownify }}</span>
-                        </div>
-                        {{ if .github_id }} <a class="link" href="https://github.com/{{ $contributor.github_id }}"  >{{ $contributor.github_id  }}</a>{{ end }}
-                        {{ if .twitter_id }}<a class="link" href="https://twitter.com/{{ $contributor.twitter_id }}">{{ $contributor.twitter_id }}</a>{{ end }}
-                    </div>
-                    <span class="points">{{ $contributor.points }} pts</span>
-                </li>
+
+    <!-- To make the contributor list sortable, create a new slice which includes total reward payments. -->
+    {{ $sortable := slice }}
+    {{ range $idx, $contributor := .Site.Data.ranking }}
+    
+        {{ $totalReward := 0}}
+            {{ range $idx, $reward := $contributor.reports }}
+                {{ $totalReward = add $totalReward $reward }}
             {{ end }}
-            </ul>
-    {{ else }}
-         <div>
-            <a href="{{ .Site.Params.bannerLink.URL }}" class="no-ranking-items-message">Be the first to report a bug and get placed here</a>
-         </div>
+        {{ $contributor = merge $contributor (dict "totalReward" $totalReward) }}
+
+        {{ $sortable = append $contributor $sortable }}
     {{ end }}
+    
+    <ul class="ranking-list">
+        {{ range $idx, $contributor := (sort $sortable "totalReward" "desc") }}
+            <li>
+                <div class="person">
+                    <div class="pos-name">
+                        <span class="position">{{ add $idx 1 }}</span>
+                        <span class="name">{{ $contributor.name }}</span>
+                    </div>
+                    {{ if .github_id }} <a class="link" href="https://github.com/{{ $contributor.github_id }}"  >{{ $contributor.github_id  }}</a>{{ end }}
+                    {{ if .twitter_id }}<a class="link" href="https://twitter.com/{{ $contributor.twitter_id }}">{{ $contributor.twitter_id }}</a>{{ end }}
+                </div>
+                <span class="points">{{$contributor.totalReward}} pts</span>
+            </li>
+        {{ end }}
+    </ul>
     
 </section>

@@ -1,45 +1,91 @@
-# - name: Abubakar Suleiman
-#   github_id: macsleven
-#   twitter_id: macsleven
-#   points: 1000
+# Hall of Fame
+#
+# Points are awarded according to *actual* reward payment sent, ie. the penalty
+# for missing PGP is applied to points just as it is to payments.
+#
+# Each listed participant can have either a GitHub or Twitter link, not both.
+#
+# "reports" are formatted as "report number: reward amount".
+
+- name: Anonymous
+  reports:
+    29: 72
+    30: 150
+    37: 100
+    47: 135
+    51: 150
+    52: 50
+    80: 90
+    91: 135
+
+- name: Ramesh Jeyaraman
+  reports:
+    11: 72
 
 - name: Aaron Hook
   twitter_id: therealahook
-  points: 3000
+  reports:
+    32: 3000
 
 - name: Javed Khan
   twitter_id: tuxcanfly
-  points: 2500
+  reports:
+    132: 2500
 
 - name: Alex Bastrakov
   twitter_id: kazan71p
-  points: 630
+  reports:
+    191: 630
 
 - name: Sheikh Rishad
   twitter_id: sheikhrishad0
-  points: 450
+  reports:
+    196: 450
 
 - name: Shankar R
   github_id: trapp3rhat
-  points: 450
+  reports:
+    215: 450
+    216: 0 # Reports 215 and 216 were combined into one payment.
 
 - name: Al1ex
   github_id: Al1ex
-  points: 300
+  points: 
+  reports:
+    193: 270
 
 - name: Caio Lüders
   twitter_id: caioluders
-  points: 250
+  points: 
+  reports:
+    109: 250
 
 - name: Abiral Shrestha
   twitter_id: proabiral
-  points: 90
+  points: 
+  reports:
+    153: 90
 
 - name: Sanket Salavi
   twitter_id: sanket_722
-  points: 90
+  points: 
+  reports:
+    164: 270
 
 - name:  Aditi Singh
   twitter_id: aditi_singghh
-  points: 90
-  
+  points: 
+  reports:
+    224: 90
+
+- name: Burhanuddin Sabunwala
+  twitter_id: B19R8A14
+  points: 
+  reports:
+    242: 100
+
+- name: David McPavel
+  github_id: itsunixiknowthis
+  points: 
+  reports:
+    116: 3000
