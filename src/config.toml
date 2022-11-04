@@ -1,6 +1,5 @@
 baseurl = "https://bounty.decred.org/"
 title = "Decred Bug Bounty"
-DefaultContentLanguage = "en"
 copyright = "Decred Developers"
 
 [markup.goldmark.renderer]
@@ -22,17 +21,6 @@ copyright = "Decred Developers"
 [permalinks]
   news = "/:year/:month/:title/"
 
-[languages]
-  [languages.en]
-    languageName = "english"
-    contentDir = "content/en"
-    weight = 10
-
-  [languages.pt]
-    languageName = "português"
-    contentDir = "content/pt"
-    weight = 30
-
 # Nav links in the top bar
 [[menu.main]]
 name = "Hall of Fame"
@@ -53,7 +41,6 @@ weight = 1
 name = "Scope"
 url = "#Scope"
 weight = 1
-
 
 [[menu.main]]
 name = "Submit Vulnerability"
