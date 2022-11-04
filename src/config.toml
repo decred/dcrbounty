@@ -2,7 +2,6 @@ baseurl = "https://bounty.decred.org/"
 title = "Decred Bug Bounty"
 DefaultContentLanguage = "en"
 copyright = "Decred Developers"
-theme = "dcrbounty-theme"
 
 [markup.goldmark.renderer]
 # This enables embedding raw HTML in markdown files.
