@@ -1,6 +1,8 @@
 # builder image
 FROM alpine:latest
 
+ARG HUGO_BASEURL
+ENV HUGO_BASEURL ${HUGO_BASEURL:-https://bounty.decred.org}
 ENV HUGO_VERSION 0.94.2
 
 LABEL description="gohugo build"
@@ -16,13 +18,9 @@ RUN tar xz -C /usr/local/bin -f hugo_extended_"$HUGO_VERSION"_Linux-64bit.tar.gz
 
 WORKDIR /root
 
-COPY src/ /root/
+COPY ./ /root/
 
-# Remove old hugo output before building
-RUN rm -rf public resources
-
-# Build site
-RUN hugo --buildFuture
+RUN bin/build-hugo.sh
 
 # Serve image (stable nginx version)
 FROM nginx:1.20
@@ -33,4 +31,4 @@ LABEL maintainer="jholdstock@decred.org"
 
 COPY conf/nginx.conf /etc/nginx/conf.d/default.conf
 
-COPY --from=0 /root/public/ /usr/share/nginx/html
+COPY --from=0 /root/src/public/ /usr/share/nginx/html
