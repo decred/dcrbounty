@@ -3,7 +3,7 @@ FROM alpine:latest
 
 ARG HUGO_BASEURL
 ENV HUGO_BASEURL ${HUGO_BASEURL:-https://bounty.decred.org}
-ENV HUGO_VERSION 0.94.2
+ENV HUGO_VERSION 0.104.3
 
 LABEL description="gohugo build"
 LABEL version="1.0"
@@ -23,7 +23,7 @@ COPY ./ /root/
 RUN bin/build-hugo.sh
 
 # Serve image (stable nginx version)
-FROM nginx:1.20
+FROM nginx:1.22
 
 LABEL description="dcrbounty server"
 LABEL version="1.0"
