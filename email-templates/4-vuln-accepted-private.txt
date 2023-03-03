@@ -1,0 +1,15 @@
+We have concluded the investigation and determined that the vulnerability described is eligible for the bug bounty program.
+
+Due to the nature of this issue, we do not believe that the details should be made public right now. 
+
+{If private fix:We will produce a fix in private and coordinate with any other affected parties to remedy this problem before we notify the general public.}
+
+{ElIf Public fix but vulnerabilty details are not shared: We will make a public patch and distribute it before we disclose the presence/details of the vulnerability with the general public.}
+
+Please note that releasing details of this issue without the written permission from the Decred team will disqualify you from receiving payment from the bug bounty program.
+
+We will contact you again for payment details once a fix has been produced. 
+
+{Optional if no PGP: Please note that the payout amount will be reduced because this report was not PGP encrypted as described by https://bounty.decred.org. We suggest using PGP encryption in future to receive the full payout amount.}
+
+The Decred Project.

@@ -1,0 +1,7 @@
+Thank you for your submission to the Decred bug bounty program.
+
+This report does not contain proper reproduction details or technical information on the vulnerability. We are unable to process it. Please provide us with complete POC and reproduction details.
+
+{Optional if no PGP: We suggest that future bug reports are PGP encrypted as described by https://bounty.decred.org. Failure to do so will reduce payout amount.}
+
+The Decred Project.

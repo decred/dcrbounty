@@ -1,0 +1,13 @@
+We have concluded the investigation and determined that this issue is not eligible for the bug bounty program.
+
+Reason:
+	<Issue exists in an out-of-scope repository/domain>
+	<Issue exists in an old release/branch>
+	<Issue cannot be reproduced>
+	<Issue can be reproduced but it is low risk>
+	<Issue has already been reported>
+	<Fix is already available>
+	<You have acted as a Decred developer in the past 6 months>
+	<Issue has already been disclosed publicly>
+
+The Decred Project.
