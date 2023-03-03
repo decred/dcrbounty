@@ -1,0 +1,22 @@
+Subject: Bug Bounty Claim instructions for [email] - [(PREVMONTH)MM]/[(PREVMONTHYEAR)YYYY]
+
+We are happy to inform you are now eligible for payment.
+
+{LOOP AS NEEDED}
+    You are eligible for a payment of <XXX> USD in DCR for issue {Link to issue}.
+{END LOOP}
+
+{if non pgp: Please note payment was reduced by X USD due to your email not being encrypted with PGP]
+
+ If you would like to be listed on our hall of fame, please provide us with the name you would like to appear and you may choose to provide one link to your social media, GitHub or blog.  
+
+Please send us a Decred address to send the payout. 
+
+Note:Please be very careful and double check that you have access to an address before sending. See https://docs.decred.org/wallets/decrediton/using-decrediton/#validate-addresses
+
+If you need support creating a Decred wallet or address, you can visit our documentation website or you can can ask for help on our support channels.
+
+https://docs.decred.org/wallets/decrediton/decrediton-setup/
+https://decred.org/community/
+
+The Decred Project.

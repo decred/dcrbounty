@@ -1,0 +1,7 @@
+Payment has been sent to the address submitted.
+
+You can check your balance using the search function on the block explorer here: https://explorer.dcrdata.org
+
+Thanks again for your submission to the Decred bug bounty program.
+
+The Decred Project.
