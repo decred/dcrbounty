@@ -9,7 +9,6 @@ echo "  Building dcrbounty docker image  "
 echo "==================================="
 echo ""
 
-
 IMAGE_NAME=decred/dcrbounty
 
 if [ "$1" != "" ]; then

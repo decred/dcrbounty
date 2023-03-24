@@ -1,4 +1,4 @@
-# builder image
+# Build image
 FROM alpine:latest
 
 ARG HUGO_BASEURL
@@ -23,7 +23,7 @@ COPY ./ /root/
 RUN bin/build-hugo.sh
 
 # Serve image (stable nginx version)
-FROM nginx:1.22
+FROM nginx:1.22-alpine
 
 LABEL description="dcrbounty server"
 LABEL version="1.0"

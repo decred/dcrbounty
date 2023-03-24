@@ -1,2 +1,12 @@
-.git/
-.github/
+.gitignore
+.git
+.github
+LICENSE
+README.md
+
+bin/build.sh
+bin/watch.sh
+src/public
+src/resources
+src/.hugo_build.lock
+email-templates

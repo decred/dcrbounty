@@ -1,4 +1,4 @@
 dist/
 src/resources
 src/public
-.hugo_build.lock
+src/.hugo_build.lock
