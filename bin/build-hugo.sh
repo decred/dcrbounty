@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 # Remove old hugo output before building
 rm -rf src/public src/resources
 
