@@ -50,42 +50,40 @@
 
 - name: Al1ex
   github_id: Al1ex
-  points: 
   reports:
     193: 270
 
 - name: Caio Lüders
   twitter_id: caioluders
-  points: 
   reports:
     109: 250
 
 - name: Abiral Shrestha
   twitter_id: proabiral
-  points: 
   reports:
     153: 90
 
 - name: Sanket Salavi
   twitter_id: sanket_722
-  points: 
   reports:
     164: 270
 
 - name:  Aditi Singh
   twitter_id: aditi_singghh
-  points: 
   reports:
     224: 90
 
 - name: Burhanuddin Sabunwala
   twitter_id: B19R8A14
-  points: 
   reports:
     242: 100
 
 - name: David McPavel
   github_id: itsunixiknowthis
-  points: 
   reports:
     116: 3000
+
+- name: Tanvir0x1
+  twitter_id: Tanvir0x1
+  reports:
+    255: 180
