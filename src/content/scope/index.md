@@ -52,7 +52,9 @@ atomicswap only the Bitcoin, Decred and Litecoin versions of the tools are in sc
 - Missing security best practices that do not directly lead to a vulnerability.
 - Insecure settings in non-sensitive cookies.
 - Vulnerabilities (including XSS) that affect only legacy browser/plugins.
-- Non-technical attacks such as social engineering, phishing, or physical attacks against our members, users, or infrastructure.
+- Non-technical attacks such as social engineering, phishing, or physical
+  attacks against our members, users, or infrastructure. This includes attacks
+  such as [Self-XSS](https://en.wikipedia.org/wiki/Self-XSS).
 - Missing HTTP headers, unless a vulnerability can be demonstrated.
 - Bugs requiring exceedingly unlikely user interaction.
 - Outdated software/library versions.
