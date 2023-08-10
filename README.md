@@ -25,10 +25,6 @@ This will build the docker image.
 
 ## Maintenance Activities
 
-### Updating the banner content
-
-Send a PR modifying the appropriate values inside `/src/i18n/en.yaml`.
-
 ### Updating Hall of Fame
 
 Send a PR modifying `/src/data/ranking.yml` as appropriate.
