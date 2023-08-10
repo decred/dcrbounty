@@ -18,9 +18,6 @@
     {{ $style := resources.Get "scss/critical/main.scss" | resources.ToCSS $options | resources.Fingerprint  }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
 
-    {{ $criticalJs := resources.Get "js/critical.js" | resources.Minify | resources.Fingerprint  }}
-    <script src="{{ $criticalJs.Permalink }}"></script>
-
     {{ $favicon := resources.Get "img/favicon.ico" }}
     <link rel="shortcut icon" type="image/png" href="{{ $favicon.Permalink }}" />
 
