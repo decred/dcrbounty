@@ -1,6 +1,6 @@
 {{ partial "head" . }}
 {{ partial "banner" . }}
-{{ partial "ranking" . }}
-{{ partial "news" (dict "ctx" . "items" .Site.Data.news  "itemsLimit" 2 ) }}
+{{ partial "hall-of-fame" (dict "ctx" . "itemsLimit" 5 ) }}
+{{ partial "news"         (dict "ctx" . "itemsLimit" 2 ) }}
 {{ partial "content" .}}
 {{ partial "footer" . }}

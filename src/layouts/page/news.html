@@ -1,5 +1,3 @@
 {{ partial "head" . }}
-<br>
-{{ $items := .Site.Data.news }}
-{{ partial "news" (dict "ctx" . "items" .Site.Data.news  "itemsLimit" 100) }}
+{{ partial "news" (dict "ctx" . "itemsLimit" 1000) }}
 {{ partial "footer" . }}

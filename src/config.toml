@@ -18,13 +18,16 @@ copyright = "Decred Developers"
 [params.news]
   URL = "news/"
 
+[params.hall_of_fame]
+  URL = "hall-of-fame/"
+
 [permalinks]
   news = "/:year/:month/:title/"
 
 # Nav links in the top bar
 [[menu.main]]
 name = "Hall of Fame"
-url = "#hall_of_fame"
+url = "#hall-of-fame"
 weight = 1
 
 [[menu.main]]
