@@ -27,7 +27,7 @@ This will build the docker image.
 
 ### Updating Hall of Fame
 
-Send a PR modifying `/src/data/ranking.yml` as appropriate.
+Send a PR modifying `/src/data/hall_of_fame.yml` as appropriate.
 
 ### Updating News & Updates
 

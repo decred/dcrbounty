@@ -1,11 +1,11 @@
 <section>
-    <a name="hall_of_fame"></a>
+    <a name="hall-of-fame"></a>
     
     <h2>Hall of Fame</h2>
 
     <!-- To make the contributor list sortable, create a new slice which includes total reward payments. -->
     {{ $sortable := slice }}
-    {{ range $idx, $contributor := .Site.Data.ranking }}
+    {{ range $idx, $contributor := .ctx.Site.Data.hall_of_fame }}
     
         {{ $totalReward := 0}}
             {{ range $idx, $reward := $contributor.reports }}
@@ -17,7 +17,7 @@
     {{ end }}
     
     <ul class="ranking-list">
-        {{ range $idx, $contributor := (sort $sortable "totalReward" "desc") }}
+        {{ range $idx, $contributor := first .itemsLimit (sort $sortable "totalReward" "desc") }}
             <li>
                 <div class="person">
                     <div class="pos-name">
@@ -31,5 +31,10 @@
             </li>
         {{ end }}
     </ul>
+    {{if ge (len $sortable) .itemsLimit }}
+        <div>
+            <a class="see-more" href="{{ .ctx.Site.Params.hall_of_fame.URL | absURL }}">See more...</a>
+        </div>
+    {{ end }}
     
 </section>
