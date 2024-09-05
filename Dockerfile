@@ -1,9 +1,9 @@
 # Build image
-FROM alpine:3.18
+FROM alpine:latest
 
 ARG HUGO_BASEURL
-ENV HUGO_BASEURL ${HUGO_BASEURL:-https://bounty.decred.org}
-ENV HUGO_VERSION 0.117.0
+ENV HUGO_BASEURL ${HUGO_BASEURL:-https://bounty.decred.org/}
+ENV HUGO_VERSION 0.134.0
 
 LABEL description="gohugo build"
 LABEL version="1.0"
