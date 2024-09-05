@@ -23,7 +23,7 @@ COPY ./ /root/
 RUN bin/build-hugo.sh
 
 # Serve image (stable nginx version)
-FROM nginx:1.24-alpine
+FROM nginx:1.26-alpine
 
 LABEL description="dcrbounty server"
 LABEL version="1.0"
