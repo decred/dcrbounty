@@ -24,8 +24,8 @@
                         <span class="position">{{ add $idx 1 }}</span>
                         <span class="name">{{ $contributor.name }}</span>
                     </div>
-                    {{ if .github_id }} <a class="link" href="https://github.com/{{ $contributor.github_id }}"  >{{ $contributor.github_id  }}</a>{{ end }}
-                    {{ if .twitter_id }}<a class="link" href="https://twitter.com/{{ $contributor.twitter_id }}">{{ $contributor.twitter_id }}</a>{{ end }}
+                    {{ if .github_id }} <a class="link" href="https://github.com/{{ $contributor.github_id }}">{{ $contributor.github_id  }}</a>{{ end }}
+                    {{ if .twitter_id }}<a class="link" href="https://x.com/{{ $contributor.twitter_id }}"    >{{ $contributor.twitter_id }}</a>{{ end }}
                 </div>
                 <span class="points">{{$contributor.totalReward}} pts</span>
             </li>
