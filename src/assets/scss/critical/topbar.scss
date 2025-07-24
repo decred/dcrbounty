@@ -32,7 +32,6 @@
 */
 
 .top-bar {
-    width: 90%;
     z-index: 2;
     top: 0;
     width: 80%;
@@ -51,9 +50,8 @@
         right: -100vw;
         top: 0;
         height: 100vh;
-        overflow: none;
         transition: right 0.3s ease,
-                    box-shadow 0.3s ease;
+        box-shadow 0.3s ease;
         z-index: 999;
         color: white;
 
@@ -135,23 +133,9 @@
 @media (min-width: 768px) {
     .top-bar {
         position: fixed;
-        width: 90%;
-        z-index: 2;
-        top: 0;
-        width: 80%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 5px 10%;
-        background: $dcr-dark-blue;
-        min-height: 52px;
         
         .backdrop {
             display: none !important;
-        }
-
-        .logo {
-            height: 24px;
         }
 
         .menu-toggle, .menu-close {
