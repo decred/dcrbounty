@@ -13,7 +13,7 @@ copyright = "Decred Developers"
   images = ["/img/og-logo.png"]
 
 [params.bannerLink]
-  URL = "#Submit Vulnerability"
+  URL = "#submit-vulnerability"
 
 [params.news]
   URL = "news/"
@@ -37,15 +37,15 @@ weight = 1
 
 [[menu.main]]
 name = "Rules"
-url = "#Rules"
+url = "#rules"
 weight = 1
 
 [[menu.main]]
 name = "Scope"
-url = "#Scope"
+url = "#scope"
 weight = 1
 
 [[menu.main]]
 name = "Submit Vulnerability"
-url = "#Submit Vulnerability"
+url = "#submit-vulnerability"
 weight = 1
