@@ -4,29 +4,23 @@ draft: false
 type: "section"
 ---
 
-**Projects in scope :**
+**Projects in scope:**
 
-|GitHub repo|URL|
-|---|---|
-|[dcrweb](https://github.com/decred/dcrweb)|<https://decred.org>|
-|[politeia](https://github.com/decred/politeia) & [politeiagui](https://github.com/decred/politeiagui)|<https://proposals.decred.org>|
-|[dcrwebapi](https://github.com/decred/dcrwebapi)|<https://api.decred.org>|
-|[testnetfaucet](https://github.com/decred/testnetfaucet)|<https://faucet.decred.org>|
-|[dcrdata](https://github.com/decred/dcrdata) *(latest stable release branch only)*|<https://explorer.dcrdata.org>|
-|[dcrtime](https://github.com/decred/dcrtime)||
-|[cspp](https://github.com/decred/cspp/)||
-|[dcrd](https://github.com/decred/dcrd)||
-|[dcrwallet](https://github.com/decred/dcrwallet)||
-|[decrediton](https://github.com/decred/decrediton)||
-|[atomicswap *](https://github.com/decred/atomicswap) ||
-|[vspd](https://github.com/decred/vspd)||
-|[dcrlnd *](https://github.com/decred/dcrlnd#security)||
+|GitHub Repo|Description|Language|
+|---|---|---|
+|[dcrd](https://github.com/decred/dcrd)|Full node implementation of Decred|Go|
+|[dcrwallet](https://github.com/decred/dcrwallet)|Daemon handling Decred wallet functionality|Go|
+|[decrediton](https://github.com/decred/decrediton)|Cross-platform GUI wallet|node.js using Electron|
+|[dcrwebapi](https://github.com/decred/dcrwebapi)|HTTP API providing blockchain and ecosystem data|Go|
+|[dcrtime](https://github.com/decred/dcrtime)|Anchored timestamp client and server|Go|
+|[cspp](https://github.com/decred/cspp/)|CoinShuffle++ mixing protocol implementation|Go|
+|[atomicswap](https://github.com/decred/atomicswap)&ast;|Utilities to perform cross-chain atomic swaps|Go|
+|[vspd](https://github.com/decred/vspd)|Voting Service Provider (VSP) implementation|Go|
+|[dcrlnd](https://github.com/decred/dcrlnd/security/policy)&ast;&ast;|Decred Lightning Network Daemon|Go|
 
-**Special Notes:**
+_&ast; atomicswap only the Bitcoin, Decred and Litecoin versions of the tools are in scope._
 
-dcrlnd scope has some limitations, please read the linked github page before testing.
-
-atomicswap only the Bitcoin, Decred and Litecoin versions of the tools are in scope.
+_&ast;&ast; dcrlnd scope has some limitations, please read the linked github page before testing._
 
 **The following are not in scope:**
 
