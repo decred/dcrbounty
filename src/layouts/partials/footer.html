@@ -7,9 +7,5 @@
     </a>
 </div>
 
-{{ $options := (dict "targetPath" "optinal-style.css" "outputStyle" "compressed" "enableSourceMap" true) }}
-{{ $style := resources.Get "scss/optional/main.scss" | css.Sass $options | resources.Fingerprint  }}
-<link rel="stylesheet" href="{{ $style.Permalink }}">
-
 </body>
 </html>
