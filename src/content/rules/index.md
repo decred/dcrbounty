@@ -44,7 +44,7 @@ We ask that you respect the following rules and guidelines:
 
 We will be using the [OWASP Risk Rating Methodology](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology) for assessing vulnerabilities and determining payout amount.
 
-<img src="img/owasp-rating.png" style="width: 80%; max-width: 448px;" alt="owasp risk rating table"/>
+<img src="img/owasp-rating.png" style="margin: auto; width: 80%; max-width: 448px;" alt="owasp risk rating table"/>
 
 We will also take into consideration the impact on the Decred ecosystem. An RCE in dcrweb (low impact) is not the same as an RCE in dcrd or Decrediton (higher impact).
 
