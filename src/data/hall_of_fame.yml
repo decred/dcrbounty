@@ -3,8 +3,6 @@
 # Points are awarded according to *actual* reward payment sent, ie. the penalty
 # for missing PGP is applied to points just as it is to payments.
 #
-# Each listed participant can have either a GitHub or Twitter link, not both.
-#
 # "reports" are formatted as "report number: reward amount".
 
 - name: Anonymous
@@ -23,22 +21,34 @@
     11: 72
 
 - name: Aaron Hook
-  twitter_id: therealahook
+  social:
+    link: https://x.com/therealahook
+    name: therealahook
+    icon: img/socials/x.svg
   reports:
     32: 3000
 
 - name: Javed Khan
-  twitter_id: tuxcanfly
+  social:
+    link: https://x.com/tuxcanfly
+    name: tuxcanfly
+    icon: img/socials/x.svg
   reports:
     132: 2500
 
 - name: Alex Bastrakov
-  twitter_id: kazan71p
+  social:
+    link: https://x.com/kazan71p
+    name: kazan71p
+    icon: img/socials/x.svg
   reports:
     191: 630
 
 - name: Sheikh Rishad
-  twitter_id: sheikhrishad0
+  social:
+    link: https://x.com/sheikhrishad0
+    name: sheikhrishad0
+    icon: img/socials/x.svg
   reports:
     196: 450
 
@@ -48,17 +58,26 @@
     216: 0 # Reports 215 and 216 were combined into one payment.
 
 - name: Al1ex
-  github_id: Al1ex
+  social:
+    link: https://github.com/Al1ex
+    name: Al1ex
+    icon: img/socials/github.svg
   reports:
     193: 270
 
 - name: Caio Lüders
-  twitter_id: caioluders
+  social:
+    link: https://x.com/caioluders
+    name: caioluders
+    icon: img/socials/x.svg
   reports:
     109: 250
 
 - name: Abiral Shrestha
-  twitter_id: proabiral
+  social:
+    link: https://x.com/proabiral
+    name: proabiral
+    icon: img/socials/x.svg
   reports:
     153: 90
 
@@ -67,26 +86,41 @@
     164: 270
 
 - name:  Aditi Singh
-  twitter_id: aditi_singghh
+  social:
+    link: https://x.com/aditi_singghh
+    name: aditi_singghh
+    icon: img/socials/x.svg
   reports:
     224: 90
 
 - name: Burhanuddin Sabunwala
-  twitter_id: B19R8A14
+  social:
+    link: https://x.com/B19R8A14
+    name: B19R8A14
+    icon: img/socials/x.svg
   reports:
     242: 100
 
 - name: David McPavel
-  github_id: itsunixiknowthis
+  social:
+    link: https://github.com/itsunixiknowthis
+    name: itsunixiknowthis
+    icon: img/socials/github.svg
   reports:
     116: 3000
 
 - name: Tanvir0x1
-  twitter_id: Tanvir0x1
+  social:
+    link: https://x.com/Tanvir0x1
+    name: Tanvir0x1
+    icon: img/socials/x.svg
   reports:
     255: 180
 
 - name: asilentwolf
-  twitter_id: imasilentWolf
+  social:
+    link: https://x.com/imasilentWolf
+    name: imasilentWolf
+    icon: img/socials/x.svg
   reports:
     355: 200

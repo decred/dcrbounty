@@ -1,42 +1,59 @@
 .ranking-list {
     list-style-type: none;
     padding-left: 12px;
-    & > li {
+    li {
         display: flex;
         width: 100%;
         justify-content: space-between;
         align-items: center;
         padding: 10px 0;
         border-bottom: 1px solid $light-grey;
-        & > .person {
+        .person {
             display: flex;
-            flex-direction: column;
-
-            .pos-name {
-                display: flex;
-            }
-
-            .name {
+            flex-direction: row;
+            
+            .position {
+                height: 2.0rem;
+                width: 2.0rem;
+                font-size: 1.2rem;
                 font-weight: bold;
-                color:  $dcr-dark-blue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 100px;
+                background: $dcr-blue;
+                color: white;
+                margin-right: 10px;
+                margin-top: auto;
+                margin-bottom: auto;
             }
+            
+            .names {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
 
-            .link {
-                padding-left: 32px;
+                .name {
+                    font-weight: bold;
+                    color:  $dcr-dark-blue;
+                }
+
+                .social {
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    
+                    .social-logo {
+                        height: 1.0rem;
+                        width: 1.0rem;
+                        padding-right: 4px;
+                        opacity: 0.8;
+                    }
+
+                }
             }
         }
 
-        .position {
-            height: 24px;
-            width: 24px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 50px;
-            background: $dcr-blue;
-            color: white;
-            margin-right: 10px;
-        }
 
         .points {
             font-size: 18px;
