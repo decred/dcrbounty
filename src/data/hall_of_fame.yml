@@ -124,3 +124,11 @@
     icon: img/socials/x.svg
   reports:
     355: 200
+
+- name: Madhav Shah
+  social:
+    link: https://www.linkedin.com/in/madhav0x1d
+    name: madhav0x1d
+    icon: img/socials/linkedin.svg
+  reports:
+    349: 750
