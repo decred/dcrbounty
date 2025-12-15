@@ -20,12 +20,19 @@
         {{ range $idx, $contributor := first .itemsLimit (sort $sortable "totalReward" "desc") }}
             <li>
                 <div class="person">
-                    <div class="pos-name">
-                        <span class="position">{{ add $idx 1 }}</span>
-                        <span class="name">{{ $contributor.name }}</span>
+                    <div class="position">{{ add $idx 1 }}</div>
+                    <div class="names">
+                        <div class="name">
+                            {{ $contributor.name }}
+                        </div>
+                        {{ if $contributor.social }}
+                            <div class="social">
+                                {{ $logo := resources.Get $contributor.social.icon }}
+                                <img class="social-logo" src="{{ $logo.Permalink }}" />
+                                <a class="social-link" href="{{ $contributor.social.link }}">{{ $contributor.social.name }}</a>
+                            </div>
+                        {{ end }}
                     </div>
-                    {{ if .github_id }} <a class="link" href="https://github.com/{{ $contributor.github_id }}">{{ $contributor.github_id  }}</a>{{ end }}
-                    {{ if .twitter_id }}<a class="link" href="https://x.com/{{ $contributor.twitter_id }}"    >{{ $contributor.twitter_id }}</a>{{ end }}
                 </div>
                 <span class="points">{{$contributor.totalReward}} pts</span>
             </li>
