@@ -6,19 +6,19 @@ type: "section"
 
 **Projects in scope:**
 
-|GitHub Repo|Description|Language|
-|---|---|---|
-|[dcrd](https://github.com/decred/dcrd)|Full node implementation of Decred|Go|
-|[dcrwallet](https://github.com/decred/dcrwallet)|Daemon handling Decred wallet functionality|Go|
-|[decrediton](https://github.com/decred/decrediton)|Cross-platform GUI wallet|node.js using Electron|
-|[dcrwebapi](https://github.com/decred/dcrwebapi)|HTTP API providing blockchain and ecosystem data|Go|
-|[dcrtime](https://github.com/decred/dcrtime)|Anchored timestamp client and server|Go|
-|[cspp](https://github.com/decred/cspp/)|CoinShuffle++ mixing protocol implementation|Go|
-|[atomicswap](https://github.com/decred/atomicswap)&ast;|Utilities to perform cross-chain atomic swaps|Go|
-|[vspd](https://github.com/decred/vspd)|Voting Service Provider (VSP) implementation|Go|
-|[dcrlnd](https://github.com/decred/dcrlnd/security/policy)&ast;&ast;|Decred Lightning Network Daemon|Go|
+| GitHub Repo                                                          | Description                                      | Language               |
+|----------------------------------------------------------------------|--------------------------------------------------|------------------------|
+| [dcrd](https://github.com/decred/dcrd)                               | Full node implementation of Decred               | Go                     |
+| [dcrwallet](https://github.com/decred/dcrwallet)                     | Daemon handling Decred wallet functionality      | Go                     |
+| [decrediton](https://github.com/decred/decrediton)                   | Cross-platform GUI wallet                        | node.js using Electron |
+| [dcrwebapi](https://github.com/decred/dcrwebapi)                     | HTTP API providing blockchain and ecosystem data | Go                     |
+| [dcrtime](https://github.com/decred/dcrtime)                         | Anchored timestamp client and server             | Go                     |
+| [cspp](https://github.com/decred/cspp/)&ast;                         | CoinShuffle++ mixing protocol implementation     | Go                     |
+| [dcrdex](https://github.com/decred/dcrdex)                           | Decentralized exchange powered by atomic swaps   | Go                     |
+| [vspd](https://github.com/decred/vspd)                               | Voting Service Provider (VSP) implementation     | Go                     |
+| [dcrlnd](https://github.com/decred/dcrlnd/security/policy)&ast;&ast; | Decred Lightning Network Daemon                  | Go                     |
 
-_&ast; atomicswap only the Bitcoin, Decred and Litecoin versions of the tools are in scope._
+_&ast; cspp only csppsolver cmd, and solver and solverrpc packages are in scope._
 
 _&ast;&ast; dcrlnd scope has some limitations, please read the linked github page before testing._
 
@@ -38,6 +38,7 @@ _&ast;&ast; dcrlnd scope has some limitations, please read the linked github pag
   - [Copay](https://github.com/decred/copay)
   - [dcr-netstats](https://github.com/decred/dcr-netstats)
   - [dcrstakepool](https://github.com/decred/dcrstakepool)
+  - [atomicswap](https://github.com/decred/atomicswap)
 
 **The following vulnerabilities are generally out of scope:**
 
