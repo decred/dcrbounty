@@ -136,3 +136,11 @@
     358: 1500
     361: 1500
     374: 750
+
+- name: Blockian
+  social:
+    link: https://x.com/ControlZ_1337
+    name: ControlZ_1337
+    icon: img/socials/x.svg
+  reports:
+    353: 1500
