@@ -136,6 +136,9 @@
     358: 1500
     361: 1500
     374: 750
+    385: 1000
+    386: 1500
+    389: 5000
 
 - name: Blockian
   social:
@@ -144,3 +147,11 @@
     icon: img/socials/x.svg
   reports:
     353: 1500
+
+- name: Oleh Konko
+  social:
+    link: https://github.com/1seal
+    name: 1seal
+    icon: img/socials/github.svg
+  reports:
+    390: 250
