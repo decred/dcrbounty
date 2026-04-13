@@ -2,6 +2,10 @@ Thank you for your submission to the Decred bug bounty program.
 
 We will investigate the issue you have reported and respond to this email with the outcome of our investigation.
 
+Please be aware that the bounty program is currently experiencing increased demand and responses may take longer than usual.
+
+<https://bounty.decred.org/2026/04/program-delays/>
+
 {Optional if no PGP: We suggest that future bug reports are PGP encrypted as described by https://bounty.decred.org. Failure to do so will reduce payout amount.}
 
 The Decred Project.
