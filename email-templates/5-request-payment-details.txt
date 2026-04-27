@@ -6,8 +6,6 @@ We are happy to inform you are now eligible for payment.
     You are eligible for a payment of <XXX> USD in DCR for issue {Link to issue}.
 {END LOOP}
 
-{if non pgp: Please note payment was reduced by X USD due to your email not being encrypted with PGP]
-
  If you would like to be listed on our hall of fame, please provide us with the name you would like to appear and you may choose to provide one link to your social media, GitHub or blog.  
 
 Please send us a Decred address to send the payout. 

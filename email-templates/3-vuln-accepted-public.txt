@@ -5,6 +5,4 @@ An issue has been created on GitHub:
 
 We will contact you again for payment details once a fix has been produced and merged.
 
-{Optional if no PGP: Please note that the payout amount will be reduced because this report was not PGP encrypted as described by https://bounty.decred.org. We suggest using PGP encryption in future to receive the full payout amount.}
-
 The Decred Project.
