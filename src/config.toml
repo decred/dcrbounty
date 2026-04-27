@@ -28,24 +28,19 @@ copyright = "Decred Developers"
 [[menu.main]]
 name = "Hall of Fame"
 url = "#hall-of-fame"
-weight = 1
 
 [[menu.main]]
 name = "News and Updates"
 url = "#news"
-weight = 1
 
 [[menu.main]]
 name = "Rules"
 url = "#rules"
-weight = 1
 
 [[menu.main]]
 name = "Scope"
 url = "#scope"
-weight = 1
 
 [[menu.main]]
 name = "Submit Vulnerability"
 url = "#submit-vulnerability"
-weight = 1
