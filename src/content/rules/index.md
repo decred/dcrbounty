@@ -42,27 +42,29 @@ We ask that you respect the following rules and guidelines:
 
 ## Payout
 
-We will be using the [OWASP Risk Rating Methodology](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology) for assessing vulnerabilities and determining payout amount.
+The [OWASP Risk Rating Methodology](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology) will be used for assessing vulnerabilities and determining payout amount.
 
 <img src="img/owasp-rating.png" style="margin: auto; width: 80%; max-width: 448px;" alt="owasp risk rating table"/>
 
-We will also take into consideration the impact on the Decred ecosystem. An RCE in dcrweb (low impact) is not the same as an RCE in dcrd or Decrediton (higher impact).
+The impact on the Decred ecosystem will also be taken into consideration.
+An RCE in dcrwebapi (low impact) is not the same as an RCE in dcrd or Decrediton (higher impact).
+The payout amount is decided by a core "bug bounty" group.
+Once decided, there will be no changes to the payout amount unless the vulnerability impact changes.
 
 The following are also factors in the payout:
 
-* Quality of the initial writeup.
+- Quality of the initial writeup.
+- Quality of vulnerability reproduction steps and/or proof of concept.
 
-* Quality of vulnerability reproduction steps and/or proof of concept.
+The bounty program is funded by the Decred Treasury, therefore all payments are in DCR only.
+Recipients are required to create a Decred wallet and provide a payment address.
+Payouts are sent at the beginning of each month using the [average DCR/USDT rate](https://dcrwages.jholdstock.uk/) of the previous month.
 
-* If you provide a code fix for the vulnerability then you will also be eligible for a "code fix" bonus on the condition that our existing developers accept it as valid.
+For vulnerabilities that require a patch rollout and pose a risk to the network participants, we might choose to only release 60% of the payout amount first and hold the 40% until a patch has been released and distributed.
 
-All payouts will be in Decred only. Payouts are done in a single batch once a month. You will be required to create and operate a Decred wallet and CMS account. The DCR to USD ratio is based on the average USD rate of the previous month. The payout amount is decided by a core "bug bounty" group. Once decided, there will be no changes to the payout amount unless the vulnerability impact changes.
+The maximum approved budget for the payouts is capped at 100,000 USD. Please be aware of this when you are submitting multiple critical vulnerabilities. If the limit is reached then a new proposal will have to be submitted and get stakeholder approval before you get paid fully.
 
-For vulnerabilities that require a patch rollout and pose a risk to the network participants , we might choose to only release 60% of the payout amount first and hold the 40% until a patch has been released and distributed.
-
-The maximum approved budget for the payouts is capped at 100,000 USD. Please be aware of this when you are submitting multiple critical vulnerabilities. If the limit is reached then a new proposal will have to be submitted and get stakeholder approval before you get paid fully. 
-
-The payout amount will only be decided after the patch for the vulnerability has been merged. The submitter will then be contacted and given instructions on how to claim the bounty. The bounty hunter will be given one month to claim it after which the bounty will be considered forfeit.
+The bounty hunter will be given one month to claim it after which the bounty will be considered forfeit.
 
 ## Indicative payout amounts
 
