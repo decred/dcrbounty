@@ -3,7 +3,6 @@
 {{ if eq .Type "section" }}
 <section>
     <a name="{{ .Title | urlize }}"></a>
-    <h2>{{ .Title }}</h2> 
     <div class="content">
         {{ .Content }}
     </div>
