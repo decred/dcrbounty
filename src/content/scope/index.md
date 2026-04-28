@@ -4,7 +4,7 @@ draft: false
 type: "section"
 ---
 
-**Projects in scope:**
+## Projects in scope
 
 | GitHub Repo                                                          | Description                                      | Language               |
 |----------------------------------------------------------------------|--------------------------------------------------|------------------------|
@@ -22,7 +22,7 @@ _&ast; cspp only csppsolver cmd, and solver and solverrpc packages are in scope.
 
 _&ast;&ast; dcrlnd scope has some limitations, please read the linked github page before testing._
 
-**The following are not in scope:**
+## Out of scope
 
 - Chat and communication platforms including Slack, RocketChat, Matrix, Discord and the Decred forum
 - Email servers

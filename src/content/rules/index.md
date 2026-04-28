@@ -4,6 +4,8 @@ draft: false
 type: "section"
 ---
 
+## Rules
+
 We ask that you respect the following rules and guidelines:
 
 - All bug reports need to have clear reproduction steps and/or proof of concept.
