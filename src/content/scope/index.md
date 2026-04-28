@@ -4,7 +4,9 @@ draft: false
 type: "section"
 ---
 
-## Projects in scope
+## In Scope
+
+To be eligible for the bounty program, reports must be reproducible security vulnerabilities in the latest production release or the master branch of the following projects:
 
 | GitHub Repo                                                          | Description                                      | Language               |
 |----------------------------------------------------------------------|--------------------------------------------------|------------------------|
@@ -40,17 +42,40 @@ _&ast;&ast; dcrlnd scope has some limitations, please read the linked github pag
   - [dcrstakepool](https://github.com/decred/dcrstakepool)
   - [atomicswap](https://github.com/decred/atomicswap)
 
-**The following vulnerabilities are generally out of scope:**
+## Ineligible Findings
 
-- DMARC, DKIM and SPF related issues.
-- The primary objective of this bounty program is to find vulnerabilities in software developed by Decred. Hence infrastructure related vulnerabilities are out of scope unless they lead to critical exploit (RCE or similar).
-- Missing security best practices that do not directly lead to a vulnerability.
-- Insecure settings in non-sensitive cookies.
-- Vulnerabilities (including XSS) that affect only legacy browser/plugins.
-- Non-technical attacks such as social engineering, phishing, or physical
-  attacks against our members, users, or infrastructure. This includes attacks
-  such as [Self-XSS](https://en.wikipedia.org/wiki/Self-XSS).
-- Missing HTTP headers, unless a vulnerability can be demonstrated.
-- Bugs requiring exceedingly unlikely user interaction.
-- Outdated software/library versions.
-- Clickjacking on pages with no sensitive actions.
+- Bugs which do not lead to security vulnerabilities.
+
+- Bugs in old releases, proof-of-concept code, or feature branches.
+
+- Duplicate reports or reports of bugs which are already known (note that some of our issue tracking is private).
+
+- Vulnerabilities requiring extensive access to the host system (eg. physical access, root login) are only accepted if said access may be gained via a flaw in our source code.
+
+- Typical resource exhaustion attacks involving normal network operation are already well known limitations of peer-to-peer networks and generally are not covered. They will be considered on a case by case basis.
+
+- The following issues will be closed as invalid except in rare circumstances demonstrating clear security impact:
+
+    1. **Theoretical vulnerabilities that require unlikely user interaction or circumstances. For example:**
+        1. Vulnerabilities only affecting users of unsupported or end-of-life browsers or operating systems.
+        1. Broken link hijacking.
+        1. Tabnabbing.
+        1. Content spoofing and text injection issues.
+        1. Self-exploitation, such as self-XSS or self-DoS (unless it can be used to attack a different account).
+
+    1. **Theoretical vulnerabilities that do not demonstrate real-world security impact. For example:**
+        1. Clickjacking on pages with no sensitive actions.
+        1. Cross-Site Request Forgery (CSRF) on forms with no sensitive actions (e.g., Logout).
+        1. Permissive CORS configurations without demonstrated security impact.
+        1. Software version disclosure / banner identification issues / descriptive error messages or headers (e.g., stack traces, application or server errors).
+        1. Comma Separated Values (CSV) injection.
+        1. Open redirects (unless you can demonstrate additional security impact).
+        1. Outdated software/library versions.
+
+    1. **Optional security hardening steps / missing best practices. For example:**
+        1. SSL/TLS Configurations.
+        1. Lack of SSL Pinning.
+        1. Insecure settings in non-sensitive cookies (e.g., missing HttpOnly/Secure flags).
+        1. Content-Security-Policy configuration opinions.
+        1. DMARC, SPF, or other email server or DNS configuration settings and policies.
+        1. Most issues related to rate limiting.
