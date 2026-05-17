@@ -152,4 +152,13 @@ section {
     pre > code {
         padding         : 20px;
     }
+
+    blockquote {
+        border-left: solid 3px #ddd;
+        padding-left: 1rem;
+        margin: 1.5rem;
+        p {
+            margin: 0;
+        }
+    }
 }
