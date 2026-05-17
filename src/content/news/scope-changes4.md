@@ -1,7 +1,6 @@
 ---
 title: "Bison Wallet added to scope"
 draft: false
-slug: "bison-wallet-added-to-scope"
 date: 2026-01-13
 type: "page"
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Program Delays"
 draft: false
-slug: "status-update"
 date: 2026-04-13
 type: "page"
 ---

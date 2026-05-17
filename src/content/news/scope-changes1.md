@@ -1,7 +1,6 @@
 ---
 title: "Scope Changes"
 draft: false
-slug: "scope-changes"
 date: 2021-09-10
 type: "page"
 ---

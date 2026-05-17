@@ -1,7 +1,6 @@
 ---
 title: "Websites no longer in scope"
 draft: false
-slug: "websites-no-longer-in-scope"
 date: 2025-07-24
 type: "page"
 ---
