@@ -140,6 +140,7 @@
     386: 1500
     389: 5000
     405: 750
+    428: 500
 
 - name: Blockian
   social:
@@ -166,3 +167,37 @@
     397: 500
     398: 0 # Reports 397 and 398 were combined into one payment.
     399: 650
+    420: 500
+
+- name: Mudit Raj
+  social:
+    link: https://www.linkedin.com/in/mudit-raj-9bb536354
+    name: Mudit Raj
+    icon: img/socials/linkedin.svg
+  reports:
+    408: 1500
+
+- name: zelyr
+  social:
+    link: https://github.com/BangBBBB
+    name: zelyr
+    icon: img/socials/github.svg
+  reports:
+    440: 500
+
+- name: Scalar
+  social:
+    link: https://github.com/alexs-scalar
+    name: Scalar
+    icon: img/socials/github.svg
+  reports:
+    412: 30000
+    441: 500
+
+- name: leduckhuong
+  social:
+    link: https://github.com/leduckhuong
+    name: leduckhuong
+    icon: img/socials/github.svg
+  reports:
+    456: 500
