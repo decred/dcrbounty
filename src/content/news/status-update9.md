@@ -1,7 +1,6 @@
 ---
 title: "Status Update"
 draft: false
-slug: "status-update"
 date: 2020-09-07
 type: "page"
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Mobile wallets no longer in scope"
 draft: false
-slug: "mobile-wallets-no-longer-in-scope"
 date: 2022-08-11
 type: "page"
 ---
