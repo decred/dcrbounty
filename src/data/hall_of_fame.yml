@@ -15,6 +15,7 @@
     52: 50
     80: 90
     91: 135
+    465: 500
 
 - name: Ramesh Jeyaraman
   reports:
@@ -158,6 +159,14 @@
   reports:
     390: 250
 
+- name: Calvin Kim
+  social:
+    link: https://github.com/kcalvinalvin
+    name: kcalvinalvin
+    icon: img/socials/github.svg
+  reports:
+    392: 300
+
 - name: Nathan Byarugaba
   social:
     link: https://x.com/NathanByar51472
@@ -176,6 +185,7 @@
     icon: img/socials/linkedin.svg
   reports:
     408: 1500
+    473: 500
 
 - name: zelyr
   social:
@@ -201,3 +211,11 @@
     icon: img/socials/github.svg
   reports:
     456: 500
+
+- name: Cantina
+  social:
+    link: https://www.linkedin.com/company/cantinasecurity
+    name: Cantina
+    icon: img/socials/linkedin.svg
+  reports:
+    470: 5000
