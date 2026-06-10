@@ -1,20 +1,26 @@
-.bottom-bar {
-    width: 80%;
-    background-color: $dcr-dark-blue;
-    padding: 20px 10%;
+footer {
+    width: 100%;
     margin-top: auto;
-
-    a {
-        color: $banner-text-gray;
-    }
-
-    .link {
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        & > img {
-            height: 16px;
-            margin-right: 5px;
+    background-color: $dcr-dark-blue;
+    display: flex;
+    justify-content: center;
+    .bottom-bar {
+        width: 80%;
+        max-width: 1000px;
+        padding: 20px 10%;
+    
+        a {
+            color: $banner-text-gray;
+        }
+    
+        .link {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            & > img {
+                height: 16px;
+                margin-right: 5px;
+            }
         }
     }
 }

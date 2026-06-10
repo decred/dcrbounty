@@ -27,6 +27,7 @@ section {
     border: 1px solid #d6d6d6;
     min-height: 120px;
     width: calc(80% - 4em);
+    max-width: 1000px;
     z-index: 1;
     margin: 10px;
     & > a {
@@ -63,6 +64,7 @@ section {
     section {
         padding: 10px 20px;
         width: 80%;
+        max-width: 1000px;
         a {
             top: -92px;
         }

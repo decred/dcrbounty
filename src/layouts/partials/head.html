@@ -28,60 +28,62 @@
 
 <body>
 
-<header class="top-bar">
-    
-    {{ $logo := resources.Get "img/darklogo.svg" }}
-    <span><a href="{{ "/" | absURL }}"><img class="logo" src="{{ $logo.Permalink }}" /></a></span>
+<header>
+    <div class="top-bar">
 
-    <a href="#main-menu"
-    class="menu-toggle"
-    role="button"
-    id="main-menu-toggle"
-    aria-expanded="false"
-    aria-controls="main-menu"
-    aria-label="Open main menu">
-        <span class="sr-only">Open main menu</span>
-        {{ $openMenuIcon := resources.Get "img/open-menu.svg" }}
-        <img src="{{ $openMenuIcon.Permalink }}" aria-hidden="true" />
-    </a>
-    <nav 
-        id="main-menu"
-        class="main-menu"
-        role="navigation"
-        aria-expanded="false"
-        aria-lable="Main menu"
-    >
-        <a href="#main-menu-toggle"
-        class="menu-close"
+        {{ $logo := resources.Get "img/darklogo.svg" }}
+        <span><a href="{{ "/" | absURL }}"><img class="logo" src="{{ $logo.Permalink }}" /></a></span>
+    
+        <a href="#main-menu"
+        class="menu-toggle"
         role="button"
-        id="main-menu-close"
+        id="main-menu-toggle"
         aria-expanded="false"
         aria-controls="main-menu"
-        aria-label="Close main menu">
-            <span class="sr-only">Close main menu</span>
-            {{ $closeMenuIcon := resources.Get "img/close-menu.svg" }}
-            <img  src="{{ $closeMenuIcon.Permalink }}" aria-hidden="true" />
+        aria-label="Open main menu">
+            <span class="sr-only">Open main menu</span>
+            {{ $openMenuIcon := resources.Get "img/open-menu.svg" }}
+            <img src="{{ $openMenuIcon.Permalink }}" aria-hidden="true" />
         </a>
-        <ul>
-            {{ range .Site.Menus.main }}
-            <li>
-                {{ $isAnchor := false }}
-                {{if eq (substr .URL 0 1) "#"}}
-                    {{ $isAnchor = true}}
+        <nav 
+            id="main-menu"
+            class="main-menu"
+            role="navigation"
+            aria-expanded="false"
+            aria-lable="Main menu"
+        >
+            <a href="#main-menu-toggle"
+            class="menu-close"
+            role="button"
+            id="main-menu-close"
+            aria-expanded="false"
+            aria-controls="main-menu"
+            aria-label="Close main menu">
+                <span class="sr-only">Close main menu</span>
+                {{ $closeMenuIcon := resources.Get "img/close-menu.svg" }}
+                <img  src="{{ $closeMenuIcon.Permalink }}" aria-hidden="true" />
+            </a>
+            <ul>
+                {{ range .Site.Menus.main }}
+                <li>
+                    {{ $isAnchor := false }}
+                    {{if eq (substr .URL 0 1) "#"}}
+                        {{ $isAnchor = true}}
+                    {{ end }}
+                    <a href="{{ if (and $isAnchor $.IsHome) }} 
+                        {{ .URL  }} 
+                        {{ else }}
+                        {{  .URL | relURL}}
+                        {{ end }}">{{ .Name }}</a>
+                </li>
                 {{ end }}
-                <a href="{{ if (and $isAnchor $.IsHome) }} 
-                    {{ .URL  }} 
-                    {{ else }}
-                    {{  .URL | relURL}}
-                    {{ end }}">{{ .Name }}</a>
-            </li>
-            {{ end }}
-        </ul>
-    </nav>
-    <a href="#main-menu-toggle"
-    class="backdrop"
-    tabindex="-1"
-    aria-hidden="true"
-    hidden></a>
+            </ul>
+        </nav>
+        <a href="#main-menu-toggle"
+        class="backdrop"
+        tabindex="-1"
+        aria-hidden="true"
+        hidden></a>
+    </div>
 </header>
 
