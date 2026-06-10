@@ -67,12 +67,12 @@ _&ast;&ast; dcrlnd scope has some limitations, please read the linked github pag
         1. Clickjacking on pages with no sensitive actions.
         1. Cross-Site Request Forgery (CSRF) on forms with no sensitive actions (e.g., Logout).
         1. Permissive CORS configurations without demonstrated security impact.
-        1. Software version disclosure / banner identification issues / descriptive error messages or headers (e.g., stack traces, application or server errors).
+        1. Software version disclosure/banner identification issues/descriptive error messages or headers (e.g., stack traces, application or server errors).
         1. Comma Separated Values (CSV) injection.
         1. Open redirects (unless you can demonstrate additional security impact).
         1. Outdated software/library versions.
 
-    1. **Optional security hardening steps / missing best practices. For example:**
+    1. **Optional security hardening steps/missing best practices. For example:**
         1. SSL/TLS Configurations.
         1. Lack of SSL Pinning.
         1. Insecure settings in non-sensitive cookies (e.g., missing HttpOnly/Secure flags).
