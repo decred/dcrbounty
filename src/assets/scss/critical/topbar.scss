@@ -30,96 +30,102 @@
  Default styles + Mobile first
  Offscreen menu style
 */
-
-.top-bar {
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: $dcr-dark-blue;
     z-index: 2;
     top: 0;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 5px 10%;
-    background: $dcr-dark-blue;
     min-height: 52px;
 
-    .logo {
-        height: 24px;
-    }
-
-    .main-menu {
-        right: -100vw;
-        top: 0;
-        height: 100vh;
-        transition: right 0.3s ease,
-        box-shadow 0.3s ease;
-        z-index: 999;
-        color: white;
-
-        ul {
-            list-style: none;
-            text-align: center;
-            margin: 0;
-            padding: 3em 0 0;
-            min-height: 100%;
-            width: 100vw;
-            background: white;
-
-
-            li {
-                margin-bottom: 5px;
-            }
-
-            a {
-                color: $dcr-dark-blue;
-                text-decoration: none;
-                text-transform: uppercase;
-                font-weight: bold;
-            }
-
-            a:hover, a:focus {
-                color: $dcr-alt-blue;
-            }
-        }
-
-        .menu-close {
-            position: absolute;
-            right: 10px;
-            top: 10px;
+    .top-bar {
+        width: 80%;
+        max-width: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        .logo {
             height: 24px;
         }
- 
-        &:target, &[aria-expanded="true"] {
-            right: 0;
-            outline: none;
-        }
-
-        &:target .menu-close, 
-        &[aria-expanded="true"] .menu-close {
-            z-index: 1001;
-        }
-
-        &:target ul,
-        &[aria-expanded="true"] ul {
-            position: relative;
-            z-index: 1000;
-        }
-
-        &:target + .backdrop, 
-        &[aria-expanded="true"] + .backdrop {
-            position: absolute;
-            display: block;
-            right: 0;
+    
+        .main-menu {
+            right: -100vw;
             top: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 998;
-            background: #000;
-            background: rgba(0,0,0,.85);
-            cursor: default;
+            height: 100vh;
+            transition: right 0.3s ease,
+            box-shadow 0.3s ease;
+            z-index: 999;
+            color: white;
+    
+            ul {
+                list-style: none;
+                text-align: center;
+                margin: 0;
+                padding: 3em 0 0;
+                min-height: 100%;
+                width: 100vw;
+                background: white;
+    
+    
+                li {
+                    margin-bottom: 5px;
+                }
+    
+                a {
+                    color: $dcr-dark-blue;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                }
+    
+                a:hover, a:focus {
+                    color: $dcr-alt-blue;
+                }
+            }
+    
+            .menu-close {
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                height: 24px;
+            }
+     
+            &:target, &[aria-expanded="true"] {
+                right: 0;
+                outline: none;
+            }
+    
+            &:target .menu-close, 
+            &[aria-expanded="true"] .menu-close {
+                z-index: 1001;
+            }
+    
+            &:target ul,
+            &[aria-expanded="true"] ul {
+                position: relative;
+                z-index: 1000;
+            }
+    
+            &:target + .backdrop, 
+            &[aria-expanded="true"] + .backdrop {
+                position: absolute;
+                display: block;
+                right: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 998;
+                background: #000;
+                background: rgba(0,0,0,.85);
+                cursor: default;
+            }
         }
+    
+    
     }
-
-
 }
 
 @supports (position: fixed) {
@@ -131,52 +137,54 @@
   }
 
 @media (min-width: 768px) {
-    .top-bar {
+    header {
         position: fixed;
-        
-        .backdrop {
-            display: none !important;
-        }
 
-        .menu-toggle, .menu-close {
-            display: none;
-        }
-
-        .main-menu {
-            position: relative;
-            display: flex;
-            right: auto;
-            top: auto;
-            height: auto;
-            overflow: hidden;
-            
-
-            a {
-                border: 0 !important;
+        .top-bar {
+            .backdrop {
+                display: none !important;
             }
-            
-            ul {
-                /* Undo off-canvas styling */
-                padding: 0;
-                -webkit-box-shadow: none;
-                -moz-box-shadow: none;
-                        box-shadow: none;
-                height: auto;
-                width: auto;
-                background: none;
-                list-style-type: none;
     
-                li {
-                    display: inline;
-                    margin-right: 10px;
-                    text-transform: uppercase;
-                    font-size: 14px;
-                    
-                    & > a {
-                        text-decoration: none;
-                        color: $banner-text-gray;
-                        &:hover {
-                            color: $dcr-alt-blue;
+            .menu-toggle, .menu-close {
+                display: none;
+            }
+    
+            .main-menu {
+                position: relative;
+                display: flex;
+                right: auto;
+                top: auto;
+                height: auto;
+                overflow: hidden;
+                
+    
+                a {
+                    border: 0 !important;
+                }
+                
+                ul {
+                    /* Undo off-canvas styling */
+                    padding: 0;
+                    -webkit-box-shadow: none;
+                    -moz-box-shadow: none;
+                            box-shadow: none;
+                    height: auto;
+                    width: auto;
+                    background: none;
+                    list-style-type: none;
+        
+                    li {
+                        display: inline;
+                        margin-right: 10px;
+                        text-transform: uppercase;
+                        font-size: 14px;
+                        
+                        & > a {
+                            text-decoration: none;
+                            color: $banner-text-gray;
+                            &:hover {
+                                color: $dcr-alt-blue;
+                            }
                         }
                     }
                 }
