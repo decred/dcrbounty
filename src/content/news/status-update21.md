@@ -15,7 +15,7 @@ Processing these reports is becoming a severe drain on resources that is not sus
 
 The emergence of the sloptimism problem can clearly be seen by charting the number of reports submitted to the Decred bug bounty program since its inception.
 
-<img src="/img/report-chart.svg" style="margin: auto; max-width: 700px; width 90%;" alt="chart"/>
+<img src="/img/report-chart.svg" style="margin: auto; max-width: 700px; width: 90%;" alt="chart"/>
 
 Sloptimism is here to stay and is only liable to become more prevelant with the increasing usage and availability of AI powered code analysis tools.
 It is clear that bug bounty programs will not be able to survive without adequate protection measures in place.
