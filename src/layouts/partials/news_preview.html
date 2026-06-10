@@ -5,15 +5,22 @@
 
     {{ $items := (where .Site.RegularPages "Section" "news") }}
     <ul class="news-list">
-    {{ range $items }}
+    {{ range first 2 $items }}
         <li class="news-list-item">
             <span class="checkpoint"></span>
             <span class="date">{{ dateFormat  "January 2, 2006" .Params.date }}</span>
             <div class="news-list-content">
                 <a href="{{.Permalink}}" class="title">{{ .Params.title }}</a>
-                {{ .Content }}
+                {{ $elipsis := print "... <a href='" .Permalink "'>read more</a>" | safeHTML}}
+                {{ .Content | truncate 500 $elipsis }}
             </div>
+
         </li>
     {{ end }}
     </ul>
+
+    <div>
+        <a class="see-more" href="{{ .Site.Params.news.URL | absURL }}">See all news and updates...</a>
+    </div>
+
 </section>

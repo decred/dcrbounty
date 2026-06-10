@@ -11,7 +11,7 @@ Processing these reports is becoming a severe drain on resources that is not sus
 
 > _"We call this “sloptimism,” overly optimistic submissions driving large volumes of speculative or AI-generated reports submitted with minimal to no pre-submission validation and limited context."_
 > 
-> <p style="text-align: right">— Trey Ford, <a href="https://www.bugcrowd.com/blog/bugcrowd-policy-changes-to-address-ai-slop-submissions/">bugcrowd</a></p>
+> <p style="margin-top: 0.75rem;">— Trey Ford, <a href="https://www.bugcrowd.com/blog/bugcrowd-policy-changes-to-address-ai-slop-submissions/">bugcrowd</a></p>
 
 The emergence of the sloptimism problem can clearly be seen by charting the number of reports submitted to the Decred bug bounty program since its inception.
 
