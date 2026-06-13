@@ -6,7 +6,7 @@ type: "section"
 
 ## In Scope
 
-To be eligible for the bounty program, reports must be reproducible security vulnerabilities in the latest production release or the master branch of the following projects:
+To be eligible for the bounty program, reports must be reproducible security vulnerabilities in the latest production release or the master branch of the following repositories.
 
 | GitHub Repo                                                          | Description                                      | Language               |
 |----------------------------------------------------------------------|--------------------------------------------------|------------------------|
@@ -24,31 +24,17 @@ _&ast; cspp only csppsolver cmd, and solver and solverrpc packages are in scope.
 
 _&ast;&ast; dcrlnd scope has some limitations, please read the linked github page before testing._
 
-## Out of scope
-
-- Chat and communication platforms including Slack, RocketChat, Matrix, Discord and the Decred forum
-- Email servers
-- Testing or staging sites
-- Projects still under development
-- Unsupported projects including:
-  - [dcrios](https://github.com/planetdecred/dcrios)
-  - [dcrandroid](https://github.com/planetdecred/dcrandroid)
-- Deprecated projects including:
-  - [insight](https://github.com/decred/insight) and [insight-api](https://github.com/decred/insight-api)
-  - [bitcore-wallet-service](https://github.com/decred/bitcore-wallet-service)
-  - [Paymetheus](https://github.com/decred/paymetheus)
-  - [Copay](https://github.com/decred/copay)
-  - [dcr-netstats](https://github.com/decred/dcr-netstats)
-  - [dcrstakepool](https://github.com/decred/dcrstakepool)
-  - [atomicswap](https://github.com/decred/atomicswap)
-
 ## Ineligible Findings
 
 - Bugs which do not lead to security vulnerabilities.
 
-- Bugs in old releases, proof-of-concept code, or feature branches.
+- Misconfiguration or vulnerabilities in chat and communication platforms including email, Element/Matrix, Discord, and the Decred forum.
 
-- Duplicate reports or reports of bugs which are already known (note that some of our issue tracking is private).
+- Vulnerabilities in old releases, proof-of-concept code, feature branches, or projects still under development.
+
+- Duplicate reports or reports of vulnerabilities which are already known (note that some of our issue tracking is private).
+
+- Vulnerabilities which only exist on testing or staging sites.
 
 - Vulnerabilities requiring extensive access to the host system (eg. physical access, root login) are only accepted if said access may be gained via a flaw in our source code.
 
