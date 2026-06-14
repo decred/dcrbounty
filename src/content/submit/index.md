@@ -4,7 +4,7 @@ draft: false
 type: "section"
 ---
 
-Please follow a standard format when submitting vulnerabilities
+Please follow a standard format when submitting vulnerabilities.
 
 ##### Title:
 
