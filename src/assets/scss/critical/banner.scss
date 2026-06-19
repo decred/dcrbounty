@@ -43,23 +43,6 @@
         line-height: 20px;
     }
 
-    .button {
-        font-size: 14px;
-        border-radius: 4px;
-        padding: 12px 20px 13px;
-        background: $dcr-blue;
-        color: white;
-        font-weight: 600;
-        text-decoration: none;
-        cursor: pointer;
-        display: inline-block;
-        margin-bottom: 10px;
-
-        &:hover {
-            background: $button-hover-blue;
-        }
-    }
-
     @media (max-width: 768px) {
         #banner-text {
             max-width: 80%;
