@@ -30,21 +30,21 @@ _\*\*\*\* Scope has some limitations, please read the linked GitHub page before 
 
 ## Ineligible Findings
 
-- Bugs which do not lead to security vulnerabilities.
+1. Bugs which do not lead to security vulnerabilities.
 
-- Misconfiguration or vulnerabilities in chat and communication platforms including email, Element/Matrix, Discord, and the Decred forum.
+1. Misconfiguration or vulnerabilities in chat and communication platforms including email, Element/Matrix, Discord, and the Decred forum.
 
-- Vulnerabilities in old releases, proof-of-concept code, feature branches, or projects still under development.
+1. Vulnerabilities in old releases, proof-of-concept code, feature branches, or projects still under development.
 
-- Duplicate reports or reports of vulnerabilities which are already known (note that some of our issue tracking is private).
+1. Duplicate reports or reports of vulnerabilities which are already known (note that some of our issue tracking is private).
 
-- Vulnerabilities which only exist on testing or staging sites.
+1. Vulnerabilities which only exist on testing or staging sites.
 
-- Vulnerabilities requiring extensive access to the host system (eg. physical access, root login) are only accepted if said access may be gained via a flaw in our source code.
+1. Vulnerabilities requiring extensive access to the host system (eg. physical access, root login) are only accepted if said access may be gained via a flaw in our source code.
 
-- Typical resource exhaustion attacks involving normal network operation are already well-known limitations of peer-to-peer networks and generally are not covered. They will be considered on a case by case basis.
+1. Typical resource exhaustion attacks involving normal network operation are already well-known limitations of peer-to-peer networks and generally are not covered. They will be considered on a case by case basis.
 
-- The following issues will be closed as invalid except in rare circumstances demonstrating clear security impact:
+1. The following issues will be closed as invalid except in rare circumstances demonstrating clear security impact:
 
     1. **Theoretical vulnerabilities that require unlikely user interaction or circumstances. For example:**
         1. Vulnerabilities only affecting users of unsupported or end-of-life browsers or operating systems.
