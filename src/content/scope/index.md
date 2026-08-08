@@ -14,19 +14,15 @@ To be eligible for the bounty program, reports must be reproducible security vul
 | [dcrwallet](https://github.com/decred/dcrwallet)\*                 | Daemon handling Decred wallet functionality      | Go                     |
 | [decrediton](https://github.com/decred/decrediton)                 | Cross-platform GUI wallet                        | node.js using Electron |
 | [dcrwebapi](https://github.com/decred/dcrwebapi)                   | HTTP API providing blockchain and ecosystem data | Go                     |
-| [dcrtime](https://github.com/decred/dcrtime)                       | Anchored timestamp client and server             | Go                     |
 | [cspp](https://github.com/decred/cspp/)\*\*                        | CoinShuffle++ mixing protocol implementation     | Go                     |
-| [dcrdex](https://github.com/decred/dcrdex)\*\*\*                   | Decentralized exchange powered by atomic swaps   | Go                     |
 | [vspd](https://github.com/decred/vspd)                             | Voting Service Provider (VSP) implementation     | Go                     |
-| [dcrlnd](https://github.com/decred/dcrlnd/security/policy)\*\*\*\* | Decred Lightning Network Daemon                  | Go                     |
+| [dcrlnd](https://github.com/decred/dcrlnd/security/policy)\*\*\*   | Decred Lightning Network Daemon                  | Go                     |
 
 _\* Private RPCs which by default listen on localhost only are out of scope._
 
 _\*\* Only the csppsolver command and the solver and solverrpc packages are in scope._
 
-_\*\*\* Assets other than Bitcoin and Decred are out of scope. Companion app and dexadm are out of scope._
-
-_\*\*\*\* Scope has some limitations, please read the linked GitHub page before testing._
+_\*\*\* Scope has some limitations, please read the linked GitHub page before testing._
 
 ## Ineligible Findings
 
