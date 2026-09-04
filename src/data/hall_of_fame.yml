@@ -17,6 +17,8 @@
     91: 135
     465: 500
     537: 1000
+    560: 3500
+    563: 1500
 
 - name: Ramesh Jeyaraman
   reports:
@@ -220,3 +222,21 @@
     icon: img/socials/linkedin.svg
   reports:
     470: 5000
+
+- name: nangbi
+  social:
+    link: https://x.com/n4ngbi
+    name: n4ngbi
+    icon: img/socials/x.svg
+  reports:
+    556: 2000
+    557: 1500
+
+- name: Michael Alexander Garavito Pachas
+  social:
+    link: https://www.facebook.com/michael.garavito.56
+    name: Michael Garavito
+    icon: img/socials/facebook.svg
+  reports:
+    559: 500
+
