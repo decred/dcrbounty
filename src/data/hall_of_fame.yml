@@ -19,6 +19,7 @@
     537: 1000
     560: 3500
     563: 1500
+    566: 4000
 
 - name: Ramesh Jeyaraman
   reports:
@@ -132,7 +133,7 @@
 - name: Madhav Shah
   social:
     link: https://www.linkedin.com/in/madhav0x1d
-    name: madhav0x1d
+    name: Madhav Shah
     icon: img/socials/linkedin.svg
   reports:
     349: 750
@@ -193,7 +194,7 @@
 - name: zelyr
   social:
     link: https://github.com/BangBBBB
-    name: zelyr
+    name: BangBBBB
     icon: img/socials/github.svg
   reports:
     440: 500
@@ -201,7 +202,7 @@
 - name: Scalar
   social:
     link: https://github.com/alexs-scalar
-    name: Scalar
+    name: alexs-scalar
     icon: img/socials/github.svg
   reports:
     412: 30000
@@ -235,8 +236,31 @@
 - name: Michael Alexander Garavito Pachas
   social:
     link: https://www.facebook.com/michael.garavito.56
-    name: Michael Garavito
+    name: michael.garavito.56
     icon: img/socials/facebook.svg
   reports:
     559: 500
 
+- name: ZeroEx
+  social:
+    link: https://github.com/ZeroExRes
+    name: ZeroExRes
+    icon: img/socials/github.svg
+  reports:
+    578: 1500
+
+- name: Blackroot13
+  social:
+    link: https://github.com/Airjuki1
+    name: Airjuki1
+    icon: img/socials/github.svg
+  reports:
+    593: 500
+
+- name: bitlr
+  social:
+    link: https://github.com/bitlr
+    name: bitlr
+    icon: img/socials/github.svg
+  reports:
+    594: 2000
