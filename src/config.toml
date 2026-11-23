@@ -12,9 +12,6 @@ copyright = "Decred Developers"
   description = "Guidelines, updates, and hall-of-fame for the Decred bug bounty program."
   images = ["/img/og-logo.png"]
 
-[params.bannerLink]
-  URL = "#submit-vulnerability"
-
 [params.news]
   URL = "news/"
 
@@ -40,7 +37,3 @@ url = "#rules"
 [[menu.main]]
 name = "Scope"
 url = "#scope"
-
-[[menu.main]]
-name = "Submit Vulnerability"
-url = "#submit-vulnerability"
